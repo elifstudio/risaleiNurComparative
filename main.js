@@ -14,6 +14,7 @@ var toolbar = {
 
 var sidebar = {
   view: "sidebar",
+  collapsed: true,
   data: [
     { id: "langId", icon: "mdi mdi-flag", value: "Diller" },
     { id: "aphorismId", icon: "mdi mdi-book-alphabet", value: "Vecizeler" },
@@ -32,10 +33,11 @@ var mainLayout = {
   rows: [toolbar,
     {
       cols: [sidebar,
-        { template: "" }
+        getLangView()
       ]
     }
   ]
 }
 
+webix.ui.fullScreen();
 webix.ui(mainLayout);
