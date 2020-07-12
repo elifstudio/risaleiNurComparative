@@ -1,18 +1,28 @@
 function getLangView() {
   return {
     view: "dataview",
-    id: "dataview1",
+    id: "mainViewId",
     select: true,
+    xCount: 2,
     type: {
-      height: 60,
-      width: "auto"
+      height: "auto",
+      width: "auto",
+      type: "tiles",
     },
-    template: "<div class='webix_strong'>#title#</div> Year: #year#, rank: #rank#",
+    template: "<div class='webix_strong' style='text-align:center;'>#title#</div>" +
+      "<img src='#source#' style='margin:auto;display:block;' alt='Girl in a jacket' width='70' height='70'>",
     data: [
-      { id: 1, title: "The Shawshank Redemption", year: 1994, votes: 678790, rating: 9.2, rank: 1 },
-      { id: 2, title: "The Godfather", year: 1972, votes: 511495, rating: 9.2, rank: 2 },
-      { id: 3, title: "The Godfather: Part II", year: 1974, votes: 319352, rating: 9.0, rank: 3 },
-      { id: 4, title: "The Good, the Bad and the Ugly", year: 1966, votes: 213030, rating: 8.9, rank: 4 }
+      { id: 1, title: "English", source: "img/england.svg" },
+      { id: 2, title: "Arabic", source: "img/saudi-arabia.svg" },
+      { id: 3, title: "Russian", source: "img/russia.svg" },
+      { id: 4, title: "French", source: "img/france.svg" },
+      { id: 5, title: "German", source: "img/german.svg" },
+      { id: 6, title: "Chinese", source: "img/china.svg" },
+      { id: 7, title: "Indonesian", source: "img/indonesia.svg" },
+      { id: 8, title: "Japanese", source: "img/japan.svg" },
+      { id: 9, title: "Persian", source: "img/iran.svg" },
+      { id: 10, title: "Uzbek", source: "img/uzbekistan.svg" },
+      { id: 11, title: "Spanish", source: "img/spain.svg" },
     ]
   }
 }
