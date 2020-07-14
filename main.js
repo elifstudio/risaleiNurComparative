@@ -16,7 +16,6 @@ var toolbar = {
 var sidebar = {
   view: "sidebar",
   id: "sidebarId",
-  collapsed: true,
   width: 180,
   data: [
     { id: "langId", icon: "mdi mdi-flag-outline", value: "Diller" },
@@ -35,7 +34,6 @@ var sidebar = {
   on: {
     onAfterSelect: function(id) {
       getSelectedView(id);
-      webix.message(this.getItem(id).value)
     }
   }
 };

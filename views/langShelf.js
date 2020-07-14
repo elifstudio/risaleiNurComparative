@@ -9,6 +9,12 @@ function getLangView() {
       width: "auto",
       type: "tiles",
     },
+    on: {
+      onSelectChange: () => {
+        var selected = $$("mainViewId").getSelectedItem();
+        webix.ui(getBookShelfView(), $$("mainViewId"));
+      }
+    },
     template: "<div class='webix_strong' style='text-align:center;'>#title#</div>" +
       "<img src='#source#' style='margin:auto;display:block;' alt='Girl in a jacket' width='70' height='70'>",
     data: [
