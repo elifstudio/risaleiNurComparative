@@ -1,4 +1,4 @@
-function getBookShelfView() {
+function getBookShelfView(selected) {
   $$('sidebarId').unselect();
   return {
     view: "dataview",
@@ -6,22 +6,26 @@ function getBookShelfView() {
     select: true,
     type: {
       height: "200",
-      width: "150",
+      width: "160",
       type: "tiles",
     },
-    template: "<div>Title: #title#</div>",
-    data: [
-      { id: 1, title: "English" },
-      { id: 2, title: "Arabic" },
-      { id: 3, title: "Russian" },
-      { id: 4, title: "French" },
-      { id: 5, title: "German" },
-      { id: 6, title: "Chinese" },
-      { id: 7, title: "Indonesian" },
-      { id: 8, title: "Japanese" },
-      { id: 9, title: "Persian" },
-      { id: 10, title: "Uzbek" },
-      { id: 11, title: "Spanish" },
-    ]
+    template: "<img src='#img#' height='90%' width='100%'><div>#title#</div>",
+    data: getBooks(selected)
   }
+}
+
+function getBooks(selected) {
+  switch (selected.title) {
+    case "English":
+      return getEnglishBooks();
+    default:
+      break;
+  }
+}
+
+function getEnglishBooks() {
+  return [
+    { id: 1, title: "Sünnet-i Seniyye", img: "img/books_cover/ing11lema.jpg" },
+    { id: 2, title: "Mucizat-ı Ahmediye", img: "img/books_cover/ing19mektub.jpg" }
+  ]
 }

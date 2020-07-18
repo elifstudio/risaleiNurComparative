@@ -12,23 +12,23 @@ function getLangView() {
     on: {
       onSelectChange: () => {
         var selected = $$("mainViewId").getSelectedItem();
-        webix.ui(getBookShelfView(), $$("mainViewId"));
+        webix.ui(getBookShelfView(selected), $$("mainViewId"));
       }
     },
     template: "<div class='webix_strong' style='text-align:center;'>#title#</div>" +
       "<img src='#source#' style='margin:auto;display:block;' alt='Girl in a jacket' width='70' height='70'>",
     data: [
-      { id: 1, title: "English", source: "img/england.svg" },
-      { id: 2, title: "Arabic", source: "img/saudi-arabia.svg" },
-      { id: 3, title: "Russian", source: "img/russia.svg" },
-      { id: 4, title: "French", source: "img/france.svg" },
-      { id: 5, title: "German", source: "img/german.svg" },
-      { id: 6, title: "Chinese", source: "img/china.svg" },
-      { id: 7, title: "Indonesian", source: "img/indonesia.svg" },
-      { id: 8, title: "Japanese", source: "img/japan.svg" },
-      { id: 9, title: "Persian", source: "img/iran.svg" },
-      { id: 10, title: "Uzbek", source: "img/uzbekistan.svg" },
-      { id: 11, title: "Spanish", source: "img/spain.svg" },
+      { id: 1, title: "English", source: "img/flags/england.svg" },
+      { id: 2, title: "Arabic", source: "img/flags/saudi-arabia.svg" },
+      { id: 3, title: "Russian", source: "img/flags/russia.svg" },
+      { id: 4, title: "French", source: "img/flags/france.svg" },
+      { id: 5, title: "German", source: "img/flags/german.svg" },
+      { id: 6, title: "Chinese", source: "img/flags/china.svg" },
+      { id: 7, title: "Indonesian", source: "img/flags/indonesia.svg" },
+      { id: 8, title: "Japanese", source: "img/flags/japan.svg" },
+      { id: 9, title: "Persian", source: "img/flags/iran.svg" },
+      { id: 10, title: "Uzbek", source: "img/flags/uzbekistan.svg" },
+      { id: 11, title: "Spanish", source: "img/flags/spain.svg" },
     ]
   }
 }
