@@ -1,0 +1,15 @@
+#1::fihrist-0::ONDOKUZUNCU SÖZ
+#1::fihrist-1::BİRİNCİ REŞHASI
+#2::fihrist-2::İKİNCİ REŞHA
+#3::fihrist-3::ÜÇÜNCÜ REŞHA
+#3::fihrist-4::DÖRDÜNCÜ REŞHA
+#4::fihrist-5::BEŞİNCİ REŞHA
+#4::fihrist-6::ALTINCI REŞHA
+#5::fihrist-7::YEDİNCİ REŞHA
+#6::fihrist-8::SEKİZİNCİ REŞHA
+#6::fihrist-9::DOKUZUNCU REŞHA
+#7::fihrist-10::ONUNCU REŞHA
+#8::fihrist-11::ONBİRİNCİ REŞHA
+#9::fihrist-12::ONİKİNCİ REŞHA
+#11::fihrist-13::ONÜÇÜNCÜ REŞHA
+#14::fihrist-14::ONDÖRDÜNCÜ REŞHA

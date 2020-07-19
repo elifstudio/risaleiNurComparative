@@ -10,7 +10,13 @@ function getBookShelfView(selected) {
       type: "tiles",
     },
     template: "<img src='#img#' height='90%' width='100%'><div>#title#</div>",
-    data: getBooks(selected)
+    data: getBooks(selected),
+    on: {
+      onSelectChange: () => {
+        var selected = $$("mainViewId").getSelectedItem();
+        webix.ui(displayBook(selected), $$("mainViewId"));
+      }
+    }
   }
 }
 
