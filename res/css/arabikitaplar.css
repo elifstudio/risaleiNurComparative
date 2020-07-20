@@ -1,0 +1,176 @@
+@import "mergedTableStyles.css";
+@import "commons.css";
+
+p.Alt-Başlık, p.Paragraf-1.Alt-Başlık {
+	color:#000000;
+	font-family: Souvenir, serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:14px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+
+p.Arabi-alt-başlık, p.Paragraf-1.Arabi-alt-başlık
+{
+    color: #000000;
+    font-family: "Adobe Naskh Medium", serif;
+    font-size: 1.417em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.059;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 14px;
+    orphans: 1;
+    text-align: center;
+    text-indent: 0px;
+    text-transform: none;
+    widows: 1;
+    font-variant: normal;
+    page-break-after: auto;
+    page-break-before: auto;
+	text-decoration: none;
+	direction: rtl;
+}
+p.Paragraf-1.Arabi {
+	color:#000000;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.167em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:10px;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	direction: rtl;
+}
+p.Paragraf-2.Arabi {
+	color:#000000;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.167em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:2px;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	direction: rtl;
+}
+p.Paragraf-1 {
+	color:#000000;
+	font-family:Souvenir, serif;
+	font-size:0.917em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:10px;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+}
+p.Paragraf-2 {
+	color:#000000;
+	font-family:Souvenir, serif;
+	font-size:0.917em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0px;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+}
+p.Haşiye.Paragraf-1, p.Haşiye.Paragraf-2 {
+	font-family:Souvenir, serif;
+	color: green;
+	/*font-weight:bold;
+		font-style:italic;
+*/
+}
+
+p.Haşiye.Paragraf-1.Arabi, p.Haşiye.Paragraf-2.Arabi {
+	color: green;
+	font-family:"Adobe Naskh Medium", serif;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	text-decoration:none;
+	text-transform:none;
+	direction: rtl;
+}
+
+p.Paragraf-1.Nesih_mücerred, p.Paragraf-2.Nesih_mücerred {
+	color:#e11b22;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	margin-bottom:2px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:2px;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	direction: rtl;
+}
+
+
+span.Nesih_dahili, span.Nesih_mücerred {
+	color:#e11b22;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-weight:500;
+	margin: 5px;
+}

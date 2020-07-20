@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Adobe Naskh Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/AdobeNaskh-Medium.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Liva Nur";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Barla 001 Liva Nur.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Barla © 072 Aria Script";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Barla 072 Aria Script.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/Barla 012 Souvenir Demi BT.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Souvenir;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../font/souvenir_light_italic_bt.ttf") format('truetype');
+  /*src: url("../font/souvenir_italic.ttf") format('truetype');*/
+}
+
+@font-face {
+  font-family: Souvenir;
+  font-style: italic;
+  font-weight: bold;
+  src: url("../font/souvenir_demi_italic_bt.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Souvenir;
+  font-style: oblique;
+  font-weight: normal;
+  src: url("../font/souvenir_light_bt.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/souvenir_light_bt.ttf") format('truetype');
+}
+
+span.Koyu,
+span.koyu {
+  font-style: normal;
+  font-weight: bold;
+}
+
+span.Koyu-Yatık {
+  font-style: italic;
+  font-weight: bold;
+}
+
+span.Kırmızı,
+span.kırmızı {
+  color: #e31f26;
+}
+
+p.Paragraf-1.Orta,
+p.Paragraf-2.Orta,
+.Orta {
+  text-align: center;
+}
+
+p.Paragraf-1.Alt-Başlık.LivaNur,
+p.Paragraf-1.LivaNur,
+p.Alt-Başlık.LivaNur {
+  font-family: "Liva Nur", Souvenir;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 500;
+  margin: 5px;
+}
+
+p.Sola,
+.Sola {
+  text-align: left;
+}
+
+
+p.Saga,
+.Saga {
+  text-align: right;
+}
+
+
+span.Mavi,
+span.mavi {
+  color: #0094d9;
+}
+
+
+span.Yesil,
+span.yesil,
+span.yeşil,
+span.Yeşil {
+  color: green;
+}
+
+
+span.mor,
+span.Mor {
+  color: #990099;
+}
+
+
+span.magenta,
+span.Magenta {
+  color: #c6168d;
+}
+
+
+span.Lacivert,
+span.lacivert {
+  color: #000099;
+}
+
+span.KoyuSari,
+span.koyusari,
+span.koyuSari {
+  color: #cc6b00;
+}
+
+span.searchHighlighted {
+  background-color: #FFEB3B;
+}
+
+span.Bordo,
+span.bordo {
+  color: #990000;
+}
+
+span.Yatık,
+p.Yatık,
+span.yatık,
+p.yatık,
+p.Yatik,
+p.yatik {
+  font-style: italic;
+}
+
+span.Yatık-kırmızı,
+span.yatık-kırmızı,
+p.Yatık-kırmızı,
+.Paragraf-1.Yatık-kırmızı,
+.Paragraf-2.Yatık-kırmızı {
+  color: #e31f26;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+span.AltCizili {
+  text-decoration: underline;
+}

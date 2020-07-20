@@ -1,0 +1,134 @@
+@import "mergedTableStyles.css";
+@import "commons.css";
+
+
+p.Arabi.Paragraf-1,  p.Arabi.Paragraf-2, p.Arabi.Haşiye {
+	-epub-hyphens:none;
+	-epub-line-break:normal;
+	-webkit-hyphens:none;
+	color:#e31f26;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.25em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:9px;
+	margin-right:9px;
+	margin-top:6px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+p.Alt-Başlık, p.Paragraf-1.Alt-Başlık {
+	color:#000000;
+	font-family: Souvenir, serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:14px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+p.Paragraf-1 {
+	color:#000000;
+	font-family:Souvenir, serif;
+	font-size:0.917em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:11px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Paragraf-2 {
+	color:#000000;
+	font-family:Souvenir, serif;
+	font-size:0.917em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+p.Nesih_mücerred {
+	-epub-text-align-last:center;
+	color:#e80003;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:0;
+	margin-right:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+
+p.Haşiye.Paragraf-1, p.Haşiye.Paragraf-2 {
+	font-family:Souvenir, serif;
+	font-style:italic;
+	color: green;
+	/*font-weight:bold;*/
+}
+
+
+span.Nesih_dahili {
+	color:#e11b22;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-weight:500;
+	margin: 5px;
+}
+

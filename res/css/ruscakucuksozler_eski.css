@@ -1,0 +1,755 @@
+@font-face {
+	font-family:"Adobe Naskh Medium";
+	font-style:normal;
+	font-weight:500;
+	src : url("file:///android_asset/font/AdobeNaskh-Medium.otf") format('opentype');
+}
+@font-face {
+	font-family:"Barla © 072 Aria Script";
+	font-style:normal;
+	font-weight:normal;
+	src : url("file:///android_asset/font/Barla 072 Aria Script.ttf") format('truetype');
+}
+@font-face {
+	font-family:Souvenir;
+	font-style:normal;
+	font-weight:bold;
+	src : url("file:///android_asset/font/Barla 012 Souvenir Demi BT.ttf") format('truetype');
+}
+
+@font-face {
+	font-family:Souvenir;
+	font-style:italic;
+	font-weight:normal;
+	src : url("file:///android_asset/font/souvenir_light_italic_bt.ttf") format('truetype');
+}
+
+@font-face {
+	font-family:Souvenir;
+	font-style:italic;
+	font-weight:bold;
+	src : url("file:///android_asset/font/souvenir_demi_italic_bt.ttf") format('truetype');
+}
+
+@font-face {
+	font-family:Souvenir;
+	font-style:oblique;
+	font-weight:normal;
+	src : url("file:///android_asset/font/souvenir_light_bt.ttf") format('truetype');
+}
+
+@font-face {
+	font-family:Souvenir;
+	font-style:normal;
+	font-weight:normal;
+	src : url("file:///android_asset/font/souvenir_light_bt.ttf") format('truetype');
+}
+/* @font-face {
+	font-family:Souvenir;
+	font-style:normal;
+	font-weight:normal;
+	src : url("file:///android_asset/font/Souvenir-Light.otf") format('opentype');
+} */
+/* @font-face {
+	font-family:"Souvenir Lt BT";
+	font-style:italic;
+	font-weight:normal;
+	src : url("file:///android_asset/font/SouvenirLtBT-Italic.ttf") format('truetype');
+}
+@font-face {
+	font-family:"Souvenir Lt BT";
+	font-style:oblique;
+	font-weight:normal;
+	src : url("file:///android_asset/font/SouvenirLtBT-Italic.ttf") format('truetype');
+} */
+
+@font-face {
+	font-family:"Liva Nur";
+	font-style:normal;
+	font-weight:normal;
+	src : url("file:///android_asset/font/Barla 001 Liva Nur.ttf") format('truetype');
+}
+
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+
+body, body.gunduz {
+	-epub-hyphens:auto;
+	/*background-image: url("file:///android_asset/css/BG.png");*/
+    background-color: #F0E8D1;
+	background-repeat: repeat;
+}
+
+body.gece {
+    background-image: none;
+    background-color: black;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+body {
+    padding: 15px;
+}
+
+hr.sayfaAralik  {
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom-style: unset;
+}
+
+p.highlighted {
+	background-color: bisque;
+}
+
+@page {
+	margin : 0px 0px 0px 0px;
+}
+a._idGenColorInherit {
+	color:inherit;
+}
+img.Basic-Graphics-Frame {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+
+div#container {
+    word-break: normal;
+}
+
+p.Alt-Başlık {
+	color:#000000;
+	font-family: Souvenir, serif;
+	font-size:1.5em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:14px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Arabi {
+	-epub-hyphens:none;
+	-epub-line-break:normal;
+	-webkit-hyphens:none;
+	color:#e31f26;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.25em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:9px;
+	margin-right:9px;
+	margin-top:6px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Başlık {
+	color:#000000;
+	font-family:"Souvenir Lt BT Demi", sans-serif;
+	font-size:1.083em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:3px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:11px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Paragraf-1 {
+	color:#000000;
+	font-family:Souvenir, serif;
+	font-size:0.917em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:11px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Paragraf-2 {
+	color:#000000;
+	font-family:Souvenir, serif;
+	font-size:0.917em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+span.Nesih_dahili {
+	color:#e11b22;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.083em;
+	font-style:normal;
+	font-weight:500;
+}
+p.Nesih_mücerred {
+	-epub-text-align-last:center;
+	color:#e80003;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.167em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	margin-bottom:9px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+p.sou_h-şiye {
+	color:#000000;
+	font-family:Souvenir, serif;
+	font-size:0.833em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:3px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span.Arabi-Dahili {
+	color:#e31f26;
+	font-family:"Adobe Naskh Medium", serif;
+	font-size:1.25em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	text-transform:none;
+}
+p.Haşiye.Paragraf-1, p.Haşiye.Paragraf-2 {
+	font-family:Souvenir, serif;
+	font-style:italic;
+	color: green;
+	/*font-weight:bold;*/
+}
+span.Koyu {
+	font-family:Souvenir, serif;
+	font-style:normal;
+	font-weight:bold;
+}
+span.Kırmızı {
+	color:#e31f26;
+}
+
+span.yeşil {
+	color:#44a13f;
+}
+
+span.AltCizili {
+	text-decoration: underline;
+}
+
+.bookmarkButton {
+    background-image: url("file:///android_asset/css/bookmark_ribbon.png");
+    background-repeat: no-repeat;
+    background-size:    32px 32px;
+    font-family:Souvenir, serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /*width: auto;*/
+    padding: 10px 32px;
+    margin-bottom: 10px;
+    height: 40px;
+    color: white;
+    font-style:italic;
+    /*background-color: Transparent;*/
+    background-color: #c62828;
+    border: none;
+    /*overflow: hidden;*/
+    outline:none;
+    /*width: 64px;*/
+}
+
+span.Mavi {
+	color:#0094d9;
+}
+
+span.magenta {
+	color:#c6168d;
+}
+
+span.Yatık {
+	font-family:"Souvenir Lt BT", Souvenir, serif;
+	font-style:italic;
+	font-weight:normal;
+}
+span.Yatık-kırmızı {
+	color:#e31f26;
+	font-family:"Souvenir Lt BT", Souvenir, serif;
+	font-style:italic;
+	font-weight:normal;
+}
+
+p.Ana-Başlık {
+	color:black;
+	font-family:"Liva Nur", serif;
+	font-size:2em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:28px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+}
+
+.navButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #a6827e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a6827e;
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7d5d3b), color-stop(1, #634b30));
+	background:-moz-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+	background:-webkit-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+	background:-o-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+	background:-ms-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d5d3b', endColorstr='#634b30',GradientType=0);
+	background-color:#7d5d3b;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #54381e;
+	/*display:inline-block;*/
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+	margin:0 auto;
+    display:block;
+}
+
+.navButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+	.lst-kix_list_1-3>li:before {
+	content: "\0025cf  "
+	}
+
+	.lst-kix_list_1-4>li:before {
+	content: "o  "
+	}
+
+	ul.lst-kix_list_1-0 {
+	list-style-type: none
+	}
+
+	.lst-kix_list_1-7>li:before {
+	content: "o  "
+	}
+
+	.lst-kix_list_1-5>li:before {
+	content: "\0025aa  "
+	}
+
+	.lst-kix_list_1-6>li:before {
+	content: "\0025cf  "
+	}
+
+	ul.lst-kix_list_1-3 {
+	list-style-type: none
+	}
+
+	.lst-kix_list_1-0>li:before {
+	content: "\0025cf  "
+	}
+
+	ul.lst-kix_list_1-4 {
+	list-style-type: none
+	}
+
+	.lst-kix_list_1-8>li:before {
+	content: "\0025aa  "
+	}
+
+	ul.lst-kix_list_1-1 {
+	list-style-type: none
+	}
+
+	ul.lst-kix_list_1-2 {
+	list-style-type: none
+	}
+
+	ul.lst-kix_list_1-7 {
+	list-style-type: none
+	}
+
+	.lst-kix_list_1-1>li:before {
+	content: "o  "
+	}
+
+	.lst-kix_list_1-2>li:before {
+	content: "\0025aa  "
+	}
+
+	ul.lst-kix_list_1-8 {
+	list-style-type: none
+	}
+
+	ul.lst-kix_list_1-5 {
+	list-style-type: none
+	}
+
+	ul.lst-kix_list_1-6 {
+	list-style-type: none
+	}
+
+	.c2 {
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	
+	font-style: normal
+	}
+
+	.c29 {
+	color: #00b050;
+	font-weight: 400;
+	text-decoration: none;
+	
+	font-style: normal
+	}
+
+
+
+	.c70 {
+	text-decoration: none;
+	
+	font-size: 18pt;
+	font-family: "Adobe Naskh Medium";
+	font-style: normal
+	}
+
+	.c48 {
+	color: #c00000;
+	text-decoration: none;
+	
+	font-style: normal
+	}
+
+	.c26 {
+	text-decoration: none;
+	
+	font-size: 16pt;
+	font-family: "Adobe Naskh Medium";
+	font-style: normal
+	}
+
+	.c42 {
+	text-decoration: none;
+	
+	font-size: 16pt;
+	font-style: normal
+	}
+
+	.c27 {
+	color: #000000;
+	text-decoration: none;
+	
+	font-style: normal
+	}
+
+	.c22 {
+	color: #000000;
+	text-decoration: none;
+	
+	font-style: normal
+	}
+
+	.c67 {
+	text-decoration: none;
+	font-style: normal
+	}
+
+	.c19 {
+	text-decoration-skip-ink: none;
+	-webkit-text-decoration-skip: none;
+	color: #cc6600;
+	text-decoration: underline
+	}
+
+	.c7 {
+	text-decoration-skip-ink: none;
+	-webkit-text-decoration-skip: none;
+	color: #0000ff;
+	text-decoration: underline
+	}
+
+
+	.c34 {
+	font-family: "Adobe Naskh Medium";
+	}
+
+	.c36 {
+	color: #c00000;
+	font-style: normal
+	}
+
+
+	.c32 {
+	font-family: "Adobe Naskh Medium";
+	}
+
+
+
+	.c25 {
+	-webkit-text-decoration-skip: none;
+	text-decoration: underline;
+	text-decoration-skip-ink: none
+	}
+
+	.c89 {
+	color: #92d050
+	}
+
+	.c41 {
+	color: #ac770c
+	}
+
+	.c86 {
+	color: #00ff00
+	}
+
+	.c65 {
+	color: #ffcc00
+	}
+
+	.c11 {
+	background-color: #f2f2f2
+	}
+
+	.c46 {
+	color: #000000
+	}
+
+	.c28 {
+	color: #cc6600
+	}
+
+	.c90 {
+	color: #00349e
+	}
+
+	.c52 {
+	color: #c00000
+	}
+
+	.c88 {
+	color: #ffffff
+	}
+
+	.c74 {
+	color: #ff2ad7
+	}
+
+	.c18 {
+	color: #00cc00
+	}
+
+
+	.c56 {
+	color: #ff33cc
+	}
+
+	.c87 {
+	color: #cc0000
+	}
+
+	.c51 {
+	color: #0066ff
+	}
+
+	.c33 {
+	color: #00b050
+	}
+
+	.c23 {
+	color: #005bd3
+	}
+
+	.c94 {
+	height: 61pt
+	}
+
+	.c15 {
+	color: #ff00ff
+	}
+
+	.c21 {
+	background-color: #ffff00
+	}
+
+	.c98 {
+	font-family: "Adobe Naskh Medium"
+	}
+
+	.c93 {
+	}
+
+	.c68 {
+	color: #00008b
+	}
+
+	.c20 {
+	font-style: italic
+	}
+
+	.c85 {
+	color: #00449e
+	}
+
+	.c58 {
+	color: #cc3300
+	}
+
+	.c73 {
+	font-family: "Adobe Naskh Medium"
+	}
+
+	.c96 {
+	color: #996633
+	}
+
+	.c38 {
+	color: #009900
+	}
+
+	.c75 {
+	font-family: "Nur Arabic Font"
+	}
+
+	.c45 {
+	color: #cc00cc
+	}
+
+	.c13 {
+	color: #0000ff
+	}
+
+	.c16 {
+	color: #ff0000
+	}
+
+	.c39 {
+	color: #33cc33
+	}
+
+	.c59 {
+	color: #008000
+	}
+
+
+	.c63 {
+	background-color: #00ff00
+	}
+
+	.title {
+	padding-top: 24pt;
+	color: #000000;
+	font-weight: 700;
+	font-size: 36pt;
+	padding-bottom: 6pt;
+	text-align: left
+	}
+
+	.subtitle {
+	color: #666666;
+	font-size: 24pt;
+	font-style: italic;
+	text-align: left
+	}
+
+	li {
+	color: #000000;
+	font-size: 12pt;
+	}
+
+

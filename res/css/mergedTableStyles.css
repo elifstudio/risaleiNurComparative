@@ -1,0 +1,136 @@
+/*FOR VERSION 2 TEXT FILES */
+
+body, body.gunduz {
+	-epub-hyphens:auto;
+	/*background-image: url("file:///android_asset/css/BG.png");*/
+    background-color: #F0E8D1;
+	background-repeat: repeat;
+}
+
+body.gece {
+    background-image: none;
+    background-color: #181a1a;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+hr.sayfaAralik  {
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom-style: unset;
+}
+
+.highlighted {
+	background-color: bisque;
+}
+
+body.gece .highlighted {
+	background-color: inherit;
+	border: 1px solid red;
+}
+
+
+a.pageNumber {
+    font-family: Souvenir, serif;
+}
+
+table#mergedTable {
+	max-width: 100%;
+	width: 100%;
+	border-collapse: collapse;
+    table-layout: fixed;
+    margin-bottom: 150px;
+}
+
+table#mergedTable tr.sayfaAralik {
+	border-top: thin solid black;
+	padding-top: 10px;
+}
+
+table#mergedTable.topAndBottom tr:not(.sayfaAralik):not(.bookmark) {
+	border-bottom: thin solid black;
+}
+
+table#mergedTable tr td {
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+table#mergedTable.topAndBottom tr td {
+	/*display: inline;*/
+	display: block;
+}
+
+/*FOR AUTOMATIC RTL DIRECTION IN RTL TEXTS*/
+table#mergedTable.otherSideRTL tr td.col-OTHER * {
+    direction: rtl;
+}
+
+/*FOR ALIGNING TEXTS DIAGONALLY IF IT'S NOT RTL*/
+table#mergedTable.topAndBottom:not(.otherSideRTL) tr td:nth-child(1) p {
+    text-align: left;
+    margin-right: 10%;
+}
+
+/*FOR ALIGNING TEXTS DIAGONALLY IF IT'S NOT RTL*/
+table#mergedTable.topAndBottom:not(.otherSideRTL) tr td:nth-child(2) p {
+    text-align: right;
+    margin-left: 10%;
+}
+
+table#mergedTable.sideBySide tr td {
+	width: 50%;
+}
+
+table#mergedTable.sideBySide tr td p {
+	word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+table#mergedTable.sideBySide tr:not(.sayfaAralik) td + td {
+    border-left: thin solid black;
+    border-right: none;
+}
+
+
+/*table#mergedTable.sideBySide:not(.otherSideRTL) tr:not(.sayfaAralik) td:nth-child(2) {
+    border-left: thin solid black;
+    border-right: none;
+}
+
+table#mergedTable.sideBySide.otherSideRTL tr:not(.sayfaAralik) td:first-child {
+    border-left:none;
+    border-right: thin solid black;
+}*/
+
+
+table#mergedTable.onlySideOther tr td, table#mergedTable.onlySideTR tr td {
+}
+
+
+.bookmarkButton {
+    background-image: url("file:///android_asset/css/bookmark_ribbon.png");
+    background-repeat: no-repeat;
+    background-size:    32px 32px;
+    font-family:Souvenir, serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /*width: auto;*/
+    padding: 10px 32px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    height: 40px;
+    color: white;
+    font-style:italic;
+    /*background-color: Transparent;*/
+    background-color: #c62828;
+    border: none;
+    /*overflow: hidden;*/
+    outline:none;
+    /*width: 64px;*/
+}
