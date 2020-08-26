@@ -1,4 +1,3 @@
-ing19soz,TR,EN
 #1::fihrist-0::ONDOKUZUNCU SÖZ::THE NINETEENTH WORD
 #1::fihrist-1::_BİRİNCİ REŞHASI::FIRST DROPLET
 #2::fihrist-2::_İKİNCİ REŞHA::SECOND DROPLET

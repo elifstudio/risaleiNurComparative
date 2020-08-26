@@ -1,5 +1,6 @@
 function getBookShelfView(selected) {
   $$('sidebarId').unselect();
+  window.currView = "bookShelf";
   return {
     view: "dataview",
     id: "mainViewId",
@@ -14,7 +15,7 @@ function getBookShelfView(selected) {
     on: {
       onSelectChange: () => {
         var selected = $$("mainViewId").getSelectedItem();
-        webix.ui(displayBook(selected), $$("mainViewId"));
+        webix.ui(displayBook(selected, 0, "main"), $$("mainViewId"));
       }
     }
   }
@@ -30,8 +31,13 @@ function getBooks(selected) {
 }
 
 function getEnglishBooks() {
-  return [
-    { id: 1, title: "Sünnet-i Seniyye", img: "img/books_cover/ing11lema.jpg" },
-    { id: 2, title: "Mucizat-ı Ahmediye", img: "img/books_cover/ing19mektub.jpg" }
+  return [{
+      id: 1,
+      title: "Sünnet-i Seniyye",
+      img: "img/books_cover/ing11lema.jpg",
+      sections: ["res/books/ing19soz/ing19soz-section-0.html", "res/books/ing19soz/ing19soz-section-1.html"],
+      content: "res/books/ing19soz/fihrist.txt"
+    },
+    { id: 2, title: "Mucizat-ı Ahmediye", img: "img/books_cover/ing19mektub.jpg", src: "" }
   ]
 }

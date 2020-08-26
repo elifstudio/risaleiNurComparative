@@ -10,6 +10,29 @@ var toolbar = {
       }
     },
     { view: "label", label: "Risale-i Nur Karşılaştırma" },
+    {},
+    {
+      view: "button",
+      type: "icon",
+      icon: "mdi mdi-undo",
+      label: "Geri",
+      width: 100,
+      on: {
+        onItemClick: (id, e) => {
+          switch (window.currView) {
+            case "bookShelf":
+              webix.ui(getLangView(), $$("mainViewId"));
+              break;
+            case "bookView":
+              webix.ui(getBookShelfView(window.selectedLang), $$("mainViewId"));
+              break;
+            default:
+              break;
+          }
+
+        }
+      }
+    }
   ]
 };
 
@@ -17,6 +40,7 @@ var sidebar = {
   view: "sidebar",
   id: "sidebarId",
   width: 180,
+  collapsed: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
   data: [
     { id: "langId", icon: "mdi mdi-flag-outline", value: "Diller" },
     { id: "searchId", icon: "mdi mdi-file-find", value: "Ara" },
@@ -47,7 +71,8 @@ function getSelectedView(viewId) {
     default:
       break;
   }
-  webix.ui(myView, $$("mainViewId"));
+  if (myView) webix.ui(myView, $$("mainViewId"));
+  else webix.message({ text: "Henüz hazır değil", type: "success" });
 }
 
 var mainLayout = {
