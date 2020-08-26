@@ -40,6 +40,7 @@ var sidebar = {
   view: "sidebar",
   id: "sidebarId",
   width: 180,
+  scroll: true,
   collapsed: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
   data: [
     { id: "langId", icon: "mdi mdi-flag-outline", value: "Diller" },
