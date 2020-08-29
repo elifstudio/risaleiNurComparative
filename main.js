@@ -1,3 +1,5 @@
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+
 var toolbar = {
   view: "toolbar",
   padding: 3,
@@ -39,9 +41,9 @@ var toolbar = {
 var sidebar = {
   view: "sidebar",
   id: "sidebarId",
-  width: 180,
-  scroll: true,
-  collapsed: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
+  width: 200,
+  scroll: isMobile.test(navigator.userAgent),
+  collapsed: isMobile.test(navigator.userAgent),
   data: [
     { id: "langId", icon: "mdi mdi-flag-outline", value: "Diller" },
     { id: "searchId", icon: "mdi mdi-file-find", value: "Ara" },

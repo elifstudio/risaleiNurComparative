@@ -6,6 +6,7 @@ function displayBook(selected, selectedSection, flag) {
     cols: [{
         rows: [{
             view: "iframe",
+            id: "iframeId",
             src: selected.sections[selectedSection],
             on: {
               onAfterLoad: () => {
@@ -22,33 +23,32 @@ function displayBook(selected, selectedSection, flag) {
               {
                 view: "button",
                 id: "prev",
-                value: "önce",
-                css: "webix_secondary",
-                width: 100,
+                value: "<",
+                css: "webix_primary",
+                width: 50,
                 on: {
                   onItemClick: (id, e) => {
                     window.currSection--;
                     if (window.currSection < 0) window.currSection = 0;
-                    else displayBook(selected, window.currSection, "prev");
+                    else changeSection(selected, window.currSection, "prev");
                   }
                 }
               },
               {
                 view: "button",
                 id: "next",
-                value: "sonra",
-                css: "webix_secondary",
-                width: 100,
+                value: ">",
+                css: "webix_primary",
+                width: 50,
                 on: {
                   onItemClick: (id, e) => {
                     window.currSection++;
                     if (window.currSection >= selected.sections.length)
                       window.currSection = selected.sections.length - 1;
-                    else displayBook(selected, window.currSection, "next");
+                    else changeSection(selected, window.currSection, "next");
                   }
                 }
-              },
-              {}
+              }
             ]
           }
         ]
@@ -72,7 +72,7 @@ function displayBook(selected, selectedSection, flag) {
                 var page = Number(item.page.replace("#", ""));
                 var sectionNum = getSectionNum(page);
                 if (sectionNum != window.currSection) {
-                  displayBook(selected, sectionNum, "chapter");
+                  changeSection(selected, sectionNum, "chapter");
                   window.onAfterLoadChapter = id;
                 } else scrollTo(id);
               }
@@ -84,6 +84,24 @@ function displayBook(selected, selectedSection, flag) {
   }
   if (flag != "main") webix.ui(section, $$("mainViewId"));
   else return section;
+}
+
+function changeSection(selected, selectedSection, flag) {
+  window.currSection = selectedSection;
+  var result = {
+    view: "iframe",
+    id: "iframeId",
+    src: selected.sections[selectedSection],
+    on: {
+      onAfterLoad: () => {
+        if (flag == "chapter") {
+          scrollTo(window.onAfterLoadChapter);
+        }
+        if (flag == "prev") scrollTo("bottom", 10);
+      }
+    }
+  };
+  webix.ui(result, $$("iframeId"));
 }
 
 function getSectionNum(page) {
