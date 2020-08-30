@@ -1,0 +1,35 @@
+#1::fihrist-0::Otuzüçüncü Söz::Тридцать третье Слово
+#4::fihrist-1::_Birinci Pencere::Первое Окно
+#5::fihrist-2::_İkinci Pencere::Второе Окно
+#6::fihrist-3::_Üçüncü Pencere::Третье Окно
+#7::fihrist-4::_Dördüncü Pencere::Четвёртое Окно
+#7::fihrist-5::_Beşinci Pencere::Пятое Окно
+#8::fihrist-6::_Altıncı Pencere::Шестое Окно
+#12::fihrist-7::_Yedinci Pencere::Седьмое Окно
+#14::fihrist-8::_Sekizinci Pencere::Восьмое Окно
+#15::fihrist-9::_Dokuzuncu Pencere::Девятое Окно
+#16::fihrist-10::_Onuncu Pencere::Десятое Окно
+#17::fihrist-11::_Onbirinci Pencere::Одиннадцатое Окно
+#18::fihrist-12::_Onikinci Pencere::Двенадцатое Окно
+#19::fihrist-13::_Onüçüncü Pencere::Тринадцатое Окно
+#20::fihrist-14::_Ondördüncü Pencere::Четырнадцатое Окно
+#21::fihrist-15::_Onbeşinci Pencere::Пятнадцатое Окно
+#22::fihrist-16::_Onaltıncı Pencere::Шестнадцатое Окно
+#24::fihrist-17::_Onyedinci Pencere::Семнадцатое Окно
+#26::fihrist-18::_Onsekizinci Pencere::Восемнадцатое Окно
+#27::fihrist-19::_Ondokuzuncu Pencere::Девятнадцатое Окно
+#30::fihrist-20::_Yirminci Pencere::Двадцатое Окно*
+#33::fihrist-21::_Yirmibirinci Pencere::Двадцать первое Окно
+#35::fihrist-22::_Yirmiikinci Pencere::Двадцать второе Окно
+#37::fihrist-23::_Yirmiüçüncü Pencere::Двадцать третье Окно
+#39::fihrist-24::_Yirmidördüncü Pencere::Двадцать четвертое Окно
+#42::fihrist-25::_Yirmibeşinci Pencere::Двадцать пятое Окно
+#43::fihrist-26::_Yirmialtıncı Pencere::Двадцать шестое Окно(1)
+#45::fihrist-27::_Yirmiyedinci Pencere::Двадцать седьмое Окно
+#48::fihrist-28::_Yirmisekizinci Pencere::Двадцать восьмое Окно
+#50::fihrist-29::_Yirmidokuzuncu Pencere::Двадцать девятое Окно
+#52::fihrist-30::_Otuzuncu Pencere::Тридцатое Окно
+#58::fihrist-31::_Otuzbirinci Pencere::Тридцать первое Окно
+#62::fihrist-32::_Otuzikinci Pencere::Тридцать второе Окно
+#63::fihrist-33::_Otuzüçüncü Pencere::Тридцать третье Окно
+#64::fihrist-34::_İHTAR::НАПОМИНАНИЕ

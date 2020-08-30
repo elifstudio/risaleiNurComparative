@@ -1,0 +1,34 @@
+#1::fihrist-0::YİRMİBEŞİNCİ LEM'A::ДВАДЦАТЬ ПЯТОЕ СИЯНИЕ
+#2::fihrist-1::_İHTAR VE İTİZAR::НАПОМИНАНИЕ И ПРОСЬБА О ПРОЩЕНИИ
+#3::fihrist-2::_BİRİNCİ DEVA::ПЕРВОЕ ЛЕКАРСТВО
+#4::fihrist-3::_İKİNCİ DEVA::ВТОРОЕ ЛЕКАРСТВО
+#6::fihrist-4::_ÜÇÜNCÜ DEVA::ТРЕТЬЕ ЛЕКАРСТВО
+#8::fihrist-5::_DÖRDÜNCÜ DEVA::ЧЕТВЕРТОЕ ЛЕКАРСТВО
+#10::fihrist-6::_BEŞİNCİ DEVA::ПЯТОЕ ЛЕКАРСТВО
+#12::fihrist-7::_ALTINCI DEVA::ШЕСТОЕ ЛЕКАРСТВО
+#14::fihrist-8::_ALTINCI DEVA::ШЕСТОЕ ЛЕКАРСТВО
+#16::fihrist-9::_YEDİNCİ DEVA::СЕДЬМОЕ ЛЕКАРСТВО
+#18::fihrist-10::_SEKİZİNCİ DEVA::ВОСЬМОЕ ЛЕКАРСТВО
+#20::fihrist-11::_DOKUZUNCU DEVA::ДЕВЯТОЕ ЛЕКАРСТВО
+#22::fihrist-12::_ONUNCU DEVA::ДЕСЯТОЕ ЛЕКАРСТВО
+#24::fihrist-13::_ONBİRİNCİ DEVA::ОДИННАДЦАТОЕ ЛЕКАРСТВО
+#26::fihrist-14::_ONİKİNCİ DEVA::ДВЕНАДЦАТОЕ ЛЕКАРСТВО
+#28::fihrist-15::_ONÜÇÜNCÜ DEVA::ТРИНАДЦАТОЕ ЛЕКАРСТВО
+#31::fihrist-16::_ONDÖRDÜNCÜ DEVA::ЧЕТЫРНАДЦАТОЕ ЛЕКАРСТВО
+#34::fihrist-17::_ONBEŞİNCİ DEVA::ПЯТНАДЦАТОЕ ЛЕКАРСТВО
+#36::fihrist-18::_ONALTINCI DEVA::ШЕСТНАДЦАТОЕ ЛЕКАРСТВО
+#38::fihrist-19::_ONYEDİNCİ DEVA::СЕМНАДЦАТОЕ ЛЕКАРСТВО
+#42::fihrist-20::_ONSEKİZİNCİ DEVA::ВОСЕМНАДЦАТОЕ ЛЕКАРСТВО
+#45::fihrist-21::_ONDOKUZUNCU DEVA::ДЕВЯТНАДЦАТОЕ ЛЕКАРСТВО
+#49::fihrist-22::_YİRMİNCİ DEVA::ДВАДЦАТОЕ ЛЕКАРСТВО
+#52::fihrist-23::_YİRMİBİRİNCİ DEVA::ДВАДЦАТЬ ПЕРВОЕ ЛЕКАРСТВО
+#53::fihrist-24::_YİRMİİKİNCİ DEVA::ДВАДЦАТЬ ВТОРОЕ ЛЕКАРСТВО
+#55::fihrist-25::_YİRMİÜÇÜNCÜ DEVA::ДВАДЦАТЬ ТРЕТЬЕ ЛЕКАРСТВО
+#57::fihrist-26::_YİRMİDÖRDÜNCÜ DEVA::ДВАДЦАТЬ ЧЕТВЕРТОЕ ЛЕКАРСТВО
+#59::fihrist-27::_YİRMİBEŞİNCİ DEVA::ДВАДЦАТЬ ПЯТОЕ ЛЕКАРСТВО
+#61::fihrist-28::ONYEDİNCİ MEKTUB::СЕМНАДЦАТОЕ ПИСЬМО
+#62::fihrist-29::_BİRİNCİ NOKTA::ПЕРВЫЙ ПУНКТ
+#64::fihrist-30::_İKİNCİ NOKTA::ВТОРОЙ ПУНКТ
+#67::fihrist-31::_ÜÇÜNCÜ NOKTA::ТРЕТИЙ ПУНКТ
+#68::fihrist-32::_DÖRDÜNCÜ NOKTA::ЧЕТВЕРТЫЙ ПУНКТ
+#69::fihrist-33::_BEŞİNCİ NOKTA::ПЯТЫЙ ПУНКТ

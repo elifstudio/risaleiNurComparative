@@ -1,0 +1,12 @@
+#1::fihrist-0::Onbirinci Lem'a::Одиннадцатое Сияние
+#1::fihrist-1::_Birinci Nükte::Первый Пункт
+#2::fihrist-2::_İkinci Nükte::Второй Пункт
+#2::fihrist-3::_Üçüncü Nükte::Третий Пункт
+#3::fihrist-4::_Dördüncü Nükte::Четвёртый Пункт
+#4::fihrist-5::_Beşinci Nükte::Пятый Пункт
+#5::fihrist-6::_Altıncı Nükte::Шестой Пункт
+#6::fihrist-7::_Yedinci Nükte::Седьмой Пункт
+#7::fihrist-8::_Sekizinci Nükte::Восьмой Пункт
+#8::fihrist-9::_Dokuzuncu Nükte::Девятый Пункт
+#9::fihrist-10::_Onuncu Nükte::Десятый Пункт
+#11::fihrist-11::_Onbirinci Nükte::Одиннадцатый Пункт

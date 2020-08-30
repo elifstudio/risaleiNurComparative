@@ -1,220 +1,221 @@
 @font-face {
-	font-family:"Adobe Naskh Medium";
-	font-style:normal;
-	font-weight:500;
-	src : url("file:///android_asset/font/AdobeNaskh-Medium.otf") format('opentype');
+  font-family: "Adobe Naskh Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/AdobeNaskh-Medium.otf") format('opentype');
 }
 
 .c35 {
-    color: #00008b;
-    font-weight: 400;
-    text-decoration: none;
-    vertical-align: baseline;
-    font-style: normal
+  color: #00008b;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-style: normal
 }
 
 .c28 {
-    color: #008000;
-    font-weight: 700;
-    text-decoration: none;
-    vertical-align: baseline;
-    font-style: normal
+  color: #008000;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-style: normal
 }
 
 
 .c21 {
-    color: #00008b;
-    font-weight: 400
+  color: #00008b;
+  font-weight: 400
 }
 
 .c29 {
-    color: #008000;
-    font-weight: 700
+  color: #008000;
+  font-weight: 700
 }
 
 .c1 {
-    color: #000000;
-    text-decoration: none;
-    vertical-align: baseline;
-    font-style: normal
+  color: #000000;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-style: normal
 }
 
 .c3 {
-    font-weight: 400
+  font-weight: 400
 }
 
 .c58 {
-    color: #800000;
-    font-weight: 400
+  color: #800000;
+  font-weight: 400
 }
 
 .c19 {
-    font-weight: 700
+  font-weight: 700
 }
 
 .c38 {
-    font-size: 16pt;
-    font-family: "Adobe Naskh Medium";
-    font-weight: 400
+  font-size: 16pt;
+  font-family: "Adobe Naskh Medium";
+  font-weight: 400
 }
+
 .c31 {
-    color: #008000;
-    font-weight: 700
+  color: #008000;
+  font-weight: 700
 }
 
 .c40 {
-    color: #00008b;
-    text-decoration: none;
-    vertical-align: baseline;
-    font-style: normal
+  color: #00008b;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-style: normal
 }
 
 .c34 {
-    color: #008000;
-    font-weight: 700
+  color: #008000;
+  font-weight: 700
 }
 
 .c54 {
-    color: #00008b;
-    font-weight: 400
+  color: #00008b;
+  font-weight: 400
 }
 
 .c14 {
-    -webkit-text-decoration-skip: none;
-    color: #cc0099;
-    text-decoration: underline;
-    text-decoration-skip-ink: none
+  -webkit-text-decoration-skip: none;
+  color: #cc0099;
+  text-decoration: underline;
+  text-decoration-skip-ink: none
 }
 
 .c66 {
-    font-weight: 400
+  font-weight: 400
 }
 
 .c18 {
-    text-decoration: none;
-    vertical-align: baseline;
-    font-style: italic
+  text-decoration: none;
+  vertical-align: baseline;
+  font-style: italic
 }
 
 .c23 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .c8 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .c22 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .c16 {
-    font-weight: 400
+  font-weight: 400
 }
 
 .c53 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .c0 {
-    font-weight: 400
+  font-weight: 400
 }
 
 .c63 {
-    color: #008000;
-    font-weight: 700
+  color: #008000;
+  font-weight: 700
 }
 
 .c52 {
-    font-weight: 400
+  font-weight: 400
 }
 
 .c68 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .c49 {
-    text-decoration: none;
-    vertical-align: baseline;
-    font-style: normal
+  text-decoration: none;
+  vertical-align: baseline;
+  font-style: normal
 }
 
 .c32 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .c62 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .c20 {
-    -webkit-text-decoration-skip: none;
-    text-decoration: underline;
-    text-decoration-skip-ink: none
+  -webkit-text-decoration-skip: none;
+  text-decoration: underline;
+  text-decoration-skip-ink: none
 }
 
 .c48 {
-    font-weight: 400
+  font-weight: 400
 }
 
 .c39 {
-    font-family: "Adobe Naskh Medium";
-    font-weight: 400
+  font-family: "Adobe Naskh Medium";
+  font-weight: 400
 }
 
 .c42 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .c59 {
-    color: #008000;
+  color: #008000;
 }
 
 .c46 {
-    font-weight: 400
+  font-weight: 400
 }
 
 .c50 {
-    color: #0033cc
+  color: #0033cc
 }
 
 .c6 {
-    color: #ff0000
+  color: #ff0000
 }
 
 .c37 {
-    font-style: italic
+  font-style: italic
 }
 
 .c61 {
-    color: #000000
+  color: #000000
 }
 
 .c33 {
-    color: #ff00ff
+  color: #ff00ff
 }
 
 .c17 {
-    color: #cc0099
+  color: #cc0099
 }
 
 
 .c26 {
-    color: #00cc00
+  color: #00cc00
 }
 
 .c56 {
-    color: #00008b
+  color: #00008b
 }
 
 .c11 {
-    color: #0000ff
+  color: #0000ff
 }
 
 .c5 {
-    color: #cc6600
+  color: #cc6600
 }
 
 .c9 {
-    color: #009900
+  color: #009900
 }

@@ -1,0 +1,10 @@
+#1::fihrist-0::YİRMİ DÖRDÜNCÜ LEM’A::ДВАДЦАТЬ ЧЕТВЕРТОЕ СИЯНИЕ
+#1::fihrist-1::_BİRİNCİ HİKMET::МУДРОСТЬ ПЕРВАЯ
+#2::fihrist-2::_İKİNCİ HİKMET::МУДРОСТЬ ВТОРАЯ
+#3::fihrist-3::_ÜÇÜNCÜ HİKMET::МУДРОСТЬ ТРЕТЬЯ
+#3::fihrist-4::_DÖRDÜNCÜ HİKMET::МУДРОСТЬ ЧЕТВЕРТАЯ
+#5::fihrist-5::_EHL-İ İMAN ÂHİRET HEMŞİRELERİM OLAN KADINLAR TAİFESİ İLE BİR MUHAVEREDİR::БЕСЕДА С ВЕРУЮЩИМИ ЖЕНЩИНАМИ - МОИМИ СЕСТРАМИ В ВЕЧНОЙ ЖИЗНИ
+#5::fihrist-6::__BİRİNCİ NÜKTE::ПЕРВЫЙ ПУНКТ
+#7::fihrist-7::__İKİNCİ NÜKTE::ВТОРОЙ ПУНКТ
+#9::fihrist-8::__ÜÇÜNCÜ NÜKTE::ТРЕТИЙ ПУНКТ
+#10::fihrist-9::_BİRDEN İHTAR EDİLEN BİR MES'ELE-İ MÜHİMME::ОДИН ВАЖНЫЙ ВОПРОС, ВДРУГ ПРИШЕДШИЙ НА ПАМЯТЬ

@@ -1,0 +1,20 @@
+#1::fihrist-0::YİRMİÜÇÜNCÜ LEM'A::ДВАДЦАТЬ ТРЕТЬЕ СИЯНИЕ
+#1::fihrist-1::_İHTAR::НАПОМИНАНИЕ
+#5::fihrist-2::_MUKADDİME::ПРЕДИСЛОВИЕ
+#6::fihrist-3::_BİRİNCİ YOL::ПЕРВЫЙ ПУТЬ
+#6::fihrist-4::__BİRİNCİ MUHAL::ПЕРВАЯ НЕЛЕПОСТЬ
+#8::fihrist-5::__İKİNCİ MUHAL::ВТОРАЯ НЕЛЕПОСТЬ
+#9::fihrist-6::__ÜÇÜNCÜ MUHAL::ТРЕТЬЯ НЕЛЕПОСТЬ
+#11::fihrist-7::_İKİNCİ MES'ELE::ВТОРОЙ ПУТЬ
+#11::fihrist-8::__BİRİNCİ MUHAL::ПЕРВАЯ НЕЛЕПОСТЬ
+#12::fihrist-9::__İKİNCİ MUHAL::ВТОРАЯ НЕЛЕПОСТЬ
+#13::fihrist-10::__ÜÇÜNCÜ MUHAL::ТРЕТЬЯ НЕЛЕПОСТЬ
+#15::fihrist-11::_ÜÇÜNCÜ KELİME::ТРЕТИЙ ПУТЬ
+#15::fihrist-12::__BİRİNCİ MUHAL::ПЕРВАЯ НЕЛЕПОСТЬ
+#15::fihrist-13::__İKİNCİ MUHAL::ВТОРАЯ НЕЛЕПОСТЬ
+#20::fihrist-14::__ÜÇÜNCÜ MUHAL::ТРЕТЬЯ НЕЛЕПОСТЬ
+#24::fihrist-15::_ELHASIL::ВЫВОД
+#32::fihrist-16::_HÂTİME::ЗАКЛЮЧЕНИЕ
+#32::fihrist-17::__BİRİNCİ SUAL::ПЕРВЫЙ ВОПРОС
+#35::fihrist-18::__İKİNCİ SUAL::ВТОРОЙ ВОПРОС
+#40::fihrist-19::__ÜÇÜNCÜ SUAL::ТРЕТИЙ ВОПРОС

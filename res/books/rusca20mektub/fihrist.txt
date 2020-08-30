@@ -1,0 +1,27 @@
+#1::fihrist-0::Yirminci Mektub::Двадцатое Письмо
+#1::fihrist-1::_Mukaddime::Предисловие
+#2::fihrist-2::_Birinci Makam::Тема первая
+#2::fihrist-3::__Birinci Kelime::СЛОВО ПЕРВОЕ
+#2::fihrist-4::__İkinci Kelime::СЛОВО ВТОРОЕ
+#3::fihrist-5::__Üçüncü Kelime::СЛОВО ТРЕТЬЕ
+#3::fihrist-6::__Dördüncü Kelime::СЛОВО ЧЕТВЕРТОЕ
+#4::fihrist-7::__Beşinci Kelime::СЛОВО ПЯТОЕ
+#4::fihrist-8::__Altıncı Kelime::СЛОВО ШЕСТОЕ
+#5::fihrist-9::__Yedinci Kelime::СЛОВО СЕДЬМОЕ
+#5::fihrist-10::__Sekizinci Kelime::СЛОВО ВОСЬМОЕ
+#5::fihrist-11::__Dokuzuncu Kelime::СЛОВО ДЕВЯТОЕ
+#6::fihrist-12::__Onuncu Kelime::СЛОВО ДЕСЯТОЕ
+#7::fihrist-13::__Onbirinci Kelime::СЛОВО ОДИННАДЦАТОЕ
+#8::fihrist-14::_İkinci Makam::Второй раздел
+#8::fihrist-15::__Birinci Kelime::ПЕРВОЕ СЛОВО
+#9::fihrist-16::__İkinci Kelime::ВТОРОЕ СЛОВО
+#10::fihrist-17::__Üçüncü Kelime::ТРЕТЬЕ СЛОВО
+#10::fihrist-18::__Dördüncü Kelime::ЧЕТВЕРТОЕ СЛОВО
+#15::fihrist-19::__Beşinci Kelime::ПЯТОЕ СЛОВО
+#17::fihrist-20::__Altıncı Kelime::ШЕСТОЕ СЛОВО
+#18::fihrist-21::__Yedinci Kelime::СЕДЬМОЕ СЛОВО
+#19::fihrist-22::__Sekizinci Kelime::ВОСЬМОЕ СЛОВО
+#20::fihrist-23::__Dokuzuncu Kelime::ДЕВЯТОЕ СЛОВО
+#24::fihrist-24::__Onuncu Kelime::ДЕСЯТОЕ СЛОВО
+#31::fihrist-25::__Onbirinci Kelime::ОДИННАДЦАТОЕ СЛОВО
+#33::fihrist-26::_Yirminci Mektub'un Onuncu Kelimesine Zeyldir::Приложение к десятому слову Двадцатого Письма

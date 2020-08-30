@@ -1,0 +1,20 @@
+#1::fihrist-0::YİRMİÜÇÜNCÜ LEM'A
+#1::fihrist-1::İHTAR
+#5::fihrist-2::MUKADDİME
+#6::fihrist-3::BİRİNCİ YOL
+#6::fihrist-4::BİRİNCİ MUHAL
+#8::fihrist-5::İKİNCİ MUHAL
+#9::fihrist-6::ÜÇÜNCÜ MUHAL
+#11::fihrist-7::İKİNCİ MES'ELE
+#11::fihrist-8::BİRİNCİ MUHAL
+#12::fihrist-9::İKİNCİ MUHAL
+#13::fihrist-10::ÜÇÜNCÜ MUHAL
+#15::fihrist-11::ÜÇÜNCÜ KELİME
+#15::fihrist-12::BİRİNCİ MUHAL
+#15::fihrist-13::İKİNCİ MUHAL
+#20::fihrist-14::ÜÇÜNCÜ MUHAL
+#24::fihrist-15::ELHASIL
+#32::fihrist-16::HÂTİME
+#32::fihrist-17::BİRİNCİ SUAL
+#35::fihrist-18::İKİNCİ SUAL
+#40::fihrist-19::ÜÇÜNCÜ SUAL

@@ -1,0 +1,9 @@
+#1::fihrist-0::KÜÇÜK SÖZLER::КРАТКИЕ СЛОВА
+#1::fihrist-1::_BİRİNCİ SÖZ::ПЕРВОЕ СЛОВО
+#4::fihrist-2::_İKİNCİ SÖZ::ВТОРОЕ СЛОВО
+#6::fihrist-3::_ÜÇÜNCÜ SÖZ::ТРЕТЬЕ СЛОВО
+#9::fihrist-4::_DÖRDÜNCÜ SÖZ::ЧЕТВЁРТОЕ СЛОВО
+#11::fihrist-5::_BEŞİNCİ SÖZ::ПЯТОЕ СЛОВО
+#14::fihrist-6::_ALTINCI SÖZ::ШЕСТОЕ СЛОВО
+#19::fihrist-7::_YEDİNCİ SÖZ::СЕДЬМОЕ СЛОВО
+#24::fihrist-8::_SEKİZİNCİ SÖZ::ВОСЬМОЕ СЛОВО

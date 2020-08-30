@@ -1,0 +1,11 @@
+#1::fihrist-0::YİRMİBİRİNCİ LEM'A
+#3::fihrist-1::BİRİNCİ DÜSTURUNUZ
+#3::fihrist-2::İKİNCİ DÜSTURUNUZ
+#5::fihrist-3::ÜÇÜNCÜ DÜSTURUNUZ
+#7::fihrist-4::DÖRDÜNCÜ DÜSTURUNUZ
+#9::fihrist-5::İKİNCİ SEBEB
+#10::fihrist-6::BİRİNCİ MANİ
+#11::fihrist-7::BİRİNCİ MİSAL
+#12::fihrist-8::İKİNCİ MİSAL
+#13::fihrist-9::İKİNCİ MANİ
+#14::fihrist-10::ÜÇÜNCÜ MANİ

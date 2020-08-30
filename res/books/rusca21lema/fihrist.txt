@@ -1,0 +1,11 @@
+#1::fihrist-0::YİRMİBİRİNCİ LEM'A::ДВАДЦАТЬ ПЕРВОЕ CИЯНИЕ
+#3::fihrist-1::_BİRİNCİ DÜSTURUNUZ::ВАШЕ ПЕРВОЕ ПРАВИЛО
+#3::fihrist-2::_İKİNCİ DÜSTURUNUZ::ВТОРОЕ ПРАВИЛО
+#5::fihrist-3::_ÜÇÜNCÜ DÜSTURUNUZ::ТРЕТЬЕ ПРАВИЛО
+#7::fihrist-4::_DÖRDÜNCÜ DÜSTURUNUZ::ЧЕТВЕРТОЕ ПРАВИЛО
+#9::fihrist-5::_İKİNCİ SEBEB::ВТОРОЙ СПОСОБ
+#10::fihrist-6::_BİRİNCİ MANİ::ПЕРВАЯ ПРЕПЯТСТВИЕ
+#11::fihrist-7::__BİRİNCİ MİSAL::ПЕРВЫЙ ПРИМЕР
+#12::fihrist-8::__İKİNCİ MİSAL::ВТОРОЙ ПРИМЕР
+#13::fihrist-9::_İKİNCİ MANİ::ВТОРОЕ ПРЕПЯТСТВИЕ
+#14::fihrist-10::_ÜÇÜNCÜ MANİ::ТРЕТЬЕ ПРЕПЯТСТВИЕ

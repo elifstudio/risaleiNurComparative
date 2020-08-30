@@ -1,0 +1,22 @@
+#1::fihrist-0::BİRİNCİ SÖZ
+#4::fihrist-1::İKİNCİ SÖZ
+#6::fihrist-2::ÜÇÜNCÜ SÖZ
+#9::fihrist-3::DÖRDÜNCÜ SÖZ
+#11::fihrist-4::BEŞİNCİ SÖZ
+#14::fihrist-5::ALTINCI SÖZ
+#19::fihrist-6::YEDİNCİ SÖZ
+#24::fihrist-7::SEKİZİNCİ SÖZ
+#31::fihrist-8::DOKUZUNCU SÖZ
+#31::fihrist-9::BİRİNCİ NÜKTE
+#32::fihrist-10::İKİNCİ NÜKTE
+#32::fihrist-11::ÜÇÜNCÜ NÜKTE
+#32::fihrist-12::DÖRDÜNCÜ NÜKTE
+#33::fihrist-13::BEŞİNCİ NÜKTE
+#39::fihrist-14::YİRMİBİRİNCİ SÖZ
+#39::fihrist-15::BİRİNCİ MAKAM
+#39::fihrist-16::BİRİNCİ İKAZ
+#40::fihrist-17::İKİNCİ İKAZ
+#40::fihrist-18::ÜÇÜNCÜ İKAZ
+#41::fihrist-19::DÖRDÜNCÜ İKAZ
+#42::fihrist-20::BEŞİNCİ İKAZ
+#45::fihrist-21::HATİME

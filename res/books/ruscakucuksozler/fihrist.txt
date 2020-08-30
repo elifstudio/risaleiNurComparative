@@ -1,0 +1,23 @@
+#1::fihrist-0::KÜÇÜK SÖZLER::КРАТКИЕ СЛОВА
+#1::fihrist-0::_BİRİNCİ SÖZ::ПЕРВОЕ СЛОВО
+#4::fihrist-1::_İKİNCİ SÖZ::ВТОРОЕ СЛОВО
+#6::fihrist-2::_ÜÇÜNCÜ SÖZ::ТРЕТЬЕ СЛОВО
+#9::fihrist-3::_DÖRDÜNCÜ SÖZ::ЧЕТВЁРТОЕ СЛОВО
+#11::fihrist-4::_BEŞİNCİ SÖZ::ПЯТОЕ СЛОВО
+#14::fihrist-5::_ALTINCI SÖZ::ШЕСТОЕ СЛОВО
+#19::fihrist-6::_YEDİNCİ SÖZ::СЕДЬМОЕ СЛОВО
+#24::fihrist-7::_SEKİZİNCİ SÖZ::ВОСЬМОЕ СЛОВО
+#31::fihrist-8::_DOKUZUNCU SÖZ::ДЕВЯТОЕ СЛОВО
+#31::fihrist-9::__BİRİNCİ NÜKTE::ОСОБЕННОСТЬ ПЕРВАЯ
+#32::fihrist-10::__İKİNCİ NÜKTE::ОСОБЕННОСТЬ ВТОРАЯ
+#32::fihrist-11::__ÜÇÜNCÜ NÜKTE::ОСОБЕННОСТЬ ТРЕТЬЯ
+#32::fihrist-12::__DÖRDÜNCÜ NÜKTE::ОСОБЕННОСТЬ ЧЕТВЁРТАЯ
+#33::fihrist-13::__BEŞİNCİ NÜKTE::ОСОБЕННОСТЬ ПЯТАЯ
+#39::fihrist-14::_YİRMİBİRİNCİ SÖZ::ДВАДЦАТЬ ПЕРВОЕ СЛОВО
+#39::fihrist-15::__BİRİNCİ MAKAM::ПЕРВАЯ ТЕМА
+#39::fihrist-16::___BİRİNCİ İKAZ::ПРОБУЖДЕНИЕ ПЕРВОЕ
+#40::fihrist-17::___İKİNCİ İKAZ::ПРОБУЖДЕНИЕ ВТОРОЕ
+#40::fihrist-18::___ÜÇÜNCÜ İKAZ::ПРОБУЖДЕНИЕ ТРЕТЬЕ
+#41::fihrist-19::___DÖRDÜNCÜ İKAZ::ПРОБУЖДЕНИЕ ЧЕТВЁРТОЕ
+#42::fihrist-20::___BEŞİNCİ İKAZ::ПРОБУЖДЕНИЕ ПЯТОЕ
+#45::fihrist-21::_HATİME::ПОСЛЕСЛОВИЕ

@@ -1,0 +1,13 @@
+#1::fihrist-0::YİRMİÜÇÜNCÜ SÖZ::ДВАДЦАТЬ ТРЕТЬЕ СЛОВО
+#2::fihrist-1::_BİRİNCİ MEBHAS::ТЕМА ПЕРВАЯ
+#2::fihrist-2::__BİRİNCİ NOKTA::ПЕРВЫЙ ПУНКТ
+#6::fihrist-3::__İKİNCİ NOKTA::ВТОРОЙ ПУНКТ
+#13::fihrist-4::__ÜÇÜNCÜ NOKTA::ТРЕТИЙ ПУНКТ
+#17::fihrist-5::__DÖRDÜNCÜ NOKTA::ПУНКТ ЧЕТВЕРТЫЙ
+#22::fihrist-6::__BEŞİNCİ NOKTA::ПУНКТ ПЯТЫЙ
+#29::fihrist-7::_İKİNCİ MEBHAS::ТЕМА ВТОРАЯ
+#30::fihrist-8::__BİRİNCİ NÜKTE::ПУНКТ ПЕРВЫЙ
+#36::fihrist-9::__İKİNCİ NÜKTE::ПУНКТ ВТОРОЙ
+#44::fihrist-10::__ÜÇÜNCÜ NÜKTE::ПУНКТ ТРЕТИЙ
+#56::fihrist-11::__DÖRDÜNCÜ NÜKTE::ПУНКТ ЧЕТВЕРТЫЙ
+#62::fihrist-12::__BEŞİNCİ NÜKTE::ПУНКТ ПЯТЫЙ

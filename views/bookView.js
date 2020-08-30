@@ -82,8 +82,7 @@ function displayBook(selected, selectedSection, flag) {
       }
     ]
   }
-  if (flag != "main") webix.ui(section, $$("mainViewId"));
-  else return section;
+  return section;
 }
 
 function changeSection(selected, selectedSection, flag) {
@@ -106,7 +105,7 @@ function changeSection(selected, selectedSection, flag) {
 
 function getSectionNum(page) {
   var sectionPageOffset = 10;
-  return Math.floor(page / sectionPageOffset);
+  return Math.floor(Math.max(0, (page - 1)) / sectionPageOffset);
 }
 
 function getChapters(contentAddress) {
@@ -193,10 +192,6 @@ function scrollTo(anchorId, animationTime, callback) {
   var iframe = window.parent.frames[0];
   var element = $("[name='" + anchorId + "']:visible", iframe.document).first();
   var iframeWindow = iframe.window;
-  if ($(iframeWindow).scrollTop() + iframeWindow.innerHeight > $(iframe.document).height() - 50) {
-    callback();
-    return;
-  }
 
   $('body, html', iframe.document).animate({
       scrollTop: element.offset().top - 15

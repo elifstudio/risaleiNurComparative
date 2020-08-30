@@ -1,0 +1,10 @@
+#1::fihrist-0::YİRMİ DÖRDÜNCÜ LEM’A
+#1::fihrist-1::BİRİNCİ HİKMET
+#2::fihrist-2::İKİNCİ HİKMET
+#3::fihrist-3::ÜÇÜNCÜ HİKMET
+#3::fihrist-4::DÖRDÜNCÜ HİKMET
+#5::fihrist-5::EHL-İ İMAN ÂHİRET HEMŞİRELERİM OLAN KADINLAR TAİFESİ İLE BİR MUHAVEREDİR
+#5::fihrist-6::BİRİNCİ NÜKTE
+#7::fihrist-7::İKİNCİ NÜKTE
+#9::fihrist-8::ÜÇÜNCÜ NÜKTE
+#10::fihrist-9::BİRDEN İHTAR EDİLEN BİR MES'ELE-İ MÜHİMME

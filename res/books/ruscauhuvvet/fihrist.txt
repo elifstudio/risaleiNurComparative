@@ -1,0 +1,11 @@
+#1::fihrist-0::BİRİNCİ MEBHAS::ПЕРВАЯ ТЕМА
+#2::fihrist-1::_BİRİNCİ VECİH::ПЕРВЫЙ АСПЕКT
+#3::fihrist-2::_İKİNCİ VECİH::ВТОРОЙ АСПЕКT
+#5::fihrist-3::_ÜÇÜNCÜ VECİH::ТРЕТИЙ АСПЕКТ
+#6::fihrist-4::_DÖRDÜNCÜ VECİH::ЧЕТВЕРТЫЙ АСПЕКT
+#6::fihrist-5::__BİRİNCİ DÜSTUR::ПЕРВЫЙ ПРИНЦИП
+#7::fihrist-6::__İKİNCİ DÜSTUR::ВТОРОЙ ПРИНЦИП
+#7::fihrist-7::__ÜÇÜNCÜ DÜSTUR::ТРЕТИЙ ПРИНЦИП
+#8::fihrist-8::__DÖRDÜNCÜ DÜSTUR::ЧЕТВЕРТЫЙ ПРИНЦИП
+#12::fihrist-9::_BEŞİNCİ VECİH::ПЯТЫЙ АСПЕКТ
+#18::fihrist-10::_ALTINCI VECİH::ШЕСТОЙ АСПЕКТ

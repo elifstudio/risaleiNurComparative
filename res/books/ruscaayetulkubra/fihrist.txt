@@ -1,0 +1,55 @@
+#1::fihrist-0::Yedinci Şua::Седьмой луч
+#3::fihrist-1::_Mukaddime::Предисловие
+#8::fihrist-2::_Âyet-ül Kübra::Великое знамение
+#8::fihrist-3::__1. Mertebe::ЧАСТЬ ПЕРВАЯ
+#9::fihrist-4::__2. Mertebe::ЧАСТЬ ВТОРАЯ
+#13::fihrist-5::__3. Mertebe::Часть третья
+#14::fihrist-6::__4. Mertebe::Часть четвертая
+#16::fihrist-7::__5. Mertebe::Часть пятая
+#17::fihrist-8::__6. Mertebe::Часть шестая
+#18::fihrist-9::__7. Mertebe::Часть седьмая
+#20::fihrist-10::__8. Mertebe::Часть восьмая
+#21::fihrist-11::__9. Mertebe::Часть девятая
+#22::fihrist-12::__10. Mertebe::Часть десятая
+#23::fihrist-13::__11. Mertebe::Часть одинадцатая
+#24::fihrist-14::__12-13. Mertebe::Часть деванадцатая, тринадцатая
+#26::fihrist-15::__14-15. Mertebe::Часть четырнадцатая, пятьнадцатая
+#30::fihrist-16::__16. Mertebe::Часть шестнадцатая
+#30::fihrist-17::___Birincisi::Первая
+#30::fihrist-18::___İkincisi::Вторая
+#31::fihrist-19::___Üçüncüsü::Третья
+#32::fihrist-20::___Dördüncüsü::Четвертая
+#32::fihrist-21::___Beşincisi::Пятая
+#33::fihrist-22::___Altıncısı::Шестая
+#33::fihrist-23::___Yedincisi::Седьмая
+#33::fihrist-24::___Sekizincisi::Восьмая
+#33::fihrist-25::___Dokuzuncusu::Девятая
+#36::fihrist-26::__17. Mertebe::Часть семьнадцатая
+#42::fihrist-27::__18. Mertebe::Часть восемьнадцатая
+#42::fihrist-28::___Birinci Hakikat::Первая истина
+#45::fihrist-29::___İkinci Hakikat::Вторая истина
+#46::fihrist-30::__19. Mertebe::Часть девятьнадцатая
+#47::fihrist-31::___Birinci Hakikat::Первая истина
+#49::fihrist-32::___İkinci Hakikat::Вторая истина
+#51::fihrist-33::_İHTAR::Напоминание
+#52::fihrist-34::_İkinci Bab::Вторая Часть
+#52::fihrist-35::__Birinci Menzil::Первый этап
+#52::fihrist-36::___Birinci Hakikat::Первая истина
+#53::fihrist-37::___İkinci Hakikat::Вторая истина
+#53::fihrist-38::___Üçüncü Hakikat::Третья истина
+#54::fihrist-39::___Dördüncü Hakikat::Четвертая истина
+#55::fihrist-40::__İkinci menzil::Второй этап
+#56::fihrist-41::___Birinci Hakikat::Первая истина
+#57::fihrist-42::___İkinci Hakikat::Вторая истина
+#59::fihrist-43::___Üçüncü Hakikat::Третья истина
+#60::fihrist-44::____Birinci Sır::Первый секрет
+#61::fihrist-45::____İkinci Sır::Второй секрет
+#63::fihrist-46::___Dördüncü Hakikat::Четвертая истина
+#64::fihrist-47::___Beşinci Hakikat::Пятая истина
+#67::fihrist-48::__Üçüncü menzil::Третий этап
+#69::fihrist-49::___Birinci Hakikat::Первая истина
+#70::fihrist-50::___İkinci Hakikat::Вторая истина
+#72::fihrist-51::___Üçüncü Hakikat::Третья истина
+#73::fihrist-52::___Dördüncü Hakikat::Четвертая истина
+#79::fihrist-53::_İHTAR::Напоминание
+#80::fihrist-54::_Manevî Bir Muhaverede Bir Sual ve Cevab::Воспрос и ответ в некой духовной беседе
