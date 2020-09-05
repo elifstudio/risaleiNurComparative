@@ -1,0 +1,56 @@
+#1::fihrist-0::THE SEVENTH RAY
+#1::fihrist-2::AN IMPORTANT WARNING AND STATEMENT OF PURPOSE
+#3::fihrist-3::INTRODUCTION
+#8::fihrist-4::THE SUPREME SIGN
+#8::fihrist-5::1ST DEGREE
+#9::fihrist-6::2ND DEGREE
+#13::fihrist-7::3RD DEGREE
+#14::fihrist-8::4TH DEGREE
+#16::fihrist-9::5TH DEGREE
+#17::fihrist-10::6TH DEGREE
+#18::fihrist-11::7TH DEGREE
+#20::fihrist-12::8TH DEGREE
+#21::fihrist-13::9TH DEGREE
+#22::fihrist-14::10TH DEGREE
+#23::fihrist-15::11TH DEGREE
+#24::fihrist-16::12TH-13TH DEGREE
+#26::fihrist-17::14TH-15TH DEGREE
+#30::fihrist-18::16TH DEGREE
+#30::fihrist-19::THE FIRST
+#30::fihrist-20::THE SECOND
+#31::fihrist-21::THE THIRD
+#32::fihrist-22::THE FOURTH
+#32::fihrist-23::THE FIFTH
+#33::fihrist-24::THE SIXTH
+#33::fihrist-25::THE SEVENTH
+#33::fihrist-26::THE EIGHTH
+#33::fihrist-27::THE NINTH
+#36::fihrist-28::17TH DEGREE
+#42::fihrist-29::18TH DEGREE
+#42::fihrist-30::FIRST TRUTH
+#45::fihrist-31::SECOND TRUTH
+#46::fihrist-32::19TH DEGREE
+#47::fihrist-33::THE FIRST TRUTH
+#49::fihrist-34::THE SECOND TRUTH
+#51::fihrist-35::NOTE
+#52::fihrist-36::SECOND CHAPTER
+#52::fihrist-37::FIRST STOPPING-PLACE
+#52::fihrist-38::THE FIRST TRUTH
+#53::fihrist-39::THE SECOND TRUTH
+#53::fihrist-40::THE THIRD TRUTH
+#54::fihrist-41::THE FOURTH TRUTH
+#55::fihrist-42::SECOND STOPPING-PLACE
+#56::fihrist-43::THE FIRST TRUTH
+#57::fihrist-44::THE SECOND TRUTH
+#59::fihrist-45::THE THIRD TRUTH
+#60::fihrist-46::FIRST MYSTERY
+#61::fihrist-47::SECOND MYSTERY
+#63::fihrist-48::THE FOURTH TRUTH
+#64::fihrist-49::THE FIFTH TRUTH
+#67::fihrist-50::THIRD STOPPING-PLACE
+#69::fihrist-51::THE FIRST TRUTH
+#70::fihrist-52::THE SECOND TRUTH
+#72::fihrist-53::THE THIRD TRUTH
+#73::fihrist-54::THE FOURTH TRUTH
+#79::fihrist-55::NOTE
+#80::fihrist-56::ON THE PURPOSE OF THE RISALE-I NUR

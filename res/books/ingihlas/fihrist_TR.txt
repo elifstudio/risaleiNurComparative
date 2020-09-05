@@ -1,0 +1,15 @@
+#1::fihrist-0::YİRMİNCİ LEM'A
+#2::fihrist-1::BİRİNCİ NOKTA
+#3::fihrist-2::BİRİNCİ SEBEB
+#7::fihrist-3::İKİNCİ SEBEB
+#12::fihrist-4::ÜÇÜNCÜ SEBEB
+#16::fihrist-5::DÖRDÜNCÜ SEBEB
+#17::fihrist-6::BEŞİNCİ SEBEB
+#19::fihrist-7::ALTİNCİ SEBEB
+#21::fihrist-8::YEDİNCİ SEBEB
+#25::fihrist-9::YİRMİBİRİNCİ LEM'A
+#27::fihrist-10::BİRİNCİ DÜSTURUNUZ
+#27::fihrist-11::İKİNCİ DÜSTURUNUZ
+#29::fihrist-12::ÜÇÜNCÜ DÜSTURUNUZ
+#31::fihrist-13::DÖRDÜNCÜ DÜSTURUNUZ
+#39::fihrist-14::BİR KISIM KARDEŞLERİME HUSUSÎ BİR MEKTUBDUR

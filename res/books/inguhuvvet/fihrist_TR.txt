@@ -1,0 +1,10 @@
+#1::fihrist-0::YİRMİİKİNCİ MEKTUB
+#1::fihrist-1::BİRİNCİ MEBHAS
+#2::fihrist-2::BİRİNCİ VECİH
+#2::fihrist-3::İKİNCİ VECİH
+#3::fihrist-4::ÜÇÜNCÜ VECİH
+#4::fihrist-5::DÖRDÜNCÜ VECİH
+#7::fihrist-6::BEŞİNCİ VECİH
+#9::fihrist-7::ALTINCI VECİH
+#10::fihrist-8::İKİNCİ MEBHAS
+#14::fihrist-9::HÂTİME

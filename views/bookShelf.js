@@ -45,8 +45,8 @@ function getEnglishBooks() {
       id: 1,
       title: "Sünnet-i Seniyye",
       img: "img/books_cover/ing11lema.jpg",
-      sections: getSections("ing19soz/ing19soz", 2),
-      content: "res/books/ing19soz/fihrist.txt"
+      sections: getSections("ing11lema/ing11lema", 2),
+      content: "res/books/ing11lema/fihrist.txt"
     },
     {
       id: 2,
@@ -54,6 +54,141 @@ function getEnglishBooks() {
       img: "img/books_cover/ing19mektub.jpg",
       sections: getSections("ing19mektub/ing19mektub", 14),
       content: "res/books/ing19mektub/fihrist.txt"
+    },
+    {
+      id: 3,
+      title: "Onbeşinci Şua",
+      img: "img/books_cover/rays.jpg",
+      sections: getSections("ing15sua/ing15sua", 8),
+      content: "res/books/ing15sua/fihrist.txt"
+    },
+    {
+      id: 4,
+      title: "Yirmiikinci Söz",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    },
+    {
+      id: 6,
+      title: "Yirmiüçüncü Söz",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing23soz/ing23soz", 7),
+      content: "res/books/ing23soz/fihrist.txt"
+    },
+    {
+      id: 7,
+      title: "Yirmibeşinci Söz",
+      img: "img/books_cover/ing25soz.jpg",
+      sections: getSections("ing25soz/ing25soz", 10),
+      content: "res/books/ing25soz/fihrist.txt"
+    },
+    {
+      id: 8,
+      title: "Yirmialtıncı Mektub",
+      img: "img/books_cover/letters.jpg",
+      sections: getSections("ing26mektub/ing26mektub", 1),
+      content: "res/books/ing26mektub/fihrist.txt"
+    }, {
+      id: 9,
+      title: "Yirmidokuzuncu Söz",
+      img: "img/books_cover/ing29soz.jpg",
+      sections: getSections("ing29soz/ing29soz", 4),
+      content: "res/books/ing29soz/fihrist.txt"
+    },
+    {
+      id: 10,
+      title: "Otuzuncu Söz",
+      img: "img/books_cover/ing30soz.jpg",
+      sections: getSections("ing30soz/ing30soz", 3),
+      content: "res/books/ing30soz/fihrist.txt"
+    },
+    {
+      id: 11,
+      title: "Otuz Birinci Söz",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing31soz/ing31soz", 4),
+      content: "res/books/ing31soz/fihrist.txt"
+    }, {
+      id: 12,
+      title: "Otuz İkinci Söz",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing32soz/ing32soz", 7),
+      content: "res/books/ing32soz/fihrist.txt"
+    },
+    {
+      id: 13,
+      title: "Otuz Üçüncü Söz",
+      img: "img/books_cover/ing33pencere.jpg",
+      sections: getSections("ing33soz/ing33soz", 7),
+      content: "res/books/ing33soz/fihrist.txt"
+    },
+    {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    }, {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    },
+    {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    },
+    {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    }, {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    },
+    {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    },
+    {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    }, {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    },
+    {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
+    },
+    {
+      id: 5,
+      title: "ssss",
+      img: "img/books_cover/words.jpg",
+      sections: getSections("ing22soz/ing22soz", 4),
+      content: "res/books/ing22soz/fihrist.txt"
     }
   ]
 }

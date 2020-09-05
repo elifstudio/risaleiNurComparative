@@ -1,0 +1,12 @@
+#1::fihrist-0::ONBİRİNCİ LEM'A
+#1::fihrist-1::BİRİNCİ NÜKTE
+#2::fihrist-2::İKİNCİ NÜKTE
+#2::fihrist-3::ÜÇÜNCÜ NÜKTE
+#3::fihrist-4::DÖRDÜNCÜ NÜKTE
+#4::fihrist-5::BEŞİNCİ NÜKTE
+#5::fihrist-6::ALTINCI NÜKTE
+#6::fihrist-7::YEDİNCİ NÜKTE
+#7::fihrist-8::SEKİZİNCİ NÜKTE
+#8::fihrist-9::DOKUZUNCU NÜKTE
+#9::fihrist-10::ONUNCU NÜKTE
+#11::fihrist-11::ONBİRİNCİ NÜKTE

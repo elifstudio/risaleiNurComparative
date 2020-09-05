@@ -1,0 +1,9 @@
+#1::fihrist-0::OTUZUNCU SÖZ::THE THIRTIETH WORD
+#1::fihrist-1::_BİRİNCİ MAKSAD::FIRST AIM
+#13::fihrist-2::_İKİNCİ MAKSAD::SECOND AIM
+#13::fihrist-3::__MUKADDİME::INTRODUCTION
+#15::fihrist-4::__BİRİNCİ NOKTA::FIRST POINT
+#15::fihrist-5::___BİRİNCİ MEBHAS::FIRST MATTER
+#16::fihrist-6::___İKİNCİ MEBHAS::SECOND MATTER
+#19::fihrist-7::__İKİNCİ NOKTA::SECOND POINT
+#20::fihrist-8::__ÜÇÜNCÜ NOKTA::THIRD POINT

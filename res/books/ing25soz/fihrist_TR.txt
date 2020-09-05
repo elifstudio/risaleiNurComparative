@@ -1,0 +1,62 @@
+#1::fihrist-0::YİRMİBEŞİNCİ SÖZ
+#2::fihrist-1::MU'CİZÂT-I KUR'ANİYE RİSALESİ
+#2::fihrist-2::MUKADDEME
+#2::fihrist-3::BİRİNCİ CÜZ'
+#3::fihrist-4::İKİNCİ CÜZ' VE TETİMME-İ TÂRİF
+#3::fihrist-5::ÜÇÜNCÜ CÜZ'
+#4::fihrist-6::BİRİNCİ ŞU'LE
+#4::fihrist-7::BİRİNCİ ŞUA
+#4::fihrist-8::BİRİNCİ SÛRET
+#6::fihrist-9::İKİNCİ SÛRET
+#6::fihrist-10::BİRİNCİ NOKTA
+#8::fihrist-11::İKİNCİ NOKTA
+#10::fihrist-12::ÜÇÜNCÜ NOKTA
+#14::fihrist-13::DÖRDÜNCÜ NOKTA
+#16::fihrist-14::BEŞİNCİ NOKTA
+#27::fihrist-15::İKİNCİ ŞUA
+#27::fihrist-16::BİRİNCİ LEM'A
+#32::fihrist-17::İKİNCİ LEM'A
+#32::fihrist-18::ÜÇÜNCÜ LEM'A
+#32::fihrist-19::DÖRDÜNCÜ LEM'A
+#34::fihrist-20::BEŞİNCİ LEM'A
+#34::fihrist-21::BİRİNCİ IŞIK
+#34::fihrist-22::İKİNCİ IŞIK
+#34::fihrist-23::ÜÇÜNCÜ IŞIK
+#37::fihrist-24::DÖRDÜNCÜ IŞIK
+#39::fihrist-25::BEŞİNCİ IŞIK
+#40::fihrist-26::ÜÇÜNCÜ ŞUA
+#40::fihrist-27::BİRİNCİ CİLVE
+#40::fihrist-28::BİRİNCİ ŞAVK
+#41::fihrist-29::İKİNCİ ŞAVK
+#42::fihrist-30::ÜÇÜNCÜ ŞAVK
+#43::fihrist-31::İKİNCİ CİLVE
+#48::fihrist-32::ÜÇÜNCÜ CİLVE
+#50::fihrist-33::İKİNCİ ŞU'LE
+#50::fihrist-34::BİRİNCİ NUR
+#51::fihrist-35::İKİNCİ NURU
+#51::fihrist-36::BİRİNCİ MEZİYET-İ CEZALET
+#52::fihrist-37::İKİNCİ NÜKTE-İ BELÂGAT
+#54::fihrist-38::ÜÇÜNCÜ MEZİYET-İ CEZALET
+#55::fihrist-39::DÖRDÜNCÜ NÜKTE-İ BELÂGAT
+#56::fihrist-40::BEŞİNCİ MEZİYET-İ CEZALET
+#57::fihrist-41::ALTINCI NÜKTE-İ BELÂGAT
+#58::fihrist-42::YEDİNCİ SIRR-I BELÂGAT
+#60::fihrist-43::SEKİZİNCİ MEZİYET-İ CEZALET
+#63::fihrist-44::DOKUZUNCU NÜKTE-İ BELÂGAT
+#65::fihrist-45::ONUNCU NÜKTE-İ BELÂGAT
+#65::fihrist-46::İKİNCİ ŞU'LENİN ÜÇÜNCÜ NURU
+#69::fihrist-47::ÜÇÜNCÜ ŞU'LE
+#69::fihrist-48::BİRİNCİ ZİYA
+#71::fihrist-49::İKİNCİ ZİYA
+#74::fihrist-50::ÜÇÜNCÜ ZİYA
+#78::fihrist-51::HÂTİME
+#80::fihrist-52::BİRİNCİ ZEYL
+#80::fihrist-53::BİRİNCİ NOKTA
+#81::fihrist-54::İKİNCİ NOKTA
+#81::fihrist-55::ÜÇÜNCÜ NOKTA
+#82::fihrist-56::DÖRDÜNCÜ NOKTA
+#82::fihrist-57::BEŞİNCİ NOKTA
+#83::fihrist-58::ALTINCI NOKTA
+#86::fihrist-59::ONBİRİNCİ ŞUA OLAN MEYVE RİSALESİ'NİN ONUNCU MES'ELESİ
+#86::fihrist-60::EMİRDAĞI ÇİÇEĞİ
+#96::fihrist-61::BU ONUNCU MES'ELEYE BİR HÂTİME OLARAK İKİ HAŞİYEDİR

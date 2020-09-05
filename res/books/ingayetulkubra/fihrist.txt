@@ -1,0 +1,57 @@
+ingayetulkubra,TR,EN
+#1::fihrist-0::YEDİNCİ ŞUA::THE SEVENTH RAY
+#1::fihrist-2::_MÜHİM BİR İHTAR VE BİR İFADE-İ MERAM::AN IMPORTANT WARNING AND STATEMENT OF PURPOSE
+#3::fihrist-3::_MUKADDİME::INTRODUCTION
+#8::fihrist-4::_ÂYET-ÜL KÜBRA::THE SUPREME SIGN
+#8::fihrist-5::__1. MERTEBE::1ST DEGREE
+#9::fihrist-6::__2. MERTEBE::2ND DEGREE
+#13::fihrist-7::__3. MERTEBE::3RD DEGREE
+#14::fihrist-8::__4. MERTEBE::4TH DEGREE
+#16::fihrist-9::__5. MERTEBE::5TH DEGREE
+#17::fihrist-10::__6. MERTEBE::6TH DEGREE
+#18::fihrist-11::__7. MERTEBE::7TH DEGREE
+#20::fihrist-12::__8. MERTEBE::8TH DEGREE
+#21::fihrist-13::__9. MERTEBE::9TH DEGREE
+#22::fihrist-14::__10. MERTEBE::10TH DEGREE
+#23::fihrist-15::__11. MERTEBE::11TH DEGREE
+#24::fihrist-16::__12-13. MERTEBE::12TH-13TH DEGREE
+#26::fihrist-17::__14-15. MERTEBE::14TH-15TH DEGREE
+#30::fihrist-18::__16. MERTEBE::16TH DEGREE
+#30::fihrist-19::___BİRİNCİSİ::THE FIRST
+#30::fihrist-20::___İKİNCİSİ::THE SECOND
+#31::fihrist-21::___ÜÇÜNCÜSÜ::THE THIRD
+#32::fihrist-22::___DÖRDÜNCÜSÜ::THE FOURTH
+#32::fihrist-23::___BEŞİNCİSİ::THE FIFTH
+#33::fihrist-24::___ALTINCISI::THE SIXTH
+#33::fihrist-25::___YEDİNCİSİ::THE SEVENTH
+#33::fihrist-26::___SEKİZİNCİSİ::THE EIGHTH
+#33::fihrist-27::___DOKUZUNCUSU::THE NINTH
+#36::fihrist-28::__17. MERTEBE::17TH DEGREE
+#42::fihrist-29::__18. MERTEBE::18TH DEGREE
+#42::fihrist-30::___BİRİNCİ HAKİKAT::FIRST TRUTH
+#45::fihrist-31::___İKİNCİ HAKİKAT::SECOND TRUTH
+#46::fihrist-32::__19. MERTEBE::19TH DEGREE
+#47::fihrist-33::___BİRİNCİ HAKİKAT::THE FIRST TRUTH
+#49::fihrist-34::___İKİNCİ HAKİKAT::THE SECOND TRUTH
+#51::fihrist-35::_İHTAR::NOTE
+#52::fihrist-36::_İKİNCİ BAB::SECOND CHAPTER
+#52::fihrist-37::__BİRİNCİ MENZİL::FIRST STOPPING-PLACE
+#52::fihrist-38::___BİRİNCİ HAKİKAT::THE FIRST TRUTH
+#53::fihrist-39::___İKİNCİ HAKİKAT::THE SECOND TRUTH
+#53::fihrist-40::___ÜÇÜNCÜ HAKİKAT::THE THIRD TRUTH
+#54::fihrist-41::___DÖRDÜNCÜ HAKİKAT::THE FOURTH TRUTH
+#55::fihrist-42::__İKİNCİ MENZİL::SECOND STOPPING-PLACE
+#56::fihrist-43::___BİRİNCİ HAKİKAT::THE FIRST TRUTH
+#57::fihrist-44::___İKİNCİ HAKİKAT::THE SECOND TRUTH
+#59::fihrist-45::___ÜÇÜNCÜ HAKİKAT::THE THIRD TRUTH
+#60::fihrist-46::____BİRİNCİ SIR::FIRST MYSTERY
+#61::fihrist-47::____İKİNCİ SIR::SECOND MYSTERY
+#63::fihrist-48::___DÖRDÜNCÜ HAKİKAT::THE FOURTH TRUTH
+#64::fihrist-49::___BEŞİNCİ HAKİKAT::THE FIFTH TRUTH
+#67::fihrist-50::__ÜÇÜNCÜ MENZİL::THIRD STOPPING-PLACE
+#69::fihrist-51::___BİRİNCİ HAKİKAT::THE FIRST TRUTH
+#70::fihrist-52::___İKİNCİ HAKİKAT::THE SECOND TRUTH
+#72::fihrist-53::___ÜÇÜNCÜ HAKİKAT::THE THIRD TRUTH
+#73::fihrist-54::___DÖRDÜNCÜ HAKİKAT::THE FOURTH TRUTH
+#79::fihrist-55::_İHTAR::NOTE
+#80::fihrist-56::_MANEVÎ BİR MUHAVEREDE BİR SUAL VE CEVAB::ON THE PURPOSE OF THE RISALE-I NUR

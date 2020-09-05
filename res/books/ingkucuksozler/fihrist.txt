@@ -1,0 +1,16 @@
+ingkucuksozler,TR,EN
+#1::fihrist-0::KÜÇÜK SÖZLER::THE SHORT WORDS
+#2::fihrist-1::_BİRİNCİ SÖZ::THE FIRST WORD
+#10::fihrist-2::_İKİNCİ SÖZ::THE SECOND WORD
+#17::fihrist-3::_ÜÇÜNCÜ SÖZ::THE THIRD WORD
+#25::fihrist-4::_DÖRDÜNCÜ SÖZ::THE FOURTH WORD
+#31::fihrist-5::_BEŞİNCİ SÖZ::THE FIFTH WORD
+#38::fihrist-6::_ALTINCI SÖZ::THE SIXTH WORD
+#51::fihrist-7::_YEDİNCİ SÖZ::THE SEVENTH WORD
+#63::fihrist-8::_SEKİZİNCİ SÖZ::THE EIGHTH WORD
+#82::fihrist-9::_DOKUZUNCU SÖZ::THE NINTH WORD
+#83::fihrist-10::__BİRİNCİ NÜKTE::FIRST POINT
+#84::fihrist-11::__İKİNCİ NÜKTE::SECOND POINT
+#85::fihrist-12::__ÜÇÜNCÜ NÜKTE::THIRD POINT
+#86::fihrist-13::__DÖRDÜNCÜ NÜKTE::FOURTH POINT
+#89::fihrist-14::__BEŞİNCİ NÜKTE::FIFTH POINT

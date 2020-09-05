@@ -1,0 +1,15 @@
+#1::fihrist-0::THE TWENTIETH FLASH
+#2::fihrist-1::FIRST POINT
+#3::fihrist-2::THE FIRST CAUSE
+#7::fihrist-3::SECOND CAUSE
+#12::fihrist-4::THIRD CAUSE
+#16::fihrist-5::FOURTH CAUSE
+#17::fihrist-6::FIFTH CAUSE
+#19::fihrist-7::SIXTH CAUSE
+#21::fihrist-8::SEVENTH CAUSE
+#25::fihrist-9::THE TWENTY-FIRST FLASH
+#27::fihrist-10::YOUR FIRST RULE
+#27::fihrist-11::YOUR SECOND RULE
+#29::fihrist-12::YOUR THIRD RULE
+#31::fihrist-13::YOUR FOURTH RULE
+#39::fihrist-14::A CONFIDENTIAL LETTER TO SOME OF MY BROTHERS
