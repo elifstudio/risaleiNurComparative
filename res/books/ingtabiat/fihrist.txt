@@ -1,4 +1,3 @@
-ingtabiat,TR,EN
 #1::fihrist-0::YİRMİÜÇÜNCÜ LEM'A::THE TWENTY-THIRD FLASH
 #1::fihrist-1::_İHTAR::A REMINDER
 #5::fihrist-2::_MUKADDİME::INTRODUCTION

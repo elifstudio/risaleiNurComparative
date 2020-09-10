@@ -1,4 +1,3 @@
-ingtesettur,TR,EN
 #1::fihrist-0::YİRMİDÖRDÜNCÜ LEM'A::THE TWENTY-FOURTH FLASH
 #2::fihrist-1::_BİRİNCİ HİKMET::FIRST INSTANCE OF WISDOM
 #3::fihrist-2::_İKİNCİ HİKMET::SECOND INSTANCE OF WISDOM

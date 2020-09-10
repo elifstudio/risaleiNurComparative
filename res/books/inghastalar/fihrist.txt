@@ -1,4 +1,3 @@
-inghastalar,TR,EN
 #1::fihrist-0::HASTALAR RİSALESİ::THE TWENTY-FIFTH FLASH
 #2::fihrist-1::_İHTAR VE İTİZAR::WARNING AND APOLOGY
 #3::fihrist-2::_BİRİNCİ DEVA::FIRST REMEDY

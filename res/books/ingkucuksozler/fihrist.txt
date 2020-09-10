@@ -1,4 +1,3 @@
-ingkucuksozler,TR,EN
 #1::fihrist-0::KÜÇÜK SÖZLER::THE SHORT WORDS
 #2::fihrist-1::_BİRİNCİ SÖZ::THE FIRST WORD
 #10::fihrist-2::_İKİNCİ SÖZ::THE SECOND WORD

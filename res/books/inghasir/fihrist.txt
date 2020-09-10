@@ -1,4 +1,3 @@
-inghasir,TR,EN
 #1::fihrist-0::ONUNCU SÖZ::THE TENTH WORD
 #7::fihrist-1::_BİRİNCİ SURET::FİRST ASPECT
 #7::fihrist-2::_İKİNCİ SURET::SECOND ASPECT

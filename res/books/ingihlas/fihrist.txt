@@ -1,4 +1,3 @@
-ingihlas,TR,EN
 #1::fihrist-0::YİRMİNCİ LEM'A::THE TWENTIETH FLASH
 #2::fihrist-1::_BİRİNCİ NOKTA::FIRST POINT
 #3::fihrist-2::_BİRİNCİ SEBEB::THE FIRST CAUSE
