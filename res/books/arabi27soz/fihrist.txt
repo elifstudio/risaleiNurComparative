@@ -1,0 +1,15 @@
+#1::fihrist-0::YİRMİ YEDİNCİ SÖZ::الكلمة السابعة والعشرون
+#1::fihrist-1::_BİRİNCİSİ::اولها
+#2::fihrist-2::_İKİNCİSİ::ثانيها
+#2::fihrist-3::_ÜÇÜNCÜSÜ::ثالثها
+#5::fihrist-4::_DÖRDÜNCÜSÜ::رابعها
+#5::fihrist-5::_BEŞİNCİSİ::خامسها
+#12::fihrist-6::_HÂTİME::الخاتمة
+#17::fihrist-7::_YİRMİ YEDİNCİ SÖZ’ÜN ZEYLİ::ﺫﻳﻞﺭﺳﺎﻟﺔﺍﻻ‌ﺟﺘﻬﺎﺩ
+#18::fihrist-8::__BİRİNCİ HİKMET::الحكمة الاولى
+#20::fihrist-9::__İKİNCİ SEBEP::لحكمة الثانية
+#24::fihrist-10::__ÜÇÜNCÜ SEBEP::السبب الثالث
+#29::fihrist-11::__SUAL::سؤال
+#30::fihrist-12::__İKİNCİ SUAL::السؤال الثاني
+#31::fihrist-13::__ÜÇÜNCÜ SUAL::السؤال الثالث
+#32::fihrist-14::__DÖRDÜNCÜ SUAL::السؤال الرابع

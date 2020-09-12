@@ -1,0 +1,12 @@
+#1::fihrist-0::ONBİRİNCİ LEM'A::اللمعة الحادية عشرة
+#1::fihrist-1::_BİRİNCİ NÜKTE::النكتة الأولى
+#2::fihrist-2::_İKİNCİ NÜKTE::النكتة الثانية
+#2::fihrist-3::_ÜÇÜNCÜ NÜKTE::النكتة الثالثة
+#3::fihrist-4::_DÖRDÜNCÜ NÜKTE::النكتة الرابعة
+#4::fihrist-5::_BEŞİNCİ NÜKTE::النكتة الخامسة
+#5::fihrist-6::_ALTINCI NÜKTE::النكتة السادسة
+#6::fihrist-7::_YEDİNCİ NÜKTE::النكتة السابعة
+#7::fihrist-8::_SEKİZİNCİ NÜKTE::النكتة الثامنة
+#8::fihrist-9::_DOKUZUNCU NÜKTE::النكتة التاسعة
+#9::fihrist-10::_ONUNCU NÜKTE::النكتة العاشرة
+#11::fihrist-11::_ONBİRİNCİ NÜKTE::النكتة الحادية عشرة

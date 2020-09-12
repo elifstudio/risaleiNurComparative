@@ -1,0 +1,13 @@
+#1::fihrist-0::YİRMİ ÜÇÜNCÜ SÖZ
+#1::fihrist-1::BİRİNCİ MEBHAS
+#1::fihrist-2::BİRİNCİ NOKTA
+#2::fihrist-3::İKİNCİ NOKTA
+#5::fihrist-4::ÜÇÜNCÜ NOKTA
+#6::fihrist-5::DÖRDÜNCÜ NOKTA
+#7::fihrist-6::BEŞİNCİ NOKTA
+#10::fihrist-7::İKİNCİ MEBHAS
+#10::fihrist-8::BİRİNCİ NÜKTE
+#12::fihrist-9::İKİNCİ NÜKTE
+#15::fihrist-10::ÜÇÜNCÜ NÜKTE
+#19::fihrist-11::DÖRDÜNCÜ NÜKTE
+#20::fihrist-12::BEŞİNCİ NÜKTE

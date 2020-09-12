@@ -1,0 +1,39 @@
+#1::fihrist-0::ONUNCU SÖZ::الكلمة العاشرة  
+#3::fihrist-1::_BİRİNCİ SURET::الصورة الأولى
+#3::fihrist-2::_İKİNCİ SURET::الصورة الثانية
+#4::fihrist-3::_ÜÇÜNCÜ SURET::الصورة الثالثة
+#4::fihrist-4::_DÖRDÜNCÜ SURET::الصورة الرابعة
+#5::fihrist-5::_BEŞİNCİ SURET::الصورة الخامسة 
+#6::fihrist-6::_ALTINCI SURET::الصورة السادسة
+#7::fihrist-7::_YEDİNCİ SURET::الصورة السابعة
+#8::fihrist-8::_SEKİZİNCİ SURET::الصورة الثامنة
+#8::fihrist-9::_DOKUZUNCU SURET::الصورة التاسعة
+#9::fihrist-10::_ONUNCU SURET::الصورة العاشرة
+#10::fihrist-11::_ON BİRİNCİ SURET::الصورة الحادية عشرة
+#11::fihrist-12::_ON İKİNCİ SURET::الصورة الثانية عشرة
+#14::fihrist-13::_MUKADDİME::المقدمة
+#14::fihrist-14::__BİRİNCİ İŞARET::الإشارة الأولى
+#16::fihrist-15::__İKİNCİ İŞARET::الإشارة الثانية
+#18::fihrist-16::__ÜÇÜNCÜ İŞARET::الإشارة الثالثة
+#18::fihrist-17::__DÖRDÜNCÜ İŞARET::الإشارة الرابعة
+#19::fihrist-18::_BİRİNCİ HAKİKAT::الحقيقة الأولى
+#19::fihrist-19::_İKİNCİ HAKİKAT::الحقيقة الثانية
+#21::fihrist-20::_ÜÇÜNCÜ HAKİKAT::الحقيقة الثالثة
+#23::fihrist-21::_DÖRDÜNCÜ HAKİKAT::الحقيقة الرابعة
+#26::fihrist-22::_BEŞİNCİ HAKİKAT::الحقيقة الخامسة
+#30::fihrist-23::_ALTINCI HAKİKAT::الحقيقة السادسة
+#34::fihrist-24::_YEDİNCİ HAKİKAT::الحقيقة السابعة
+#37::fihrist-25::_SEKİZİNCİ HAKİKAT::الحقيقة الثامنة
+#38::fihrist-26::_DOKUZUNCU HAKİKAT::الحقيقة التاسعة
+#41::fihrist-27::_ONUNCU HAKİKAT::الحقيقة العاشرة
+#45::fihrist-28::_ON BİRİNCİ HAKİKAT::الحقيقة الحادية عشرة
+#47::fihrist-29::_ON İKİNCİ HAKİKAT::الحقيقة الثانية عشرة
+#49::fihrist-30::_HÂTİME::الخاتمة
+#53::fihrist-31::_ONUNCU SÖZ’ÜN MÜHİM BİR ZEYLİ VE LÂHİKASININ BİRİNCİ PARÇASI::ذيل رسالة الحشرالقطعة الأولى من لاحقة الكلمة العاشرة وذيلها المهم
+#55::fihrist-32::__MUKADDİME::المقدمة
+#55::fihrist-33::__BİRİNCİ NOKTA::النقطة الأولى 
+#57::fihrist-34::__İKİNCİ NOKTA::النقطة الثانية
+#65::fihrist-35::_ZEYLİN İKİNCİ PARÇASI::القطعة الثانية من الذيل
+#71::fihrist-36::_ZEYLİN ÜÇÜNCÜ PARÇASI::القطعة الثالثة من الذيل
+#74::fihrist-37::_ZEYLİN DÖRDÜNCÜ PARÇASI::القطعة الرابعة من الذيل
+#78::fihrist-38::_ZEYLİN BEŞİNCİ PARÇASI::القطعة الخامسة من الذيل

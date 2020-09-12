@@ -27,6 +27,8 @@ function getBooks(selected) {
       return getEnglishBooks();
     case "Russian":
       return getRussianBooks();
+    case "Arabic":
+      return getArabicBooks();
     default:
       break;
   }
@@ -340,6 +342,99 @@ function getRussianBooks() {
       img: "img/books_cover/ruscakucuksozler.jpg",
       sections: getSections("ruscakucuksozlerv5/ruscakucuksozlerv5", 3),
       content: "res/books/ruscakucuksozlerv5/fihrist.txt"
+    }
+  ]
+}
+
+function getArabicBooks() {
+  return [{
+      id: 1,
+      title: "Sünnet-i Seniyye Risalesi",
+      img: "img/books_cover/arabi11lema.jpg",
+      sections: getSections("arabi11lema/arabi11lema", 2),
+      content: "res/books/arabi11lema/fihrist.txt"
+    },
+    {
+      id: 2,
+      title: "23.Söz",
+      img: "img/books_cover/arabi23soz.jpg",
+      sections: getSections("arabi23soz/arabi23soz", 3),
+      content: "res/books/arabi23soz/fihrist.txt"
+    },
+    {
+      id: 3,
+      title: "İçtihad Risalesi(27.Söz)",
+      img: "img/books_cover/arabi27soz.jpg",
+      sections: getSections("arabi27soz/arabi27soz", 4),
+      content: "res/books/arabi27soz/fihrist.txt"
+    },
+    {
+      id: 4,
+      title: "Gençlik Rehberi",
+      img: "img/books_cover/arabigenclik.jpg",
+      sections: getSections("arabigenclik/arabigenclik", 14),
+      content: "res/books/arabigenclik/fihrist.txt"
+    },
+    {
+      id: 5,
+      title: "Haşir Risalesi(10.Söz)",
+      img: "img/books_cover/arabihasir.jpg",
+      sections: getSections("arabihasir/arabihasir", 8),
+      content: "res/books/arabihasir/fihrist.txt"
+    },
+    {
+      id: 6,
+      title: "Hastalar Risalesi",
+      img: "img/books_cover/arabihastalar.jpg",
+      sections: getSections("arabihastalar/arabihastalar", 8),
+      content: "res/books/arabihastalar/fihrist.txt"
+    },
+    {
+      id: 7,
+      title: "Hutbe-i Şamiye",
+      img: "img/books_cover/arabihutbesamiye.jpg",
+      sections: getSections("arabihutbesamiye/arabihutbesamiye", 5),
+      content: "res/books/arabihutbesamiye/fihrist.txt"
+    }, {
+      id: 8,
+      title: "İhlas Risalesi",
+      img: "img/books_cover/arabiihlasuhuvvet.jpg",
+      sections: getSections("arabiihlas/arabiihlas", 4),
+      content: "res/books/arabiihlas/fihrist.txt"
+    },
+    {
+      id: 9,
+      title: "Küçük Sözler",
+      img: "img/books_cover/arabikucuksozler.jpg",
+      sections: getSections("arabikucuksozler/arabikucuksozler", 9),
+      content: "res/books/arabikucuksozler/fihrist.txt"
+    },
+    {
+      id: 10,
+      title: "Ramazan Risalesi",
+      img: "img/books_cover/ramadan.jpg",
+      sections: getSections("arabiramazan/arabiramazan", 2),
+      content: "res/books/arabiramazan/fihrist.txt"
+    }, {
+      id: 11,
+      title: "Tabiat Risalesi",
+      img: "img/books_cover/arabitabiat.jpg",
+      sections: getSections("arabitabiat/arabitabiat", 5),
+      content: "res/books/arabitabiat/fihrist.txt"
+    },
+    {
+      id: 12,
+      title: "Tesettür Risalesi",
+      img: "img/books_cover/arabitesettur.jpg",
+      sections: getSections("arabitesettur/arabitesettur", 1),
+      content: "res/books/arabitesettur/fihrist.txt"
+    },
+    {
+      id: 13,
+      title: "Uhuvvet Risalesi",
+      img: "img/books_cover/arabiihlasuhuvvet.jpg",
+      sections: getSections("arabiuhuvvet/arabiuhuvvet", 5),
+      content: "res/books/arabiuhuvvet/fihrist.txt"
     }
   ]
 }

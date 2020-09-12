@@ -1,0 +1,9 @@
+#1::fihrist-0::KÜÇÜK SÖZLER
+#2::fihrist-1::BİRİNCİ SÖZ
+#10::fihrist-2::İKİNCİ SÖZ
+#17::fihrist-3::ÜÇÜNCÜ SÖZ
+#25::fihrist-4::DÖRDÜNCÜ SÖZ
+#31::fihrist-5::BEŞİNCİ SÖZ
+#38::fihrist-6::ALTINCI SÖZ
+#52::fihrist-7::YEDİNCİ SÖZ
+#64::fihrist-8::SEKİZİNCİ SÖZ

@@ -1,0 +1,9 @@
+#1::fihrist-0::YİRMİNCİ LEM’A::اللمعة العشرون
+#2::fihrist-1::_BİRİNCİ NOKTA::النقطة الأولى
+#3::fihrist-2::_BİRİNCİSİ::السبب الأول
+#7::fihrist-3::_İKİNCİ SEBEB::السبب الثاني
+#12::fihrist-4::_ÜÇÜNCÜ SEBEB::السبب الثالث
+#17::fihrist-5::_DÖRDÜNCÜ SEBEB::السبب الرابع
+#20::fihrist-6::_BEŞİNCİ SEBEB::السبب الخامس
+#25::fihrist-7::_ALTINCI SEBEB::السبب السادس
+#30::fihrist-8::_YEDİNCİ SEBEB::السبب السابع

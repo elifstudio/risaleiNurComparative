@@ -1,0 +1,19 @@
+#1::fihrist-0::TABİAT RİSALESİ::رسالة الطبيعة
+#1::fihrist-1::_İHTAR::تنبيه
+#5::fihrist-2::_MUKADDİME::المقدمة
+#6::fihrist-3::_BİRİNCİ YOL::أما الطريق الأول
+#6::fihrist-4::__BİRİNCİ MUHAL::المحال الأول
+#8::fihrist-5::__İKİNCİ MUHAL::المحال الثاني
+#9::fihrist-6::__ÜÇÜNCÜ MUHAL::المحال الثالث
+#11::fihrist-7::_İKİNCİ MES'ELE::أما المسألة الثانية
+#11::fihrist-8::__BİRİNCİ MUHAL::المحال الأول
+#12::fihrist-9::__İKİNCİ MUHAL::المحال الثاني
+#13::fihrist-10::__ÜÇÜNCÜ MUHAL::المحال الثالث
+#15::fihrist-11::_ÜÇÜNCÜ KELİME::الكلمة الثالثة
+#15::fihrist-12::__BİRİNCİ MUHAL::المحال الأول
+#15::fihrist-13::__İKİNCİ MUHAL::المحال الثاني
+#20::fihrist-14::__ÜÇÜNCÜ MUHAL::المحال الثالث
+#32::fihrist-15::_HÂTİME::الخاتمة
+#32::fihrist-16::__BİRİNCİ SUAL::السؤال الأول
+#35::fihrist-17::__İKİNCİ SUAL::السؤال الثاني
+#40::fihrist-18::__ÜÇÜNCÜ SUAL::السؤال الثالث

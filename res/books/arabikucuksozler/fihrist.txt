@@ -1,0 +1,9 @@
+#1::fihrist-0::KÜÇÜK SÖZLER::كلمات صغيرة
+#2::fihrist-1::_BİRİNCİ SÖZ::الكلمة الأولى
+#10::fihrist-2::_İKİNCİ SÖZ::الكلمة الثانية
+#17::fihrist-3::_ÜÇÜNCÜ SÖZ::الكلمة الثالثة
+#25::fihrist-4::_DÖRDÜNCÜ SÖZ::الكلمة الرابعة
+#31::fihrist-5::_BEŞİNCİ SÖZ::الكلمة الخامسة
+#38::fihrist-6::_ALTINCI SÖZ::الكلمة السادسة
+#52::fihrist-7::_YEDİNCİ SÖZ::الكلمة السابعة
+#64::fihrist-8::_SEKİZİNCİ SÖZ::الكلمة الثامنة
