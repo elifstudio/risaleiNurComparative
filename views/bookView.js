@@ -20,6 +20,27 @@ function displayBook(selected, selectedSection, flag) {
           {
             cols: [
               {},
+              { view: "text", placeholder: "Sayfa", width: 80, id: "pageId" },
+              {
+                view: "button",
+                type: "icon",
+                icon: "mdi mdi-arrow-right-bold",
+                width: 30,
+                css: "webix_secondary",
+                on: {
+                  onItemClick: (id, e) => {
+                    var page = Number(webix.$$("pageId").getValue());
+                    var sectionNum = getSectionNum(page);
+                    var pageStr = "page-" + page;
+                    if (selected.sections.length >= sectionNum) {
+                      if (sectionNum != window.currSection) {
+                        changeSection(selected, sectionNum, "chapter");
+                        window.onAfterLoadChapter = pageStr;
+                      } else scrollTo(pageStr);
+                    }
+                  }
+                }
+              },
               {
                 view: "button",
                 id: "prev",
