@@ -1,0 +1,28 @@
+#1::fihrist-0::YİRMİBEŞİNCİ LEM'A
+#2::fihrist-1::İHTAR VE İTİZAR
+#3::fihrist-2::BİRİNCİ DEVA
+#4::fihrist-3::İKİNCİ DEVA
+#6::fihrist-4::ÜÇÜNCÜ DEVA
+#8::fihrist-5::DÖRDÜNCÜ DEVA
+#11::fihrist-6::BEŞİNCİ DEVA
+#13::fihrist-7::ALTINCI DEVA
+#15::fihrist-8::ALTINCI DEVA (2)
+#17::fihrist-9::YEDİNCİ DEVA
+#19::fihrist-10::SEKİZİNCİ DEVA
+#22::fihrist-11::DOKUZUNCU DEVA
+#24::fihrist-12::ONUNCU DEVA
+#26::fihrist-13::ONBİRİNCİ DEVA
+#29::fihrist-14::ONİKİNCİ DEVA
+#31::fihrist-15::ONÜÇÜNCÜ DEVA
+#34::fihrist-16::ONDÖRDÜNCÜ DEVA
+#38::fihrist-17::ONBEŞİNCİ DEVA
+#41::fihrist-18::ONALTINCI DEVA
+#43::fihrist-19::ONYEDİNCİ DEVA
+#47::fihrist-20::ONSEKİZİNCİ DEVA
+#51::fihrist-21::ONDOKUZUNCU DEVA
+#56::fihrist-22::YİRMİNCİ DEVA
+#59::fihrist-23::YİRMİBİRİNCİ DEVA
+#61::fihrist-24::YİRMİİKİNCİ DEVA
+#63::fihrist-25::YİRMİÜÇÜNCÜ DEVA
+#64::fihrist-26::YİRMİDÖRDÜNCÜ DEVA
+#67::fihrist-27::YİRMİBEŞİNCİ DEVA

@@ -1,0 +1,15 @@
+#1::fihrist-0::KICHIK SO’ZLAR
+#2::fihrist-1::BIRINCHI SO’Z
+#10::fihrist-2::IKKINCHI SO’Z
+#17::fihrist-3::UCHINCHI SO’Z
+#25::fihrist-4::TO’RTINCHI SO’Z
+#31::fihrist-5::BESHINCHI SO’Z
+#38::fihrist-6::OLTINCHI SO’Z
+#52::fihrist-7::YETTINCHI SO’Z
+#64::fihrist-8::SAKKIZINCHI SO’Z
+#85::fihrist-9::TO’QQIZINCHI SO’Z
+#86::fihrist-10::BIRINCHI NUKTA
+#87::fihrist-11::IKKINCHI NUKTA
+#88::fihrist-12::UCHINCHI NUKTA
+#89::fihrist-13::TO’RTINCHI NUKTA
+#92::fihrist-14::BESHINCHI NUKTA

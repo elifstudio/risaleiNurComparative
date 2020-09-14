@@ -1,0 +1,22 @@
+#1::fihrist-0::KÜÇÜK SÖZLER
+#1::fihrist-1::BİRİNCİ SÖZ
+#4::fihrist-2::ON DÖRDÜNCÜ LEM’A’NIN İKİNCİ MAKAMI
+#4::fihrist-3::BİRİNCİ SIR
+#5::fihrist-4::İKİNCİ SIR
+#6::fihrist-5::ÜÇÜNCÜ SIR
+#8::fihrist-6::DÖRDÜNCÜ SIR
+#9::fihrist-7::BEŞİNCİ SIR
+#10::fihrist-8::ALTINCI SIR
+#12::fihrist-9::İKİNCİ SÖZ
+#14::fihrist-10::ÜÇÜNCÜ SÖZ
+#16::fihrist-11::DÖRDÜNCÜ SÖZ
+#18::fihrist-12::BEŞİNCİ SÖZ
+#20::fihrist-13::ALTINCI SÖZ
+#25::fihrist-14::YEDİNCİ SÖZ
+#29::fihrist-15::SEKİZİNCİ SÖZ
+#36::fihrist-16::DOKUZUNCU SÖZ
+#36::fihrist-17::BİRİNCİ NÜKTE
+#37::fihrist-18::İKİNCİ NÜKTE
+#37::fihrist-19::ÜÇÜNCÜ NÜKTE
+#37::fihrist-20::DÖRDÜNCÜ NÜKTE
+#38::fihrist-21::BEŞİNCİ NÜKTE

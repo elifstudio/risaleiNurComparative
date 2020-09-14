@@ -1,0 +1,27 @@
+#1::fihrist-0::Yirmi Beşinci Lem’a::Fünfundzwanzigster Blitz
+#2::fihrist-1::_Birinci Deva::Erstes Heilmittel
+#2::fihrist-2::_İkinci Deva::Zweites Heilmittel
+#2::fihrist-3::_Üçüncü Deva::Drittes Heilmittel
+#3::fihrist-4::_Dördüncü Deva::Viertes Heilmittel
+#3::fihrist-5::_Beşinci Deva::Fünftes Heilmittel
+#4::fihrist-6::_Altıncı Deva::Sechstes Heilmittel (Erster Teil)
+#4::fihrist-7::_Altıncı Deva (2)::Sechstes Heilmittel (Zweiter Teil)
+#5::fihrist-8::_Yedinci Deva::Siebentes Heilmittel
+#5::fihrist-9::_Sekizinci Deva::Achtes Heilmittel
+#6::fihrist-10::_Dokuzuncu Deva::Neuntes Heilmittel
+#6::fihrist-11::_Onuncu Deva::Zehntes Heilmittel
+#7::fihrist-12::_On Birinci Deva::Elftes Heilmittel
+#7::fihrist-13::_On İkinci Deva::Zwölftes Heilmittel
+#8::fihrist-14::_On Üçüncü Deva::Dreizehntes Heilmittel
+#8::fihrist-15::_On Dördüncü Deva::Vierzehntes Heilmittel
+#9::fihrist-16::_On Beşinci Deva::Fünfzehntes Heilmittel
+#10::fihrist-17::_On Altıncı Deva::Sechzehntes Heilmittel
+#10::fihrist-18::_On Yedinci Deva::Siebzehntes Heilmittel
+#11::fihrist-19::_On Sekizinci Deva::Achtzehntes Heilmittel
+#12::fihrist-20::_On Dokuzuncu Deva::Neunzehntes Heilmittel
+#13::fihrist-21::_Yirminci Deva::Zwanzigstes Heilmittel
+#14::fihrist-22::_Yirmi Birinci Deva::Einundzwanzigstes Heilmittel
+#14::fihrist-23::_Yirmi İkinci Deva::Zweiundzwanzigstes Heilmittel
+#15::fihrist-24::_Yirmi Üçüncü Deva::Dreiundzwanzigstes Heilmittel
+#15::fihrist-25::_Yirmi Dördüncü Deva::Vierundzwanzigstes Heilmittel
+#16::fihrist-26::_Yirmi Beşinci Deva::Fünfundzwanzigstes Heilmittel

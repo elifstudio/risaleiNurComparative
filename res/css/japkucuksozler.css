@@ -2,598 +2,668 @@
 
 
 @font-face {
-	font-family:"Aria Script";
-	font-style:normal;
-	font-weight:normal;
-	src : url("../font/AriaScript.otf");
-}
-@font-face {
-	font-family:"Kozuka Mincho Pr6N R";
-	font-style:normal;
-	font-weight:normal;
-	src : url("../font/KozMinPr6N-Regular.otf");
-}
-@font-face {
-	font-family:"Kozuka Mincho Pro R";
-	font-style:normal;
-	font-weight:normal;
-	src : url("../font/KozMinPro-Regular.otf");
+  font-family: "Aria Script";
+  font-style: normal;
+  font-weight: normal;
+  /* src: url("../font/AriaScript.otf"); */
 }
 
 @font-face {
-	font-family:"MS Mincho";
-	font-style:normal;
-	font-weight:normal;
-	src : url("../font/MS-Mincho.ttc");
+  font-family: "Kozuka Mincho Pr6N R";
+  font-style: normal;
+  font-weight: normal;
+  /* src: url("../font/KozMinPr6N-Regular.otf"); */
 }
 
 @font-face {
-	font-family:"Adobe Naskh Medium";
-	font-style:normal;
-	font-weight:500;
-	src: url("file:///android_asset/font/AdobeNaskh-Medium.otf") format('opentype');
-}
-@font-face {
-	font-family:"Barla © 072 Aria Script";
-	font-style:normal;
-	font-weight:normal;
-	src: url("file:///android_asset/font/Barla 072 Aria Script.ttf") format('truetype');
-}
-@font-face {
-	font-family:Souvenir;
-	font-style:normal;
-	font-weight:bold;
-	src: url("file:///android_asset/font/Barla 012 Souvenir Demi BT.ttf") format('truetype');
+  font-family: "Kozuka Mincho Pro R";
+  font-style: normal;
+  font-weight: normal;
+  /* src: url("../font/KozMinPro-Regular.otf"); */
 }
 
 @font-face {
-	font-family:Souvenir;
-	font-style:italic;
-	font-weight:normal;
-	src: url("file:///android_asset/font/souvenir_light_italic_bt.ttf") format('truetype');
+  font-family: "MS Mincho";
+  font-style: normal;
+  font-weight: normal;
+  /* src: url("../font/MS-Mincho.ttc"); */
 }
 
 @font-face {
-	font-family:Souvenir;
-	font-style:italic;
-	font-weight:bold;
-	src: url("file:///android_asset/font/souvenir_demi_italic_bt.ttf") format('truetype');
+  font-family: "Adobe Naskh Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/AdobeNaskh-Medium.otf") format('opentype');
 }
 
 @font-face {
-	font-family:Souvenir;
-	font-style:oblique;
-	font-weight:normal;
-	src : url("file:///android_asset/font/souvenir_light_bt.ttf") format('truetype');
+  font-family: "Barla © 072 Aria Script";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Barla 072 Aria Script.ttf") format('truetype');
 }
 
 @font-face {
-	font-family:Souvenir;
-	font-style:normal;
-	font-weight:normal;
-	src : url("file:///android_asset/font/souvenir_light_bt.ttf") format('truetype');
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/Barla 012 Souvenir Demi BT.ttf") format('truetype');
 }
 
 @font-face {
-	font-family:"Liva Nur";
-	font-style:normal;
-	font-weight:normal;
-	src : url("file:///android_asset/font/Barla 001 Liva Nur.ttf") format('truetype');
+  font-family: Souvenir;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../font/souvenir_light_italic_bt.ttf") format('truetype');
 }
 
-body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
-	margin:0;
-	padding:0;
-	border-width:0;
+@font-face {
+  font-family: Souvenir;
+  font-style: italic;
+  font-weight: bold;
+  src: url("../font/souvenir_demi_italic_bt.ttf") format('truetype');
 }
 
-body, body.gunduz {
-	-epub-hyphens:auto;
-	/*background-image: url("file:///android_asset/css/BG.png");*/
-    background-color: #F0E8D1;
-	background-repeat: repeat;
+@font-face {
+  font-family: Souvenir;
+  font-style: oblique;
+  font-weight: normal;
+  src: url("../font/souvenir_light_bt.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/souvenir_light_bt.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Liva Nur";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Barla 001 Liva Nur.ttf") format('truetype');
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+code,
+blockquote {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+
+body,
+body.gunduz {
+  -epub-hyphens: auto;
+  /*background-image: url("../css/BG.png");*/
+  background-color: #F0E8D1;
+  background-repeat: repeat;
 }
 
 body.gece {
-    background-image: none;
-    background-color: black;
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+  background-image: none;
+  background-color: black;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 body {
-    padding: 15px;
+  padding: 15px;
 }
 
 
 
-hr.sayfaAralik  {
-    border-top-style: solid;
-    border-top-width: 1px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-bottom-style: unset;
+hr.sayfaAralik {
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom-style: unset;
 }
 
 .highlighted {
-	background-color: bisque;
+  background-color: bisque;
 }
 
 p.Alt-Başlık {
-	color:#000000;
-	font-family:"Liva Nur", serif;
-	font-size:1.5em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:15px;
-	margin-left:0;
-	margin-right:0;
-	margin-top:15px;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
-	text-align:center;
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	widows:1;
+  color: #000000;
+  font-family: "Liva Nur", serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
 }
+
 p.Alt-Başlık-japon {
-	color:#000000;
-	font-family:"Yu Mincho Regular", sans-serif;
-	font-size:1.5em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:15px;
-	margin-left:0;
-	margin-right:0;
-	margin-top:15px;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
-	text-align:center;
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	widows:1;
+  color: #000000;
+  font-family: "Yu Mincho Regular", sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
 }
 
 p.Paragraf-1.Japonca {
-	-epub-text-align-last:left;
-	color:#000000;
-	font-family:"Yu Mincho Light", sans-serif;
-	font-size:0.917em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:0;
-	margin-left:0;
-	margin-right:0;
-	margin-top:9px;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
+  -epub-text-align-last: left;
+  color: #000000;
+  font-family: "Yu Mincho Light", sans-serif;
+  font-size: 0.917em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 9px;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
 
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	widows:1;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
 }
-p.Nesih_mücerred, p.Nesih_mücerred.Paragraf-1, p.Nesih_mücerred.Paragraf-2 {
-	-epub-text-align-last:center;
-	color:#e80003;
-	font-family:"Adobe Naskh Medium", serif;
-	font-size:1.5em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:500;
-	line-height:1.2;
-	margin-bottom:9px;
-	margin-left:0;
-	margin-right:0;
-	margin-top:0;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
-	text-align:center;
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	widows:1;
+
+p.Nesih_mücerred,
+p.Nesih_mücerred.Paragraf-1,
+p.Nesih_mücerred.Paragraf-2 {
+  -epub-text-align-last: center;
+  color: #e80003;
+  font-family: "Adobe Naskh Medium", serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 9px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
 }
 
 p.Paragraf-1 {
-	-epub-text-align-last:left;
-	color:#000000;
-	font-family:Souvenir;
-	font-size:0.917em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:0;
-	margin-left:0;
-	margin-right:0;
-	margin-top:9px;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
+  -epub-text-align-last: left;
+  color: #000000;
+  font-family: Souvenir;
+  font-size: 0.917em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 9px;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
 
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	widows:1;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
 }
-p.Paragraf-2 {
-	-epub-text-align-last:left;
-	color:#000000;
-	font-family:Souvenir;
-	font-size:0.917em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:0;
-	margin-left:0;
-	margin-right:0;
-	margin-top:0;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
 
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	widows:1;
+p.Paragraf-2 {
+  -epub-text-align-last: left;
+  color: #000000;
+  font-family: Souvenir;
+  font-size: 0.917em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
+
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
 }
 
 p.Paragraf-2.Japonca {
-	color:#000000;
-	font-family:"Yu Mincho Light", sans-serif;
-	font-size:0.917em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:0;
-	margin-left:0;
-	margin-right:0;
-	margin-top:0;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
+  color: #000000;
+  font-family: "Yu Mincho Light", sans-serif;
+  font-size: 0.917em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
 
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	widows:1;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  widows: 1;
 }
+
 p.kozuko-pro {
-	-epub-text-align-last:left;
-	color:#000000;
-	font-family:"Kozuka Mincho Pro R", serif;
-	font-size:0.75em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.889;
-	margin-bottom:0;
-	margin-left:0;
-	margin-right:0;
-	margin-top:3px;
-	orphans:1;
-	page-break-after:auto;
-	page-break-before:auto;
+  -epub-text-align-last: left;
+  color: #000000;
+  font-family: "Kozuka Mincho Pro R", serif;
+  font-size: 0.75em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.889;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 3px;
+  orphans: 1;
+  page-break-after: auto;
+  page-break-before: auto;
 
-	text-decoration:none;
-	text-indent:9px;
-	text-transform:none;
-	widows:1;
+  text-decoration: none;
+  text-indent: 9px;
+  text-transform: none;
+  widows: 1;
 }
 
 
 
-p.Haşiye, span.Haşiye {
-	font-family:Souvenir, serif;
-	font-style:italic;
-	color: green;
-	/*font-weight:bold;*/
+p.Haşiye,
+span.Haşiye {
+  font-family: Souvenir, serif;
+  font-style: italic;
+  color: green;
+  /*font-weight:bold;*/
 }
 
 span.Nesih_dahili {
-	color:#e80003;
-	font-family:"Adobe Naskh Medium", serif;
-	font-size:1.5em;
-	font-style:normal;
-	font-weight:500;
+  color: #e80003;
+  font-family: "Adobe Naskh Medium", serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 500;
 }
+
 span.kırmızı {
-	color:#e31f26;
-	font-variant:normal;
-	text-transform:none;
+  color: #e31f26;
+  font-variant: normal;
+  text-transform: none;
 }
+
 span.magenta {
-	color:#ec008c;
+  color: #ec008c;
 }
+
 span.mavi {
-	color:#0094d9;
+  color: #0094d9;
 }
+
 span.yeşil {
-	color:#41ad49;
+  color: #41ad49;
 }
 
 span.CharOverride-1 {
-	font-family:"Kozuka Mincho Pr6N R", serif;
-	font-size:1.636em;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "Kozuka Mincho Pr6N R", serif;
+  font-size: 1.636em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-2 {
-	color:#000000;
-	font-family:"Aria Script", serif;
-	font-size:1.636em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	text-decoration:none;
-	text-transform:none;
+  color: #000000;
+  font-family: "Aria Script", serif;
+  font-size: 1.636em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
+
 span.CharOverride-3 {
-	font-size:1.667em;
+  font-size: 1.667em;
 }
+
 span.CharOverride-4 {
-	color:#000000;
-	font-family:"Aria Script", serif;
-	font-size:1.272em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	text-decoration:none;
-	text-transform:none;
+  color: #000000;
+  font-family: "Aria Script", serif;
+  font-size: 1.272em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
+
 span.CharOverride-5 {
-	color:#000000;
-	font-family:"Aria Script Light";
-	font-size:1.272em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	text-decoration:none;
-	text-transform:none;
+  color: #000000;
+  font-family: "Aria Script Light";
+  font-size: 1.272em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
+
 span.CharOverride-6 {
-	color:#000000;
-	font-family:"Aria Script Light";
-	font-size:1.636em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	text-decoration:none;
-	text-transform:none;
+  color: #000000;
+  font-family: "Aria Script Light";
+  font-size: 1.636em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
+
 span.CharOverride-7 {
-	font-family:Souvenir;
-	font-style:normal;
-	font-weight:500;
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: 500;
 }
+
 span.CharOverride-8 {
-	color:#ec008c;
-	font-family:Souvenir;
-	font-style:normal;
-	font-weight:500;
+  color: #ec008c;
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: 500;
 }
+
 span.CharOverride-9 {
-	color:#000000;
-	font-family:Souvenir;
-	font-style:normal;
-	font-weight:500;
+  color: #000000;
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: 500;
 }
+
 span.CharOverride-10 {
-	color:#e31f26;
-	font-family:Souvenir;
-	font-style:normal;
-	font-weight:500;
+  color: #e31f26;
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: 500;
 }
+
 span.CharOverride-11 {
-	font-family:Souvenir;
-	font-style:normal;
-	font-weight:500;
-	text-decoration:underline;
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: underline;
 }
+
 span.CharOverride-12 {
-	color:#000000;
-	font-family:Souvenir;
-	font-style:normal;
-	font-weight:500;
-	text-decoration:underline;
+  color: #000000;
+  font-family: Souvenir;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: underline;
 }
+
 span.CharOverride-13 {
-	color:#000000;
-	font-family:Souvenir, serif;
-	font-size:0.785em;
-	font-style:normal;
-	font-weight:normal;
+  color: #000000;
+  font-family: Souvenir, serif;
+  font-size: 0.785em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-14 {
-	font-family:"Kozuka Mincho Pr6N R", serif;
-	font-size:1.25em;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "Kozuka Mincho Pr6N R", serif;
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-15 {
-	font-size:1.25em;
+  font-size: 1.25em;
 }
+
 span.CharOverride-16 {
-	font-family:"Kozuka Mincho Pr6N R", serif;
-	font-size:0.306em;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "Kozuka Mincho Pr6N R", serif;
+  font-size: 0.306em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-17 {
-	font-size:0.306em;
+  font-size: 0.306em;
 }
+
 span.CharOverride-18 {
-	font-family:"MS Mincho", serif;
-	font-size:0.909em;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "MS Mincho", serif;
+  font-size: 0.909em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-19 {
-	font-family:"MS Mincho";
-	font-style:normal;
-	font-weight:normal;
+  font-family: "MS Mincho";
+  font-style: normal;
+  font-weight: normal;
 }
-span.CharOverride-20, ruby.CharOverride-20 {
-	color:#000000;
-	font-family:"Kozuka Mincho Pro R", serif;
-	font-size:0.818em;
-	font-style:normal;
-	font-weight:normal;
+
+span.CharOverride-20,
+ruby.CharOverride-20 {
+  color: #000000;
+  font-family: "Kozuka Mincho Pro R", serif;
+  font-size: 0.818em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-21 {
-	font-family:"Kozuka Mincho Pro R", serif;
-	font-size:0.818em;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "Kozuka Mincho Pro R", serif;
+  font-size: 0.818em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-22 {
-	color:#e80003;
-	font-family:"Adobe Naskh Medium", serif;
-	font-size:1.272em;
-	font-style:normal;
-	font-weight:500;
+  color: #e80003;
+  font-family: "Adobe Naskh Medium", serif;
+  font-size: 1.272em;
+  font-style: normal;
+  font-weight: 500;
 }
+
 span.CharOverride-23 {
-	color:#000000;
-	font-family:"Adobe Naskh Medium", serif;
-	font-size:0.636em;
-	font-style:normal;
-	font-weight:500;
+  color: #000000;
+  font-family: "Adobe Naskh Medium", serif;
+  font-size: 0.636em;
+  font-style: normal;
+  font-weight: 500;
 }
+
 span.CharOverride-24 {
-	color:#000000;
-	font-family:"Kozuka Mincho Pro R", serif;
-	font-size:0.636em;
-	font-style:normal;
-	font-weight:normal;
+  color: #000000;
+  font-family: "Kozuka Mincho Pro R", serif;
+  font-size: 0.636em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-25 {
-	color:#41ad49;
-	font-family:"MS Mincho", serif;
-	font-size:0.909em;
-	font-style:normal;
-	font-weight:normal;
+  color: #41ad49;
+  font-family: "MS Mincho", serif;
+  font-size: 0.909em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-26 {
-	font-family:Souvenir;
-	font-size:0.375em;
-	font-style:normal;
-	font-weight:500;
-	vertical-align:super;
+  font-family: Souvenir;
+  font-size: 0.375em;
+  font-style: normal;
+  font-weight: 500;
+  vertical-align: super;
 }
+
 span.CharOverride-27 {
-	font-family:"MS Mincho", serif;
-	font-size:0.909em;
-	font-style:normal;
-	font-weight:normal;
-	text-decoration:underline;
+  font-family: "MS Mincho", serif;
+  font-size: 0.909em;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
 }
+
 span.CharOverride-28 {
-	color:#0094d9;
-	font-family:"MS Mincho", serif;
-	font-size:0.909em;
-	font-style:normal;
-	font-weight:normal;
+  color: #0094d9;
+  font-family: "MS Mincho", serif;
+  font-size: 0.909em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-29 {
-	font-size:0.428em;
+  font-size: 0.428em;
 }
+
 span.CharOverride-30 {
-	font-family:Souvenir;
-	font-size:0.428em;
-	font-style:normal;
-	font-weight:500;
+  font-family: Souvenir;
+  font-size: 0.428em;
+  font-style: normal;
+  font-weight: 500;
 }
+
 span.CharOverride-31 {
-	font-family:"MS Mincho", serif;
-	font-size:0.954em;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "MS Mincho", serif;
+  font-size: 0.954em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-32 {
-	font-family:"MS Mincho", serif;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "MS Mincho", serif;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-33 {
-	font-family:"MS Mincho", serif;
-	font-size:0.945em;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "MS Mincho", serif;
+  font-size: 0.945em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-34 {
-	font-family:Souvenir;
-	font-size:0.477em;
-	font-style:normal;
-	font-weight:500;
-	vertical-align:super;
+  font-family: Souvenir;
+  font-size: 0.477em;
+  font-style: normal;
+  font-weight: 500;
+  vertical-align: super;
 }
+
 span.CharOverride-35 {
-	font-size:1.272em;
+  font-size: 1.272em;
 }
+
 span.CharOverride-36 {
-	color:#e31f26;
-	font-family:"MS Mincho", serif;
-	font-size:0.909em;
-	font-style:normal;
-	font-weight:normal;
+  color: #e31f26;
+  font-family: "MS Mincho", serif;
+  font-size: 0.909em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-37 {
-	font-family:"Kozuka Mincho Pr6N R", serif;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "Kozuka Mincho Pr6N R", serif;
+  font-style: normal;
+  font-weight: normal;
 }
+
 span.CharOverride-38 {
-	font-family:"MS Mincho", serif;
-	font-size:1.111em;
-	font-style:normal;
-	font-weight:normal;
+  font-family: "MS Mincho", serif;
+  font-size: 1.111em;
+  font-style: normal;
+  font-weight: normal;
 }
+
 p._idGenParaOverride-1 {
-	page-break-after:always;
+  page-break-after: always;
 }
+
 span._idGenCharOverride-1 {
-	font-size:1.272em;
+  font-size: 1.272em;
 }
+
 span._idGenCharOverride-2 {
-	font-size:1em;
+  font-size: 1em;
 }
 
 
 .bookmarkButton {
-    background-image: url("file:///android_asset/css/bookmark_ribbon.png");
-    background-repeat: no-repeat;
-    background-size:    32px 32px;
-    font-family:Souvenir, serif;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    /*width: auto;*/
-    padding: 10px 32px;
-    margin-bottom: 10px;
-    height: 40px;
-    color: white;
-    font-style:italic;
-    /*background-color: Transparent;*/
-    background-color: #c62828;
-    border: none;
-    /*overflow: hidden;*/
-    outline:none;
-    /*width: 64px;*/
+  background-image: url("../css/bookmark_ribbon.png");
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  font-family: Souvenir, serif;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  /*width: auto;*/
+  padding: 10px 32px;
+  margin-bottom: 10px;
+  height: 40px;
+  color: white;
+  font-style: italic;
+  /*background-color: Transparent;*/
+  background-color: #c62828;
+  border: none;
+  /*overflow: hidden;*/
+  outline: none;
+  /*width: 64px;*/
 }
-

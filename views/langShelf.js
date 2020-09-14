@@ -31,6 +31,7 @@ function getLangView() {
       { id: 9, title: "Persian", source: "img/flags/iran.svg" },
       { id: 10, title: "Uzbek", source: "img/flags/uzbekistan.svg" },
       { id: 11, title: "Spanish", source: "img/flags/spain.svg" },
+      { id: 12, title: "Korean", source: "img/flags/south-korea.svg" },
     ]
   }
 }

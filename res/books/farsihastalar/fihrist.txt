@@ -1,0 +1,28 @@
+#1::fihrist-0::YİRMİBEŞİNCİ LEM'A::لمعه بیست و پنجم
+#2::fihrist-1::_İHTAR VE İTİZAR::زینهار و اعتذار
+#3::fihrist-2::_BİRİNCİ DEVA::دوای نخست
+#4::fihrist-3::_İKİNCİ DEVA::دوای دوم
+#6::fihrist-4::_ÜÇÜNCÜ DEVA::دوای سوم
+#8::fihrist-5::_DÖRDÜNCÜ DEVA::دوای چهارم
+#11::fihrist-6::_BEŞİNCİ DEVA::دوای پنجم
+#13::fihrist-7::_ALTINCI DEVA::دوای ششم
+#15::fihrist-8::_ALTINCI DEVA (2)::(2) دوای ششم
+#17::fihrist-9::_YEDİNCİ DEVA::دوای هفتم
+#19::fihrist-10::_SEKİZİNCİ DEVA::دوای هشتم
+#22::fihrist-11::_DOKUZUNCU DEVA::دوای نهم
+#24::fihrist-12::_ONUNCU DEVA::دوای دهم
+#26::fihrist-13::_ONBİRİNCİ DEVA::دوای یازدهم
+#29::fihrist-14::_ONİKİNCİ DEVA::دوای دوازدهم
+#31::fihrist-15::_ONÜÇÜNCÜ DEVA::دوای سیزدهم
+#34::fihrist-16::_ONDÖRDÜNCÜ DEVA::دوای چهاردهم
+#38::fihrist-17::_ONBEŞİNCİ DEVA::دوای پانزدهم
+#41::fihrist-18::_ONALTINCI DEVA::دوای شانزدهم
+#43::fihrist-19::_ONYEDİNCİ DEVA::دوای هفدهم
+#47::fihrist-20::_ONSEKİZİNCİ DEVA::دوای هجدهم
+#51::fihrist-21::_ONDOKUZUNCU DEVA::دوای نوزدهم
+#56::fihrist-22::_YİRMİNCİ DEVA::دوای بیستم
+#59::fihrist-23::_YİRMİBİRİNCİ DEVA::دوای بیست و یکم
+#61::fihrist-24::_YİRMİİKİNCİ DEVA::دوای بیست و دوم
+#63::fihrist-25::_YİRMİÜÇÜNCÜ DEVA::دوای بیست و سوم
+#64::fihrist-26::_YİRMİDÖRDÜNCÜ DEVA::دوای بیست و چهارم
+#67::fihrist-27::_YİRMİBEŞİNCİ DEVA::دوای بیست و پنجم

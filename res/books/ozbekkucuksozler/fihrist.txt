@@ -1,0 +1,15 @@
+#1::fihrist-0::KÜÇÜK SÖZLER::KICHIK SO’ZLAR
+#2::fihrist-1::_BİRİNCİ SÖZ::BIRINCHI SO’Z
+#10::fihrist-2::_İKİNCİ SÖZ::IKKINCHI SO’Z
+#17::fihrist-3::_ÜÇÜNCÜ SÖZ::UCHINCHI SO’Z
+#25::fihrist-4::_DÖRDÜNCÜ SÖZ::TO’RTINCHI SO’Z
+#31::fihrist-5::_BEŞİNCİ SÖZ::BESHINCHI SO’Z
+#38::fihrist-6::_ALTINCI SÖZ::OLTINCHI SO’Z
+#52::fihrist-7::_YEDİNCİ SÖZ::YETTINCHI SO’Z
+#64::fihrist-8::_SEKİZİNCİ SÖZ::SAKKIZINCHI SO’Z
+#85::fihrist-9::_DOKUZUNCU SÖZ::TO’QQIZINCHI SO’Z
+#86::fihrist-10::__BİRİNCİ NÜKTE::BIRINCHI NUKTA
+#87::fihrist-11::__İKİNCİ NÜKTE::IKKINCHI NUKTA
+#88::fihrist-12::__ÜÇÜNCÜ NÜKTE::UCHINCHI NUKTA
+#89::fihrist-13::__DÖRDÜNCÜ NÜKTE::TO’RTINCHI NUKTA
+#92::fihrist-14::__BEŞİNCİ NÜKTE::BESHINCHI NUKTA

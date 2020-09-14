@@ -29,6 +29,24 @@ function getBooks(selected) {
       return getRussianBooks();
     case "Arabic":
       return getArabicBooks();
+    case "French":
+      return getFrenchBooks();
+    case "German":
+      return getGermanBooks();
+    case "Chinese":
+      return getChineseBooks();
+    case "Indonesian":
+      return getIndonesianBooks();
+    case "Japanese":
+      return getJapaneseBooks();
+    case "Persian":
+      return getPersianBooks();
+    case "Uzbek":
+      return getUzbekBooks();
+    case "Spanish":
+      return getSpanishBooks();
+    case "Korean":
+      return getKoreanBooks();
     default:
       break;
   }
@@ -233,7 +251,7 @@ function getEnglishBooks() {
 function getRussianBooks() {
   return [{
       id: 1,
-      title: "Onbirinci Lem'a",
+      title: "Sünnet-i Seniyye",
       img: "img/books_cover/rusca11lema.jpg",
       sections: getSections("rusca11lema/rusca11lema", 2),
       content: "res/books/rusca11lema/fihrist.txt"
@@ -437,4 +455,162 @@ function getArabicBooks() {
       content: "res/books/arabiuhuvvet/fihrist.txt"
     }
   ]
+}
+
+function getFrenchBooks() {
+  return [{
+      id: 1,
+      title: "Haşir Risalesi",
+      img: "img/books_cover/fransizcahasir.jpg",
+      sections: getSections("fransizcahasir/fransizcahasir", 21),
+      content: "res/books/fransizcahasir/fihrist.txt"
+    },
+    {
+      id: 2,
+      title: "Hastalar Risalesi",
+      img: "img/books_cover/fransizcahastalar.jpg",
+      sections: getSections("fransizcahastalar/fransizcahastalar", 6),
+      content: "res/books/fransizcahastalar/fihrist.txt"
+    },
+    {
+      id: 3,
+      title: "Ramazan Risalesi",
+      img: "img/books_cover/fransizcaramazan.jpg",
+      sections: getSections("fransizcaramazan/fransizcaramazan", 2),
+      content: "res/books/fransizcaramazan/fihrist.txt"
+    }
+  ]
+}
+
+function getGermanBooks() {
+  return [{
+      id: 1,
+      title: "23.Söz",
+      img: "img/books_cover/almanca23soz.jpg",
+      sections: getSections("almanca23soz/almanca23soz", 3),
+      content: "res/books/almanca23soz/fihrist.txt"
+    },
+    {
+      id: 2,
+      title: "Hastalar Risalesi",
+      img: "img/books_cover/almancahastalar.jpg",
+      sections: getSections("almancahastalar/almancahastalar", 2),
+      content: "res/books/almancahastalar/fihrist.txt"
+    },
+    {
+      id: 3,
+      title: "Küçük Sözler",
+      img: "img/books_cover/almancakucuksozler.jpg",
+      sections: getSections("almancakucuksozler/almancakucuksozler", 5),
+      content: "res/books/almancakucuksozler/fihrist.txt"
+    }
+  ]
+}
+
+function getChineseBooks() {
+  return [{
+      id: 1,
+      title: "Hastalar Risalesi",
+      img: "img/books_cover/cincehastalar.jpg",
+      sections: getSections("cincehastalar/cincehastalar", 8),
+      content: "res/books/cincehastalar/fihrist.txt"
+    },
+    {
+      id: 2,
+      title: "Küçük Sözler",
+      img: "img/books_cover/cincekucuksozler.jpg",
+      sections: getSections("cincekucuksozler/cincekucuksozler", 10),
+      content: "res/books/cincekucuksozler/fihrist.txt"
+    },
+    {
+      id: 3,
+      title: "Ramazan-İktisat-Şükür Risalesi",
+      img: "img/books_cover/cinceramazan.jpg",
+      sections: getSections("cinceramazan/cinceramazan", 4),
+      content: "res/books/cinceramazan/fihrist.txt"
+    }
+  ]
+}
+
+function getIndonesianBooks() {
+  return [{
+    id: 1,
+    title: "Küçük Sözler",
+    img: "img/books_cover/endonezcekucuksozler.jpg",
+    sections: getSections("endonezcekucuksozler/endonezcekucuksozler", 11),
+    content: "res/books/endonezcekucuksozler/fihrist.txt"
+  }]
+}
+
+function getJapaneseBooks() {
+  return [{
+    id: 1,
+    title: "Küçük Sözler",
+    img: "img/books_cover/japkucuksozler.jpg",
+    sections: getSections("japkucuksozler/japkucuksozler", 10),
+    content: "res/books/japkucuksozler/fihrist.txt"
+  }]
+}
+
+function getPersianBooks() {
+  return [{
+    id: 1,
+    title: "Hastalar Risalesi",
+    img: "img/books_cover/farsihastalar.png",
+    sections: getSections("farsihastalar/farsihastalar", 7),
+    content: "res/books/farsihastalar/fihrist.txt"
+  }]
+}
+
+function getUzbekBooks() {
+  return [{
+      id: 1,
+      title: "23.Söz",
+      img: "img/books_cover/ozbek23soz.jpg",
+      sections: getSections("ozbek23soz/ozbek23soz", 3),
+      content: "res/books/ozbek23soz/fihrist.txt"
+    },
+    {
+      id: 2,
+      title: "Hastalar Risalesi",
+      img: "img/books_cover/ozbekhastalar.jpg",
+      sections: getSections("ozbekhastalar/ozbekhastalar", 8),
+      content: "res/books/ozbekhastalar/fihrist.txt"
+    },
+    {
+      id: 3,
+      title: "Küçük Sözler",
+      img: "img/books_cover/ozbekkucuksozler.jpg",
+      sections: getSections("ozbekkucuksozler/ozbekkucuksozler", 11),
+      content: "res/books/ozbekkucuksozler/fihrist.txt"
+    }
+  ]
+}
+
+function getSpanishBooks() {
+  return [{
+      id: 1,
+      title: "Hastalar Risalesi",
+      img: "img/books_cover/isphastalar.jpg",
+      sections: getSections("isphastalar/isphastalar", 3),
+      content: "res/books/isphastalar/fihrist.txt"
+    },
+    {
+      id: 2,
+      title: "Küçük Sözler",
+      img: "img/books_cover/ispkucuksozler.jpg",
+      sections: getSections("ispkucuksozler/ispkucuksozler", 9),
+      content: "res/books/ispkucuksozler/fihrist.txt"
+    }
+  ]
+}
+
+function getKoreanBooks() {
+  return [{
+    id: 1,
+    title: "Hastalar Risalesi",
+    img: "img/books_cover/korecehastalar.jpg",
+    sections: getSections("korecehastalar/korecehastalar", 6),
+    content: "res/books/korecehastalar/fihrist.txt"
+  }]
 }

@@ -1,0 +1,15 @@
+#1::fihrist-0::KÜÇÜK SÖZLER
+#2::fihrist-1::BİRİNCİ SÖZ
+#10::fihrist-2::İKİNCİ SÖZ
+#17::fihrist-3::ÜÇÜNCÜ SÖZ
+#25::fihrist-4::DÖRDÜNCÜ SÖZ
+#30::fihrist-5::BEŞİNCİ SÖZ
+#37::fihrist-6::ALTINCI SÖZ
+#50::fihrist-7::YEDİNCİ SÖZ
+#61::fihrist-8::SEKİZİNCİ SÖZ
+#77::fihrist-9::DOKUZUNCU SÖZ
+#78::fihrist-10::BİRİNCİ NÜKTE
+#79::fihrist-11::İKİNCİ NÜKTE
+#80::fihrist-12::ÜÇÜNCÜ NÜKTE
+#80::fihrist-13::DÖRDÜNCÜ NÜKTE
+#82::fihrist-14::BEŞİNCİ NÜKTE

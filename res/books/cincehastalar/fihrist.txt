@@ -1,0 +1,34 @@
+#1::fihrist-0::YİRMİBEŞİNCİ LEM'A::第二十五到闪光
+#2::fihrist-1::_İHTAR VE İTİZAR::提示和 歉意
+#3::fihrist-2::_BİRİNCİ DEVA::第一个疗方
+#4::fihrist-3::_İKİNCİ DEVA::第二个疗方
+#6::fihrist-4::_ÜÇÜNCÜ DEVA::第三个疗方
+#8::fihrist-5::_DÖRDÜNCÜ DEVA::第四个疗方
+#10::fihrist-6::_BEŞİNCİ DEVA::第五个疗方
+#12::fihrist-7::_ALTINCI DEVA::第六个疗方
+#14::fihrist-8::_ALTINCI DEVA::第六个疗方 2*
+#16::fihrist-9::_YEDİNCİ DEVA::第七个疗方
+#18::fihrist-10::_SEKİZİNCİ DEVA::第八个疗方
+#20::fihrist-11::_DOKUZUNCU DEVA::第九个疗方
+#22::fihrist-12::_ONUNCU DEVA::第十个疗方
+#24::fihrist-13::_ONBİRİNCİ DEVA::第十一个疗方
+#26::fihrist-14::_ONİKİNCİ DEVA::第十二个疗方
+#28::fihrist-15::_ONÜÇÜNCÜ DEVA::第十三个疗方
+#31::fihrist-16::_ONDÖRDÜNCÜ DEVA::第十四个疗方
+#34::fihrist-17::_ONBEŞİNCİ DEVA::第十五个疗方
+#36::fihrist-18::_ONALTINCI DEVA::第十六个疗方
+#38::fihrist-19::_ONYEDİNCİ DEVA::第十七个疗方
+#42::fihrist-20::_ONSEKİZİNCİ DEVA::第十八个疗方
+#45::fihrist-21::_ONDOKUZUNCU DEVA::第十九个疗方
+#49::fihrist-22::_YİRMİNCİ DEVA::第二十个疗方
+#52::fihrist-23::_YİRMİBİRİNCİ DEVA::第二十一个疗方
+#53::fihrist-24::_YİRMİİKİNCİ DEVA::第二十二个疗方
+#55::fihrist-25::_YİRMİÜÇÜNCÜ DEVA::第二十三个疗方
+#57::fihrist-26::_YİRMİDÖRDÜNCÜ DEVA::第二十四个疗方
+#59::fihrist-27::_YİRMİBEŞİNCİ DEVA::第二十五个疗方
+#61::fihrist-28::ONYEDİNCİ MEKTUB::第十七书信
+#62::fihrist-29::_BİRİNCİ NOKTA::第一点
+#64::fihrist-30::_İKİNCİ NOKTA::第二点
+#67::fihrist-31::_ÜÇÜNCÜ NOKTA::第三点
+#68::fihrist-32::_DÖRDÜNCÜ NOKTA::第四点
+#69::fihrist-33::_BEŞİNCİ NOKTA::第五点

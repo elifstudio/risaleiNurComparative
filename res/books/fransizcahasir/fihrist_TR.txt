@@ -1,0 +1,36 @@
+#1::fihrist-0::ONUNCU SÖZ
+#7::fihrist-1::BİRİNCİ SURET
+#7::fihrist-2::İKİNCİ SURET
+#9::fihrist-3::ÜÇÜNCÜ SURET
+#10::fihrist-4::DÖRDÜNCÜ SURET
+#12::fihrist-5::BEŞİNCİ SURET
+#15::fihrist-6::ALTINCI SURET
+#18::fihrist-7::YEDİNCİ SURET
+#20::fihrist-8::SEKİZİNCİ SURET
+#22::fihrist-9::DOKUZUNCU SURET
+#24::fihrist-10::ONUNCU SURET
+#27::fihrist-11::ONBİRİNCİ SURET
+#29::fihrist-12::ONİKİNCİ SURET
+#36::fihrist-13::MUKADDİME
+#36::fihrist-14::BİRİNCİ İŞARET
+#43::fihrist-15::İKİNCİ İŞARET
+#48::fihrist-16::ÜÇÜNCÜ İŞARET
+#49::fihrist-17::DÖRDÜNCÜ İŞARET
+#50::fihrist-18::BİRİNCİ HAKİKAT
+#51::fihrist-19::İKİNCİ HAKİKAT
+#57::fihrist-20::ÜÇÜNCÜ HAKİKAT
+#62::fihrist-21::DÖRDÜNCÜ HAKİKAT
+#69::fihrist-22::BEŞİNCİ HAKİKAT
+#80::fihrist-23::ALTINCI HAKİKAT
+#92::fihrist-24::YEDİNCİ HAKİKAT
+#99::fihrist-25::SEKİZİNCİ HAKİKAT
+#101::fihrist-26::DOKUZUNCU HAKİKAT
+#111::fihrist-27::ONUNCU HAKİKAT
+#123::fihrist-28::ONBİRİNCİ HAKİKAT
+#127::fihrist-29::ONİKİNCİ HAKİKAT
+#131::fihrist-30::HÂTİME
+#141::fihrist-31::ONUNCU SÖZ’ÜN MÜHİM BİR ZEYLİ VE LÂHİKASININ BİRİNCİ PARÇASI
+#169::fihrist-32::ZEYLİN İKİNCİ PARÇASI
+#185::fihrist-33::ZEYLİN ÜÇÜNCÜ PARÇASI
+#190::fihrist-34::ZEYLİN DÖRDÜNCÜ PARÇASI
+#200::fihrist-35::ZEYLİN BEŞİNCİ PARÇASI

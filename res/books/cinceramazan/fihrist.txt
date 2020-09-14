@@ -1,0 +1,25 @@
+#1::fihrist-0::Ramazan Risalesi::莱麦丹丛谈
+#1::fihrist-1::_Birinci Nükte::第一个寓意
+#3::fihrist-2::_İkinci Nükte::第二个寓意
+#5::fihrist-3::_Üçüncü Nükte::第三个寓意
+#6::fihrist-4::_Dördüncü Nükte::第四个寓意
+#7::fihrist-5::_Beşinci Nükte::第五个寓意
+#8::fihrist-6::_Altıncı Nükte::第六个寓意
+#10::fihrist-7::_Yedinci Nükte::第七个寓意
+#13::fihrist-8::_Sekizinci Nükte::第八个寓意
+#15::fihrist-9::_Dokuzuncu Nükte::第九个寓意
+#17::fihrist-10::Ondokuzuncu Lem'a::第十九道闪光
+#17::fihrist-11::_Birinci Nükte::第一寓意
+#17::fihrist-12::_İkinci Nükte::第二寓意
+#18::fihrist-13::_Üçüncü Nükte::第三寓意
+#19::fihrist-14::_Dördüncü Nükte::第四寓意
+#21::fihrist-15::_Beşinci Nükte::第五寓意
+#21::fihrist-16::_Altıncı Nükte::第六寓意
+#22::fihrist-17::_Yedinci Nükte::第七寓意
+#26::fihrist-18::Yirmiikinci Mektub'dan::自“ 第二十二封书信”
+#29::fihrist-19::Elhüccetüzzehra'nın İkinci Makamı'ndan Yedinci, Sekizinci Delil::光耀明证第二站的第七、八个证据
+#30::fihrist-20::Dördüncü Hakikat olan Otuzüçüncü Mertebe::第四个真理的第三十三个层次
+#31::fihrist-21::İktisad, kanaat, israf mevzuunda bir mektub::节俭、知足、浪费话题所阐述的一个真理
+#32::fihrist-22::Şükür Risalesi::感谢之论
+#36::fihrist-23::Yirmidokuzuncu Lem'adan İkinci Bâb::第二十九闪光的第二道门
+#40::fihrist-24::Beşinci Kelime::字词五

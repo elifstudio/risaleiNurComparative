@@ -1,0 +1,13 @@
+#1::fihrist-0::DREIUNDZWANZIGSTES WORT
+#1::fihrist-1::ERSTES KAPITEL
+#1::fihrist-2::ERSTER PUNKT
+#2::fihrist-3::ZWEITER PUNKT
+#5::fihrist-4::DRITTER PUNKT
+#6::fihrist-5::VIERTER PUNKT
+#7::fihrist-6::FÜNFTER PUNKT
+#10::fihrist-7::ZWEITES KAPITEL
+#10::fihrist-8::ERSTE ANMERKUNG
+#12::fihrist-9::ZWEITE ANMERKUNG
+#15::fihrist-10::DRITTE ANMERKUNG
+#19::fihrist-11::VIERTE ANMERKUNG
+#20::fihrist-12::FÜNFTE ANMERKUNG

@@ -1,0 +1,15 @@
+#1::fihrist-0::KÜÇÜK SÖZLER::クチュク ソズレル
+#2::fihrist-1::_BİRİNCİ SÖZ::第1の言葉
+#9::fihrist-2::_İKİNCİ SÖZ::第2の言葉
+#16::fihrist-3::_ÜÇÜNCÜ SÖZ::第3の言葉
+#24::fihrist-4::_DÖRDÜNCÜ SÖZ::第4の言葉
+#30::fihrist-5::_BEŞİNCİ SÖZ::第5の言葉
+#37::fihrist-6::_ALTINCI SÖZ::第６の言葉
+#50::fihrist-7::_YEDİNCİ SÖZ::第７の言葉
+#58::fihrist-8::_SEKİZİNCİ SÖZ::第8の言葉
+#76::fihrist-9::_DOKUZUNCU SÖZ::第９の言葉
+#77::fihrist-10::__BİRİNCİ NÜKTE::第一のポイント
+#78::fihrist-11::__İKİNCİ NÜKTE::第二のポイント
+#79::fihrist-12::__ÜÇÜNCÜ NÜKTE::第三のポイント
+#79::fihrist-13::__DÖRDÜNCÜ NÜKTE::第四のポイント
+#81::fihrist-14::__BEŞİNCİ NÜKTE::第五のポイント
