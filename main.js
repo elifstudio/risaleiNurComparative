@@ -47,7 +47,6 @@ var sidebar = {
   data: [
     { id: "langId", icon: "mdi mdi-flag-outline", value: "Diller" },
     { id: "searchId", icon: "mdi mdi-file-find", value: "Ara" },
-    { id: "aphorismId", icon: "mdi mdi-diamond-stone", value: "Vecizeler" },
     { id: "trDictId", icon: "mdi mdi-book-alphabet", value: "Türkçe Lügat" },
     { id: "engDictId", icon: "mdi mdi-book-outline", value: "İnglizce Lügat" },
     { id: "downloadId", icon: "mdi mdi-soundcloud", value: "Sesli Risale İndir" },
@@ -71,7 +70,17 @@ function getSelectedView(viewId) {
     case "langId":
       myView = getLangView();
       break;
-    default:
+    case "trDictId":
+      window.open("https://www.luggat.com/", '_blank');
+      $$('sidebarId').unselectAll();
+      break;
+    case "engDictId":
+      window.open("https://dictionary.cambridge.org/", '_blank');
+      $$('sidebarId').unselectAll();
+      break;
+    case "downloadId":
+      window.open("http://www.kuranikerim.net.tr/risale-kulliyati.html", '_blank');
+      $$('sidebarId').unselectAll();
       break;
   }
   if (myView) webix.ui(myView, $$("mainViewId"));
