@@ -15,7 +15,9 @@ function getBookShelfView(selected) {
     on: {
       onSelectChange: () => {
         var selected = $$("mainViewId").getSelectedItem();
+        window.rnk.book = selected;
         webix.ui(displayBook(selected, 0, "main"), $$("mainViewId"));
+        window.history.pushState("book", null, "");
       }
     }
   }

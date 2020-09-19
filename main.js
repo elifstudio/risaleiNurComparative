@@ -110,4 +110,19 @@ webix.ui.fullScreen();
 
 webix.ready(() => {
   $$('sidebarId').select("langId");
+  window.history.pushState('lang', null, "");
 });
+
+window.onpopstate = function(e) {
+  switch (e.state) {
+    case "lang":
+      webix.ui(getLangView(), $$("mainViewId"));
+      break;
+    case "shelf":
+      webix.ui(getBookShelfView(window.rnk.selectedLang), $$("mainViewId"));
+      break;
+    case "book":
+      webix.ui(displayBook(window.rnk.book, 0, "main"), $$("mainViewId"));
+      break;
+  }
+};

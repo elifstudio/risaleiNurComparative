@@ -12,6 +12,7 @@ function displayBook(selected, selectedSection, flag) {
               onAfterLoad: () => {
                 changeNightMode();
                 zoomOut(window.rnk.zoom);
+                changeReadingMode(window.rnk.readMode);
                 if (flag == "chapter") {
                   scrollTo(window.rnk.onAfterLoadChapter);
                 }
@@ -29,8 +30,30 @@ function displayBook(selected, selectedSection, flag) {
                 {},
                 {
                   view: "richselect",
+                  id: "readModeId",
+                  width: 100,
+                  value: window.rnk.readMode,
+                  tooltip: "Reading Mode",
+                  options: [
+                    { id: "CSSOF", value: "OTH-TR" },
+                    { id: "CSSTF", value: "TR-OTH" },
+                    { id: "CTBOF", value: "OTH/TR" },
+                    { id: "CTBTF", value: "TR/OTH" },
+                    { id: "OSO", value: "OTH" },
+                    { id: "OST", value: "TR" },
+                  ],
+                  on: {
+                    onChange: (newVal, oldVal) => {
+                      changeReadingMode(newVal);
+                      window.rnk.readMode = newVal;
+                    }
+                  }
+                },
+                {
+                  view: "richselect",
                   id: "zoomId",
                   width: 100,
+                  tooltip: "Font Size",
                   value: window.rnk.zoom,
                   options: [
                     { id: 80, value: "80%" },
@@ -145,6 +168,7 @@ function changeSection(selected, selectedSection, flag) {
       onAfterLoad: () => {
         changeNightMode();
         zoomOut(window.rnk.zoom);
+        changeReadingMode(window.rnk.readMode);
         if (flag == "chapter") {
           scrollTo(window.rnk.onAfterLoadChapter);
         }
@@ -269,47 +293,45 @@ function zoomOut(value) {
 
 function changeReadingMode(viewType) {
   var iframe = window.parent.frames[0];
-  viewType = "COMPARATIVE_TOP_AND_BOTTOM_OTHER_FIRST";
-  console.log(viewType);
   var trFirst = false;
   switch (viewType) {
-    case "COMPARATIVE_SIDE_BY_SIDE_OTHER_FIRST":
-      $("td.col-OTHER, td.col-TR").show();
-      $('#mergedTable').removeClass('topAndBottom onlySideOther onlySideTR').addClass('sideBySide');
-      $("td.col-OTHER, td.col-TR").removeAttr('colspan');
+    case "CSSOF":
+      $("td.col-OTHER, td.col-TR", iframe.document).show();
+      $('#mergedTable', iframe.document).removeClass('topAndBottom onlySideOther onlySideTR').addClass('sideBySide');
+      $("td.col-OTHER, td.col-TR", iframe.document).removeAttr('colspan');
       trFirst = false;
       break;
-    case "COMPARATIVE_SIDE_BY_SIDE_TR_FIRST":
+    case "CSSTF":
       $("td.col-OTHER, td.col-TR", iframe.document).show();
       $('#mergedTable', iframe.document).removeClass('topAndBottom onlySideOther onlySideTR').addClass('sideBySide');
       $("td.col-OTHER, td.col-TR", iframe.document).removeAttr('colspan');
       trFirst = true;
       break;
-    case "COMPARATIVE_TOP_AND_BOTTOM_OTHER_FIRST":
+    case "CTBOF":
       $("td.col-OTHER, td.col-TR", iframe.document).show();
       $('#mergedTable', iframe.document).removeClass('sideBySide onlySideOther onlySideTR').addClass('topAndBottom');
       $("td.col-OTHER, td.col-TR", iframe.document).removeAttr('colspan');
       trFirst = false;
       break;
-    case "COMPARATIVE_TOP_AND_BOTTOM_TR_FIRST":
-      $("td.col-OTHER, td.col-TR").show();
-      $('#mergedTable').removeClass('sideBySide onlySideOther onlySideTR').addClass('topAndBottom');
-      $("td.col-OTHER, td.col-TR").removeAttr('colspan');
+    case "CTBTF":
+      $("td.col-OTHER, td.col-TR", iframe.document).show();
+      $('#mergedTable', iframe.document).removeClass('sideBySide onlySideOther onlySideTR').addClass('topAndBottom');
+      $("td.col-OTHER, td.col-TR", iframe.document).removeAttr('colspan');
       trFirst = true;
       break;
-    case "ONLY_SIDE_OTHER":
-      $("td.col-OTHER").show();
-      $("td.col-OTHER").attr('colspan', '2');
-      $("td.col-TR").hide();
-      $("td.col-TR").removeAttr('colspan');
-      $('#mergedTable').removeClass('sideBySide topAndBottom onlySideTR').addClass('onlySideOther');
+    case "OSO":
+      $("td.col-OTHER", iframe.document).show();
+      $("td.col-OTHER", iframe.document).attr('colspan', '2');
+      $("td.col-TR", iframe.document).hide();
+      $("td.col-TR", iframe.document).removeAttr('colspan');
+      $('#mergedTable', iframe.document).removeClass('sideBySide topAndBottom onlySideTR').addClass('onlySideOther');
       break;
-    case "ONLY_SIDE_TR":
-      $("td.col-TR").show();
-      $("td.col-TR").attr('colspan', '2');
-      $("td.col-OTHER").hide();
-      $("td.col-OTHER").removeAttr('colspan');
-      $('#mergedTable').removeClass('sideBySide topAndBottom onlySideOther').addClass('onlySideTR');
+    case "OST":
+      $("td.col-TR", iframe.document).show();
+      $("td.col-TR", iframe.document).attr('colspan', '2');
+      $("td.col-OTHER", iframe.document).hide();
+      $("td.col-OTHER", iframe.document).removeAttr('colspan');
+      $('#mergedTable', iframe.document).removeClass('sideBySide topAndBottom onlySideOther').addClass('onlySideTR');
       break;
   }
 
@@ -322,8 +344,4 @@ function changeReadingMode(viewType) {
     else
       col2.insertAfter(col1);
   });
-
-  //after layout change, restore the previous paragraph
-  //if ($(window).data('currentPrg') !== undefined)
-  //  scrollToAnchor($(window).data('currentPrg'), 1, function() {});
 }

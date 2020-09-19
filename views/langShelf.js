@@ -15,6 +15,7 @@ function getLangView() {
         var selected = $$("mainViewId").getSelectedItem();
         window.rnk.selectedLang = selected;
         webix.ui(getBookShelfView(selected), $$("mainViewId"));
+        window.history.pushState("shelf", null, "");
       }
     },
     template: "<div class='webix_strong' style='text-align:center;'>#title#</div>" +
