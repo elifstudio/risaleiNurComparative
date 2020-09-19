@@ -1,10 +1,10 @@
 function getLangView() {
-  window.currView = "langShelf";
+  window.rnk.currView = "langShelf";
   return {
     view: "dataview",
     id: "mainViewId",
     select: true,
-    xCount: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? null : 2,
+    xCount: isMobile.test(navigator.userAgent) ? null : 2,
     type: {
       height: "auto",
       width: "auto",
@@ -13,7 +13,7 @@ function getLangView() {
     on: {
       onSelectChange: () => {
         var selected = $$("mainViewId").getSelectedItem();
-        window.selectedLang = selected;
+        window.rnk.selectedLang = selected;
         webix.ui(getBookShelfView(selected), $$("mainViewId"));
       }
     },

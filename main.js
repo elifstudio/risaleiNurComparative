@@ -1,5 +1,3 @@
-var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
-
 var toolbar = {
   view: "toolbar",
   padding: 3,
@@ -21,12 +19,12 @@ var toolbar = {
       width: 100,
       on: {
         onItemClick: (id, e) => {
-          switch (window.currView) {
+          switch (window.rnk.currView) {
             case "bookShelf":
               webix.ui(getLangView(), $$("mainViewId"));
               break;
             case "bookView":
-              webix.ui(getBookShelfView(window.selectedLang), $$("mainViewId"));
+              webix.ui(getBookShelfView(window.rnk.selectedLang), $$("mainViewId"));
               break;
             default:
               break;
@@ -51,7 +49,7 @@ var sidebar = {
     { id: "engDictId", icon: "mdi mdi-book-outline", value: "İnglizce Lügat" },
     { id: "downloadId", icon: "mdi mdi-soundcloud", value: "Sesli Risale İndir" },
     { id: "languageId", icon: "mdi mdi-book", value: "Dil/Language" },
-    { id: "nightModeId", icon: "mdi mdi-brightness-3", value: "Gece Modu" },
+    { id: "nightModeId", icon: "mdi mdi-brightness-3", value: "Gece/Gündüz" },
     { id: "aboutId", icon: "mdi mdi-sticker-alert-outline", value: "Hakkımızda" },
     { id: "callId", icon: "mdi mdi-comment-text-outline", value: "İrtibat" },
     { id: "shareId", icon: "mdi mdi-share", value: "Uygulamayı paylaş" }
@@ -82,9 +80,19 @@ function getSelectedView(viewId) {
       window.open("http://www.kuranikerim.net.tr/risale-kulliyati.html", '_blank');
       $$('sidebarId').unselectAll();
       break;
+    case "nightModeId":
+      changeLightMode();
+      $$('sidebarId').unselectAll();
+      break;
   }
   if (myView) webix.ui(myView, $$("mainViewId"));
-  else webix.message({ text: "Henüz hazır değil", type: "success" });
+}
+
+function changeLightMode() {
+  if (window.rnk.currView == 'bookView') {
+    window.rnk.nightMode = window.rnk.nightMode == 'gece' ? 'gunduz' : 'gece';
+    changeNightMode(window.rnk.nightMode);
+  }
 }
 
 var mainLayout = {

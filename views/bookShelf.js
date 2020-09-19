@@ -1,6 +1,6 @@
 function getBookShelfView(selected) {
   $$('sidebarId').unselect();
-  window.currView = "bookShelf";
+  window.rnk.currView = "bookShelf";
   return {
     view: "dataview",
     id: "mainViewId",
