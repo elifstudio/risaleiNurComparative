@@ -1,5 +1,6 @@
 var toolbar = {
   view: "toolbar",
+  id: "toolbarId",
   padding: 3,
   elements: [{
       view: "icon",
@@ -67,6 +68,7 @@ function getSelectedView(viewId) {
   switch (viewId) {
     case "langId":
       myView = getLangView();
+      window.history.pushState('lang', null, "");
       break;
     case "trDictId":
       window.open("https://www.luggat.com/", '_blank');
@@ -110,10 +112,10 @@ webix.ui.fullScreen();
 
 webix.ready(() => {
   $$('sidebarId').select("langId");
-  window.history.pushState('lang', null, "");
 });
 
 window.onpopstate = function(e) {
+  fullScreen(false);
   switch (e.state) {
     case "lang":
       webix.ui(getLangView(), $$("mainViewId"));

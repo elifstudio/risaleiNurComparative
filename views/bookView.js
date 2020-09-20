@@ -22,12 +22,25 @@ function displayBook(selected, selectedSection, flag) {
           },
           {
             view: "scrollview",
-            id: "scrollview",
+            id: "scrollviewId",
             scroll: "auto",
             height: 40,
             body: {
               cols: [
                 {},
+                {
+                  view: "button",
+                  type: "icon",
+                  icon: "mdi mdi-fullscreen",
+                  width: 40,
+                  tooltip: "Full Screen",
+                  css: "webix_secondary",
+                  on: {
+                    onItemClick: (id, e) => {
+                      fullScreen(true);
+                    }
+                  }
+                },
                 {
                   view: "richselect",
                   id: "readModeId",
@@ -127,31 +140,36 @@ function displayBook(selected, selectedSection, flag) {
         ]
 
       },
-      { view: "resizer" },
       {
-        view: "accordion",
-        multi: true,
-        cols: [{
-          header: "Fihrist",
-          collapsed: true,
-          body: {
-            view: "tree",
-            select: true,
-            id: "fihrist",
-            data: getChapters(selected.content),
-            on: {
-              onItemClick: (id, e, node) => {
-                var item = webix.$$("fihrist").getItem(id);
-                var page = Number(item.page.replace("#", ""));
-                var sectionNum = getSectionNum(page);
-                if (sectionNum != window.rnk.currSection) {
-                  changeSection(selected, sectionNum, "chapter");
-                  window.rnk.onAfterLoadChapter = id;
-                } else scrollTo(id);
+        id: "fihristId",
+        cols: [
+          { view: "resizer" },
+          {
+            view: "accordion",
+            multi: true,
+            cols: [{
+              header: "Fihrist",
+              collapsed: true,
+              body: {
+                view: "tree",
+                select: true,
+                id: "fihrist",
+                data: getChapters(selected.content),
+                on: {
+                  onItemClick: (id, e, node) => {
+                    var item = webix.$$("fihrist").getItem(id);
+                    var page = Number(item.page.replace("#", ""));
+                    var sectionNum = getSectionNum(page);
+                    if (sectionNum != window.rnk.currSection) {
+                      changeSection(selected, sectionNum, "chapter");
+                      window.rnk.onAfterLoadChapter = id;
+                    } else scrollTo(id);
+                  }
+                }
               }
-            }
+            }]
           }
-        }]
+        ]
       }
     ]
   }
