@@ -337,8 +337,7 @@ function changeNightMode(mode) {
 
 function zoomOut(value) {
   var iframe = window.parent.frames[0];
-  $('body', iframe.document).css("zoom", value + "%");
-  changeReadingMode();
+  $('body', iframe.document).css("font-size", value + "%");
 }
 
 function changeReadingMode(viewType) {
