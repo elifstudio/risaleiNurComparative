@@ -5,6 +5,7 @@ var toolbar = {
   elements: [{
       view: "icon",
       icon: "mdi mdi-menu",
+      id: "menuIconId",
       tooltip: "Expand menu",
       click: function() {
         $$("sidebarId").toggle();

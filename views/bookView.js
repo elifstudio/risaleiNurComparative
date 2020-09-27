@@ -1,6 +1,7 @@
 function displayBook(selected, selectedSection, flag) {
   window.rnk.currSection = selectedSection;
   window.rnk.currView = "bookView";
+  hideMainSidebar(false);
   var section = {
     id: "mainViewId",
     cols: [{
@@ -84,27 +85,6 @@ function displayBook(selected, selectedSection, flag) {
                     }
                   }
                 },
-                { view: "text", placeholder: "Sayfa", width: 80, id: "pageId" },
-                {
-                  view: "button",
-                  type: "icon",
-                  icon: "mdi mdi-arrow-right-bold",
-                  width: 30,
-                  css: "webix_secondary",
-                  on: {
-                    onItemClick: (id, e) => {
-                      var page = Number(webix.$$("pageId").getValue());
-                      var sectionNum = getSectionNum(page);
-                      var pageStr = "page-" + page;
-                      if (selected.sections.length >= sectionNum) {
-                        if (sectionNum != window.rnk.currSection) {
-                          changeSection(selected, sectionNum, "chapter");
-                          window.rnk.onAfterLoadChapter = pageStr;
-                        } else scrollTo(pageStr);
-                      }
-                    }
-                  }
-                },
                 {
                   view: "button",
                   id: "prev",
@@ -140,17 +120,42 @@ function displayBook(selected, selectedSection, flag) {
         ]
 
       },
+      { view: "resizer" },
       {
+        view: "accordion",
+        multi: true,
         id: "fihristId",
-        cols: [
-          { view: "resizer" },
-          {
-            view: "accordion",
-            multi: true,
-            cols: [{
-              header: "Fihrist",
-              collapsed: true,
-              body: {
+        cols: [{
+          header: "Fihrist",
+          collapsed: true,
+          body: {
+            rows: [{
+                cols: [
+                  { view: "text", placeholder: "Sayfa girin", width: 100, id: "pageId" },
+                  {
+                    view: "button",
+                    type: "icon",
+                    icon: "mdi mdi-arrow-right-bold",
+                    width: 50,
+                    css: "webix_secondary",
+                    on: {
+                      onItemClick: (id, e) => {
+                        var page = Number(webix.$$("pageId").getValue());
+                        var sectionNum = getSectionNum(page);
+                        var pageStr = "page-" + page;
+                        if (selected.sections.length >= sectionNum) {
+                          if (sectionNum != window.rnk.currSection) {
+                            changeSection(selected, sectionNum, "chapter");
+                            window.rnk.onAfterLoadChapter = pageStr;
+                          } else scrollTo(pageStr);
+                        }
+                      }
+                    }
+                  },
+                  {}
+                ]
+              },
+              {
                 view: "tree",
                 select: true,
                 id: "fihrist",
@@ -167,9 +172,9 @@ function displayBook(selected, selectedSection, flag) {
                   }
                 }
               }
-            }]
+            ]
           }
-        ]
+        }]
       }
     ]
   }

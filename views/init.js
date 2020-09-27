@@ -4,7 +4,6 @@ var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
 function fullScreen(show) {
   if (show) {
     webix.$$("toolbarId").hide();
-    webix.$$("sidebarId").hide();
     if (webix.$$("fihristId")) {
       webix.$$("fihristId").hide();
       webix.$$("scrollviewId").hide();
@@ -12,13 +11,23 @@ function fullScreen(show) {
     }
   } else {
     webix.$$("toolbarId").show();
-    webix.$$("sidebarId").show();
     if (webix.$$("fihristId")) {
       webix.$$("fihristId").show();
       webix.$$("scrollviewId").show();
       webix.$$("fullScreenOff").hide();
     }
   }
+}
+
+function hideMainSidebar(show) {
+  if (show) {
+    webix.$$("menuIconId").show();
+    webix.$$("sidebarId").show();
+  } else {
+    webix.$$("sidebarId").hide();
+    webix.$$("menuIconId").hide();
+  }
+
 }
 
 webix.ui({

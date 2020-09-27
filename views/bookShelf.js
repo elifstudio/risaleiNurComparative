@@ -1,16 +1,18 @@
 function getBookShelfView(selected) {
   $$('sidebarId').unselect();
   window.rnk.currView = "bookShelf";
+  hideMainSidebar(true);
   return {
     view: "dataview",
     id: "mainViewId",
     select: true,
     type: {
-      height: "200",
+      height: "240",
       width: "160",
       type: "tiles",
     },
-    template: "<img src='#img#' height='90%' width='100%'><div style='text-align:center;'>#title#</div>",
+    template: "<img src='#img#' height='80%' width='100%'>" +
+      "<div style='text-align:center;word-wrap:break-word; height:50px;'>#title#</div>",
     data: getBooks(selected),
     on: {
       onSelectChange: () => {
