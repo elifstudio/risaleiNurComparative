@@ -11,8 +11,8 @@ var toolbar = {
         $$("sidebarId").toggle();
       }
     },
+    { hidden: isMobile.test(navigator.userAgent) },
     { view: "label", label: "Risale-i Nur Karşılaştırma" },
-    {},
     {
       view: "button",
       type: "icon",
@@ -51,7 +51,6 @@ var sidebar = {
     { id: "engDictId", icon: "mdi mdi-book-outline", value: "İnglizce Lügat" },
     { id: "downloadId", icon: "mdi mdi-soundcloud", value: "Sesli Risale İndir" },
     { id: "languageId", icon: "mdi mdi-book", value: "Dil/Language" },
-    { id: "nightModeId", icon: "mdi mdi-brightness-3", value: "Gece/Gündüz" },
     { id: "aboutId", icon: "mdi mdi-sticker-alert-outline", value: "Hakkımızda" },
     { id: "callId", icon: "mdi mdi-comment-text-outline", value: "İrtibat" },
     { id: "shareId", icon: "mdi mdi-share", value: "Uygulamayı paylaş" }
@@ -83,19 +82,8 @@ function getSelectedView(viewId) {
       window.open("http://www.kuranikerim.net.tr/risale-kulliyati.html", '_blank');
       $$('sidebarId').unselectAll();
       break;
-    case "nightModeId":
-      changeLightMode();
-      $$('sidebarId').unselectAll();
-      break;
   }
   if (myView) webix.ui(myView, $$("mainViewId"));
-}
-
-function changeLightMode() {
-  if (window.rnk.currView == 'bookView') {
-    window.rnk.nightMode = window.rnk.nightMode == 'gece' ? 'gunduz' : 'gece';
-    changeNightMode(window.rnk.nightMode);
-  }
 }
 
 var mainLayout = {

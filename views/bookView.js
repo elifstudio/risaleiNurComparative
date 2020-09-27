@@ -3,182 +3,209 @@ function displayBook(selected, selectedSection, flag) {
   window.rnk.currView = "bookView";
   hideMainSidebar(false);
   var section = {
+    view: "accordion",
+    multi: true,
     id: "mainViewId",
     cols: [{
-        rows: [{
-            view: "iframe",
-            id: "iframeId",
-            src: selected.sections[selectedSection],
-            on: {
-              onAfterLoad: () => {
-                changeNightMode();
-                zoomOut(window.rnk.zoom);
-                changeReadingMode(window.rnk.readMode);
-                if (flag == "chapter") {
-                  scrollTo(window.rnk.onAfterLoadChapter);
+        header: "Menu",
+        collapsed: isMobile.test(navigator.userAgent),
+        id: "bookViewMenuId",
+        width: 180,
+        body: {
+          view: "form",
+          elements: [{
+              view: "button",
+              type: "icon",
+              icon: "mdi mdi-table-of-contents",
+              label: "Fihrist",
+              css: "webix_secondary",
+              on: {
+                onItemClick: (id, e) => {
+                  var isCollapsed = webix.$$("fihristId").config.collapsed ? false : true;
+                  webix.$$("fihristId").define("collapsed", isCollapsed);
                 }
-                if (flag == "prev") scrollTo("bottom", 10);
               }
-            }
-          },
-          {
-            view: "scrollview",
-            id: "scrollviewId",
-            scroll: "auto",
-            height: 40,
-            body: {
-              cols: [
-                {},
+            },
+            {
+              view: "button",
+              type: "icon",
+              icon: "mdi mdi-fullscreen",
+              label: "Full Screen",
+              css: "webix_secondary",
+              on: {
+                onItemClick: (id, e) => {
+                  fullScreen(true);
+                }
+              }
+            },
+            {
+              view: "switch",
+              onLabel: "Gündüz",
+              offLabel: "Gece",
+              css: { "padding-left": "15%" },
+              value: window.rnk.nightMode == "gunduz" ? 1 : 0,
+              on: {
+                onChange: (newVal, oldVal) => {
+                  window.rnk.nightMode = newVal == 1 ? "gunduz" : "gece";
+                  changeNightMode(window.rnk.nightMode);
+                }
+              }
+            },
+            { template: "Font-size", type: "section" },
+            {
+              cols: [{
+                  view: "button",
+                  type: "icon",
+                  icon: "mdi mdi-plus-box-outline",
+                  on: {
+                    onItemClick: (id, e) => {
+                      window.rnk.zoom = window.rnk.zoom + 5;
+                      zoomOut(window.rnk.zoom);
+                      webix.message("Font-size: " + window.rnk.zoom + "%");
+                    }
+                  }
+                },
                 {
                   view: "button",
                   type: "icon",
-                  icon: "mdi mdi-fullscreen",
-                  width: 40,
-                  tooltip: "Full Screen",
-                  css: "webix_secondary",
+                  icon: "mdi mdi-minus-box-outline",
                   on: {
                     onItemClick: (id, e) => {
-                      fullScreen(true);
-                    }
-                  }
-                },
-                {
-                  view: "richselect",
-                  id: "readModeId",
-                  width: 100,
-                  value: window.rnk.readMode,
-                  tooltip: "Reading Mode",
-                  options: [
-                    { id: "CSSOF", value: "OTH-TR" },
-                    { id: "CSSTF", value: "TR-OTH" },
-                    { id: "CTBOF", value: "OTH/TR" },
-                    { id: "CTBTF", value: "TR/OTH" },
-                    { id: "OSO", value: "OTH" },
-                    { id: "OST", value: "TR" },
-                  ],
-                  on: {
-                    onChange: (newVal, oldVal) => {
-                      changeReadingMode(newVal);
-                      window.rnk.readMode = newVal;
-                    }
-                  }
-                },
-                {
-                  view: "richselect",
-                  id: "zoomId",
-                  width: 100,
-                  tooltip: "Font Size",
-                  value: window.rnk.zoom,
-                  options: [
-                    { id: 80, value: "80%" },
-                    { id: 90, value: "90%" },
-                    { id: 100, value: "100%" },
-                    { id: 110, value: "110%" },
-                    { id: 120, value: "120%" },
-                    { id: 130, value: "130%" },
-                    { id: 140, value: "140%" }
-                  ],
-                  on: {
-                    onChange: (newVal, oldVal) => {
-                      zoomOut(newVal);
-                      window.rnk.zoom = newVal;
-                    }
-                  }
-                },
-                {
-                  view: "button",
-                  id: "prev",
-                  value: "<",
-                  css: "webix_primary",
-                  width: 50,
-                  on: {
-                    onItemClick: (id, e) => {
-                      window.rnk.currSection--;
-                      if (window.rnk.currSection < 0) window.rnk.currSection = 0;
-                      else changeSection(selected, window.rnk.currSection, "prev");
-                    }
-                  }
-                },
-                {
-                  view: "button",
-                  id: "next",
-                  value: ">",
-                  css: "webix_primary",
-                  width: 50,
-                  on: {
-                    onItemClick: (id, e) => {
-                      window.rnk.currSection++;
-                      if (window.rnk.currSection >= selected.sections.length)
-                        window.rnk.currSection = selected.sections.length - 1;
-                      else changeSection(selected, window.rnk.currSection, "next");
+                      window.rnk.zoom = window.rnk.zoom - 5;
+                      zoomOut(window.rnk.zoom);
+                      webix.message("Font-size: " + window.rnk.zoom + "%");
                     }
                   }
                 }
               ]
+            },
+            { template: "Reading-mode", type: "section" },
+            {
+              rows: [{
+                  cols: [getReadModeButton("mdi-format-columns", "CSSOF"), getReadModeButton("mdi-format-align-center", "CTBOF")]
+                },
+                {
+                  cols: [getReadModeButton("TR", "OST"), getReadModeButton("EN", "OSO")]
+                },
+                {
+                  cols: [getReadModeButton("mdi-compare-vertical", "swap"), {}]
+                },
+              ]
+            },
+            {}
+          ]
+        }
+      },
+      {
+        view: "iframe",
+        id: "iframeId",
+        src: selected.sections[selectedSection],
+        on: {
+          onAfterLoad: () => {
+            changeNightMode();
+            zoomOut(window.rnk.zoom);
+            changeReadingMode(window.rnk.readMode);
+            if (flag == "chapter") {
+              scrollTo(window.rnk.onAfterLoadChapter);
             }
+            if (flag == "prev") scrollTo("bottom", 10);
           }
-        ]
-
+        }
       },
       { view: "resizer" },
       {
-        view: "accordion",
-        multi: true,
+        header: "Fihrist",
+        collapsed: true,
         id: "fihristId",
-        cols: [{
-          header: "Fihrist",
-          collapsed: true,
-          body: {
-            rows: [{
-                cols: [
-                  { view: "text", placeholder: "Sayfa girin", width: 100, id: "pageId" },
-                  {
-                    view: "button",
-                    type: "icon",
-                    icon: "mdi mdi-arrow-right-bold",
-                    width: 50,
-                    css: "webix_secondary",
-                    on: {
-                      onItemClick: (id, e) => {
-                        var page = Number(webix.$$("pageId").getValue());
-                        var sectionNum = getSectionNum(page);
-                        var pageStr = "page-" + page;
-                        if (selected.sections.length >= sectionNum) {
-                          if (sectionNum != window.rnk.currSection) {
-                            changeSection(selected, sectionNum, "chapter");
-                            window.rnk.onAfterLoadChapter = pageStr;
-                          } else scrollTo(pageStr);
-                        }
+        body: {
+          rows: [{
+              cols: [
+                { view: "text", placeholder: "Sayfa girin", width: 100, id: "pageId" },
+                {
+                  view: "button",
+                  type: "icon",
+                  icon: "mdi mdi-arrow-right-bold",
+                  width: 50,
+                  css: "webix_secondary",
+                  on: {
+                    onItemClick: (id, e) => {
+                      var page = Number(webix.$$("pageId").getValue());
+                      var sectionNum = getSectionNum(page);
+                      var pageStr = "page-" + page;
+                      if (selected.sections.length >= sectionNum) {
+                        if (sectionNum != window.rnk.currSection) {
+                          changeSection(selected, sectionNum, "chapter");
+                          window.rnk.onAfterLoadChapter = pageStr;
+                        } else scrollTo(pageStr);
                       }
                     }
-                  },
-                  {}
-                ]
-              },
-              {
-                view: "tree",
-                select: true,
-                id: "fihrist",
-                data: getChapters(selected.content),
-                on: {
-                  onItemClick: (id, e, node) => {
-                    var item = webix.$$("fihrist").getItem(id);
-                    var page = Number(item.page.replace("#", ""));
-                    var sectionNum = getSectionNum(page);
-                    if (sectionNum != window.rnk.currSection) {
-                      changeSection(selected, sectionNum, "chapter");
-                      window.rnk.onAfterLoadChapter = id;
-                    } else scrollTo(id);
                   }
+                },
+                {}
+              ]
+            },
+            {
+              view: "tree",
+              select: true,
+              id: "fihrist",
+              data: getChapters(selected.content),
+              on: {
+                onItemClick: (id, e, node) => {
+                  var item = webix.$$("fihrist").getItem(id);
+                  var page = Number(item.page.replace("#", ""));
+                  var sectionNum = getSectionNum(page);
+                  if (sectionNum != window.rnk.currSection) {
+                    changeSection(selected, sectionNum, "chapter");
+                    window.rnk.onAfterLoadChapter = id;
+                  } else scrollTo(id);
                 }
               }
-            ]
-          }
-        }]
+            }
+          ]
+        }
       }
     ]
   }
   return section;
+}
+
+function getReadModeButton(icon, mode) {
+  var isIcon = icon.indexOf("mdi") >= 0;
+  return {
+    view: "button",
+    type: isIcon ? "icon" : "",
+    icon: isIcon ? "mdi " + icon : "",
+    label: isIcon ? "" : icon,
+    id: mode,
+    tooltip: getReadModeTooltip(mode),
+    on: {
+      onItemClick: (mode, e) => {
+        if (mode == "swap") {
+          if (window.rnk.readMode == "CSSOF") mode = "CSSTF";
+          if (window.rnk.readMode == "CSSTF") mode = "CSSOF";
+          if (window.rnk.readMode == "CTBOF") mode = "CTBTF";
+          if (window.rnk.readMode == "CTBTF") mode = "CTBOF";
+        }
+        changeReadingMode(mode);
+        window.rnk.readMode = mode;
+      }
+    }
+  }
+}
+
+function getReadModeTooltip(mode) {
+  switch (mode) {
+    case "CSSOF":
+      return "Side by side";
+    case "CTBOF":
+      return "Top by bottom";
+    case "OST":
+      return "Only turkish";
+    case "OSO":
+      return "Only english";
+    case "swap":
+      return "Swap places";
+  }
 }
 
 function changeSection(selected, selectedSection, flag) {

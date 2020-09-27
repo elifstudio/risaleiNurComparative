@@ -6,15 +6,15 @@ function fullScreen(show) {
     webix.$$("toolbarId").hide();
     if (webix.$$("fihristId")) {
       webix.$$("fihristId").hide();
-      webix.$$("scrollviewId").hide();
       webix.$$("fullScreenOff").show();
+      webix.$$("bookViewMenuId").hide();
     }
   } else {
     webix.$$("toolbarId").show();
     if (webix.$$("fihristId")) {
       webix.$$("fihristId").show();
-      webix.$$("scrollviewId").show();
       webix.$$("fullScreenOff").hide();
+      webix.$$("bookViewMenuId").show();
     }
   }
 }
@@ -27,7 +27,6 @@ function hideMainSidebar(show) {
     webix.$$("sidebarId").hide();
     webix.$$("menuIconId").hide();
   }
-
 }
 
 webix.ui({
