@@ -105,6 +105,7 @@ function displayBook(selected, selectedSection, flag) {
             changeNightMode();
             zoomOut(window.rnk.zoom);
             changeReadingMode(window.rnk.readMode);
+            addSectionButton(selected);
             if (flag == "chapter") {
               scrollTo(window.rnk.onAfterLoadChapter);
             }
@@ -219,6 +220,7 @@ function changeSection(selected, selectedSection, flag) {
         changeNightMode();
         zoomOut(window.rnk.zoom);
         changeReadingMode(window.rnk.readMode);
+        addSectionButton(selected);
         if (flag == "chapter") {
           scrollTo(window.rnk.onAfterLoadChapter);
         }
@@ -338,6 +340,27 @@ function changeNightMode(mode) {
 function zoomOut(value) {
   var iframe = window.parent.frames[0];
   $('body', iframe.document).css("font-size", value + "%");
+}
+
+function addSectionButton(selected) {
+  var iframe = window.parent.frames[0];
+  $('#mergedTable', iframe.document).css("margin-bottom", "100px");
+  let next = '<a href="#0" id="nextSectionId" style="text-align:center;display:block;color:black;">Sonraki sayfa</a>';
+  let prev = '<a href="#0" id="prevSectionId" style="text-align:center;display:block;color:black;">Önceki sayfa</a>';
+  $('body', iframe.document).append(next);
+  $('body', iframe.document).prepend(prev);
+
+  $('#nextSectionId', iframe.document).click(() => {
+    window.rnk.currSection++;
+    if (window.rnk.currSection >= selected.sections.length)
+      window.rnk.currSection = selected.sections.length - 1;
+    else changeSection(selected, window.rnk.currSection, "next");
+  });
+  $('#prevSectionId', iframe.document).click(() => {
+    window.rnk.currSection--;
+    if (window.rnk.currSection < 0) window.rnk.currSection = 0;
+    else changeSection(selected, window.rnk.currSection, "prev");
+  });
 }
 
 function changeReadingMode(viewType) {
