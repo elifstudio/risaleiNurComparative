@@ -1,5 +1,12 @@
-window.rnk = { nightMode: 'gunduz', zoom: 100, readMode: "CSSOF", history: [] };
+window.rnk = {
+  nightMode: 'gunduz',
+  zoom: 100,
+  readMode: "CSSOF",
+  history: [],
+  lang: myStorage("get", "rnkLang") ? myStorage("get", "rnkLang") : "en",
+};
 var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+var _ = locale;
 
 function fullScreen(show) {
   if (show) {
@@ -29,25 +36,11 @@ function hideMainSidebar(show) {
   }
 }
 
-webix.ui({
-  view: "popup",
-  id: "fullScreenOff",
-  left: 10,
-  top: 25,
-  escHide: false,
-  relative: "right",
-  css: { "opacity": "0.8" },
-  body: {
-    view: "button",
-    type: "icon",
-    icon: "mdi mdi-fullscreen-exit",
-    width: 40,
-    tooltip: "Exit Full Screen",
-    css: "webix_secondary",
-    on: {
-      onItemClick: (id, e) => {
-        fullScreen(false);
-      }
-    }
+function myStorage(type, key, data) {
+  if (type == "get") {
+    return webix.storage.local.get(key);
   }
-});
+  if (type == "put") {
+    webix.storage.local.put(key, data);
+  }
+}

@@ -7,7 +7,7 @@ function displayBook(selected, selectedSection, flag) {
     multi: true,
     id: "mainViewId",
     cols: [{
-        header: "Menu",
+        header: ("Menu"),
         collapsed: isMobile.test(navigator.userAgent),
         id: "bookViewMenuId",
         width: 180,
@@ -17,7 +17,7 @@ function displayBook(selected, selectedSection, flag) {
               view: "button",
               type: "icon",
               icon: "mdi mdi-table-of-contents",
-              label: "Fihrist",
+              label: ("Content"),
               css: "webix_secondary",
               on: {
                 onItemClick: (id, e) => {
@@ -30,7 +30,7 @@ function displayBook(selected, selectedSection, flag) {
               view: "button",
               type: "icon",
               icon: "mdi mdi-fullscreen",
-              label: "Full Screen",
+              label: ("Full Screen"),
               css: "webix_secondary",
               on: {
                 onItemClick: (id, e) => {
@@ -40,8 +40,8 @@ function displayBook(selected, selectedSection, flag) {
             },
             {
               view: "switch",
-              onLabel: "Gündüz",
-              offLabel: "Gece",
+              onLabel: ("Day"),
+              offLabel: ("Night"),
               css: { "padding-left": "15%" },
               value: window.rnk.nightMode == "gunduz" ? 1 : 0,
               on: {
@@ -51,7 +51,7 @@ function displayBook(selected, selectedSection, flag) {
                 }
               }
             },
-            { template: "Font-size", type: "section" },
+            { template: ("Font-Size"), type: "section" },
             {
               cols: [{
                   view: "button",
@@ -79,7 +79,7 @@ function displayBook(selected, selectedSection, flag) {
                 }
               ]
             },
-            { template: "Reading-mode", type: "section" },
+            { template: ("Reading-Mode"), type: "section" },
             {
               rows: [{
                   cols: [getReadModeButton("mdi-format-columns", "CSSOF"), getReadModeButton("mdi-format-align-center", "CTBOF")]
@@ -115,13 +115,13 @@ function displayBook(selected, selectedSection, flag) {
       },
       { view: "resizer" },
       {
-        header: "Fihrist",
+        header: ("Content"),
         collapsed: true,
         id: "fihristId",
         body: {
           rows: [{
               cols: [
-                { view: "text", placeholder: "Sayfa girin", width: 100, id: "pageId" },
+                { view: "text", placeholder: ("Enter page"), width: 100, id: "pageId" },
                 {
                   view: "button",
                   type: "icon",
@@ -197,15 +197,15 @@ function getReadModeButton(icon, mode) {
 function getReadModeTooltip(mode) {
   switch (mode) {
     case "CSSOF":
-      return "Side by side";
+      return ("Side by side");
     case "CTBOF":
-      return "Top by bottom";
+      return ("Top by bottom");
     case "OST":
-      return "Only turkish";
+      return ("Only turkish");
     case "OSO":
-      return "Only english";
+      return ("Only other");
     case "swap":
-      return "Swap places";
+      return ("Swap places");
   }
 }
 

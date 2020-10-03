@@ -26,30 +26,30 @@ function getBookShelfView(selected) {
 }
 
 function getBooks(selected) {
-  switch (selected.title) {
-    case "English":
+  switch (selected.id) {
+    case "en":
       return getEnglishBooks();
-    case "Russian":
+    case "ru":
       return getRussianBooks();
-    case "Arabic":
+    case "arb":
       return getArabicBooks();
-    case "French":
+    case "fr":
       return getFrenchBooks();
-    case "German":
+    case "gr":
       return getGermanBooks();
-    case "Chinese":
+    case "chi":
       return getChineseBooks();
-    case "Indonesian":
+    case "ind":
       return getIndonesianBooks();
-    case "Japanese":
+    case "jap":
       return getJapaneseBooks();
-    case "Persian":
+    case "pers":
       return getPersianBooks();
-    case "Uzbek":
+    case "uzb":
       return getUzbekBooks();
-    case "Spanish":
+    case "spa":
       return getSpanishBooks();
-    case "Korean":
+    case "kor":
       return getKoreanBooks();
     default:
       break;

@@ -6,18 +6,18 @@ var toolbar = {
       view: "icon",
       icon: "mdi mdi-menu",
       id: "menuIconId",
-      tooltip: "Expand menu",
+      tooltip: ("Expand menu"),
       click: function() {
         $$("sidebarId").toggle();
       }
     },
     { hidden: isMobile.test(navigator.userAgent) },
-    { view: "label", label: "Risale-i Nur Karşılaştırma" },
+    { view: "label", label: ("Risale-i Nur Comparative") },
     {
       view: "button",
       type: "icon",
       icon: "mdi mdi-undo",
-      label: "Geri",
+      label: ("Back"),
       width: 100,
       on: {
         onItemClick: (id, e) => {
@@ -45,15 +45,15 @@ var sidebar = {
   scroll: isMobile.test(navigator.userAgent),
   collapsed: isMobile.test(navigator.userAgent),
   data: [
-    { id: "langId", icon: "mdi mdi-flag-outline", value: "Diller" },
-    { id: "searchId", icon: "mdi mdi-file-find", value: "Ara" },
-    { id: "trDictId", icon: "mdi mdi-book-alphabet", value: "Türkçe Lügat" },
-    { id: "engDictId", icon: "mdi mdi-book-outline", value: "İnglizce Lügat" },
-    { id: "downloadId", icon: "mdi mdi-soundcloud", value: "Sesli Risale İndir" },
-    { id: "languageId", icon: "mdi mdi-book", value: "Dil/Language" },
-    { id: "aboutId", icon: "mdi mdi-sticker-alert-outline", value: "Hakkımızda" },
-    { id: "callId", icon: "mdi mdi-comment-text-outline", value: "İrtibat" },
-    { id: "shareId", icon: "mdi mdi-share", value: "Uygulamayı paylaş" }
+    { id: "langId", icon: "mdi mdi-flag-outline", value: _("Languages") },
+    { id: "searchId", icon: "mdi mdi-file-find", value: ("Search") },
+    { id: "trDictId", icon: "mdi mdi-book-alphabet", value: ("Turkish Dictionary") },
+    { id: "engDictId", icon: "mdi mdi-book-outline", value: ("English Dictionary") },
+    { id: "downloadId", icon: "mdi mdi-soundcloud", value: ("Download Audio Books") },
+    { id: "languageId", icon: "mdi mdi-book", value: ("Web Language") },
+    { id: "aboutId", icon: "mdi mdi-sticker-alert-outline", value: ("About Us") },
+    { id: "callId", icon: "mdi mdi-comment-text-outline", value: ("Contact Us") },
+    { id: "shareId", icon: "mdi mdi-share", value: ("Share") }
 
   ],
   on: {
@@ -82,8 +82,65 @@ function getSelectedView(viewId) {
       window.open("http://www.kuranikerim.net.tr/risale-kulliyati.html", '_blank');
       $$('sidebarId').unselectAll();
       break;
+    case "languageId":
+      showLangMenu();
+      break;
   }
   if (myView) webix.ui(myView, $$("mainViewId"));
+}
+
+function showLangMenu() {
+  var result = {
+    view: "window",
+    head: false,
+    modal: true,
+    position: "center",
+    id: "langMenuId",
+    scroll: true,
+    body: {
+      padding: 10,
+      rows: [{
+          view: "icon",
+          align: "right",
+          icon: "mdi mdi-window-close",
+          click: () => {
+            webix.$$("langMenuId").close();
+            $$('sidebarId').unselectAll();
+          }
+        },
+        {
+          view: "radio",
+          vertical: true,
+          width: 150,
+          value: window.rnk.lang,
+          on: {
+            onChange: (newVal, oldVal) => {
+              myStorage("put", "rnkLang", newVal);
+              window.rnk.lang = newVal;
+              location.reload();
+            }
+          },
+          options: [
+            { id: "tr", value: "Turkish" },
+            { id: "en", value: "English" },
+            { id: "arb", value: "Arabic" },
+            { id: "ru", value: "Russian" },
+            { id: "fr", value: "French" },
+            { id: "gr", value: "German" },
+            { id: "chi", value: "Chinese" },
+            { id: "ind", value: "Indonesian" },
+            { id: "jap", value: "Japanese" },
+            { id: "pers", value: "Persian" },
+            { id: "uzb", value: "Uzbek" },
+            { id: "spa", value: "Spanish" },
+            { id: "kor", value: "Korean" }
+          ]
+        }
+      ]
+    }
+  };
+
+  webix.ui(result).show();
 }
 
 var mainLayout = {
@@ -117,3 +174,26 @@ window.onpopstate = function(e) {
       break;
   }
 };
+
+webix.ui({
+  view: "popup",
+  id: "fullScreenOff",
+  left: 10,
+  top: 25,
+  escHide: false,
+  relative: "right",
+  css: { "opacity": "0.8" },
+  body: {
+    view: "button",
+    type: "icon",
+    icon: "mdi mdi-fullscreen-exit",
+    width: 40,
+    tooltip: ("Exit Full Screen"),
+    css: "webix_secondary",
+    on: {
+      onItemClick: (id, e) => {
+        fullScreen(false);
+      }
+    }
+  }
+});
