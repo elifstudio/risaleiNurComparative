@@ -345,7 +345,7 @@ function zoomOut(value) {
 function addSectionButton(selected) {
   var iframe = window.parent.frames[0];
   $('#mergedTable', iframe.document).css("margin-bottom", "100px");
-  var style = "display:block;margin:0 auto;background-color:#b39ab5;color:white;border-radius:10px;cursor: pointer;";
+  var style = "display:block;margin:0 auto;background-color:#b39ab5;color:white;border-radius:5px;cursor: pointer;";
   let next = '<button id="nextSectionId" style="' + style + '">' + _("Next page") + '</button>';
   let prev = '<button id="prevSectionId" style="' + style + '">' + _("Previous page") + '</button>';
   $('body', iframe.document).append(next);
