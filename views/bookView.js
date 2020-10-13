@@ -7,7 +7,7 @@ function displayBook(selected, selectedSection, flag) {
     multi: true,
     id: "mainViewId",
     cols: [{
-        header: ("Menu"),
+        header: _("Menu"),
         collapsed: isMobile.test(navigator.userAgent),
         id: "bookViewMenuId",
         width: 180,
@@ -17,7 +17,7 @@ function displayBook(selected, selectedSection, flag) {
               view: "button",
               type: "icon",
               icon: "mdi mdi-table-of-contents",
-              label: ("Content"),
+              label: _("Content"),
               css: "webix_secondary",
               on: {
                 onItemClick: (id, e) => {
@@ -30,7 +30,7 @@ function displayBook(selected, selectedSection, flag) {
               view: "button",
               type: "icon",
               icon: "mdi mdi-fullscreen",
-              label: ("Full Screen"),
+              label: _("Full Screen"),
               css: "webix_secondary",
               on: {
                 onItemClick: (id, e) => {
@@ -40,8 +40,8 @@ function displayBook(selected, selectedSection, flag) {
             },
             {
               view: "switch",
-              onLabel: ("Day"),
-              offLabel: ("Night"),
+              onLabel: _("Day"),
+              offLabel: _("Night"),
               css: { "padding-left": "15%" },
               value: window.rnk.nightMode == "gunduz" ? 1 : 0,
               on: {
@@ -51,7 +51,7 @@ function displayBook(selected, selectedSection, flag) {
                 }
               }
             },
-            { template: ("Font-Size"), type: "section" },
+            { template: _("Font-Size"), type: "section" },
             {
               cols: [{
                   view: "button",
@@ -79,7 +79,7 @@ function displayBook(selected, selectedSection, flag) {
                 }
               ]
             },
-            { template: ("Reading-Mode"), type: "section" },
+            { template: _("Reading-Mode"), type: "section" },
             {
               rows: [{
                   cols: [getReadModeButton("mdi-format-columns", "CSSOF"), getReadModeButton("mdi-format-align-center", "CTBOF")]
@@ -115,13 +115,13 @@ function displayBook(selected, selectedSection, flag) {
       },
       { view: "resizer" },
       {
-        header: ("Content"),
+        header: _("Content"),
         collapsed: true,
         id: "fihristId",
         body: {
           rows: [{
               cols: [
-                { view: "text", placeholder: ("Enter page"), width: 100, id: "pageId" },
+                { view: "text", placeholder: _("Enter page"), width: 120, id: "pageId" },
                 {
                   view: "button",
                   type: "icon",
@@ -197,15 +197,15 @@ function getReadModeButton(icon, mode) {
 function getReadModeTooltip(mode) {
   switch (mode) {
     case "CSSOF":
-      return ("Side by side");
+      return _("Side by side");
     case "CTBOF":
-      return ("Top by bottom");
+      return _("Top by bottom");
     case "OST":
-      return ("Only turkish");
+      return _("Only turkish");
     case "OSO":
-      return ("Only other");
+      return _("Only other");
     case "swap":
-      return ("Swap places");
+      return _("Swap places");
   }
 }
 
@@ -345,9 +345,9 @@ function zoomOut(value) {
 function addSectionButton(selected) {
   var iframe = window.parent.frames[0];
   $('#mergedTable', iframe.document).css("margin-bottom", "100px");
-  var style = "display:block;margin:0 auto;background-color:#c62828;color:white;border-radius:10px;cursor: pointer;";
-  let next = '<button id="nextSectionId" style="' + style + '">' + ("Next page") + '</button>';
-  let prev = '<button id="prevSectionId" style="' + style + '">' + ("Previous page") + '</button>';
+  var style = "display:block;margin:0 auto;background-color:#b39ab5;color:white;border-radius:10px;cursor: pointer;";
+  let next = '<button id="nextSectionId" style="' + style + '">' + _("Next page") + '</button>';
+  let prev = '<button id="prevSectionId" style="' + style + '">' + _("Previous page") + '</button>';
   $('body', iframe.document).append(next);
   $('body', iframe.document).prepend(prev);
 

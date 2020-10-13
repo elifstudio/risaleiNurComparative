@@ -6,18 +6,18 @@ var toolbar = {
       view: "icon",
       icon: "mdi mdi-menu",
       id: "menuIconId",
-      tooltip: ("Expand menu"),
+      tooltip: _("Expand menu"),
       click: function() {
         $$("sidebarId").toggle();
       }
     },
     { hidden: isMobile.test(navigator.userAgent) },
-    { view: "label", label: ("Risale-i Nur Comparative") },
+    { view: "label", label: _("Risale-i Nur Comparative") },
     {
       view: "button",
       type: "icon",
       icon: "mdi mdi-undo",
-      label: ("Back"),
+      label: _("Back"),
       width: 100,
       on: {
         onItemClick: (id, e) => {
@@ -46,14 +46,14 @@ var sidebar = {
   collapsed: isMobile.test(navigator.userAgent),
   data: [
     { id: "langId", icon: "mdi mdi-flag-outline", value: _("Languages") },
-    { id: "searchId", icon: "mdi mdi-file-find", value: ("Search") },
-    { id: "trDictId", icon: "mdi mdi-book-alphabet", value: ("Turkish Dictionary") },
-    { id: "engDictId", icon: "mdi mdi-book-outline", value: ("English Dictionary") },
-    { id: "downloadId", icon: "mdi mdi-soundcloud", value: ("Download Audio Books") },
-    { id: "languageId", icon: "mdi mdi-book", value: ("Web Language") },
-    { id: "aboutId", icon: "mdi mdi-sticker-alert-outline", value: ("About Us") },
-    { id: "callId", icon: "mdi mdi-comment-text-outline", value: ("Contact Us") },
-    { id: "shareId", icon: "mdi mdi-share", value: ("Share") }
+    { id: "searchId", icon: "mdi mdi-file-find", value: _("Search") },
+    { id: "trDictId", icon: "mdi mdi-book-alphabet", value: _("Turkish Dictionary") },
+    { id: "engDictId", icon: "mdi mdi-book-outline", value: _("English Dictionary") },
+    { id: "downloadId", icon: "mdi mdi-soundcloud", value: _("Download Audio Books") },
+    { id: "languageId", icon: "mdi mdi-book", value: _("Web Language") },
+    { id: "aboutId", icon: "mdi mdi-sticker-alert-outline", value: _("About Us") },
+    { id: "callId", icon: "mdi mdi-comment-text-outline", value: _("Contact Us") },
+    { id: "shareId", icon: "mdi mdi-share", value: _("Share") }
 
   ],
   on: {
@@ -121,19 +121,19 @@ function showLangMenu() {
             }
           },
           options: [
-            { id: "tr", value: "Turkish" },
-            { id: "en", value: "English" },
-            { id: "arb", value: "Arabic" },
-            { id: "ru", value: "Russian" },
-            { id: "fr", value: "French" },
-            { id: "gr", value: "German" },
-            { id: "chi", value: "Chinese" },
-            { id: "ind", value: "Indonesian" },
-            { id: "jap", value: "Japanese" },
-            { id: "pers", value: "Persian" },
-            { id: "uzb", value: "Uzbek" },
-            { id: "spa", value: "Spanish" },
-            { id: "kor", value: "Korean" }
+            { id: "tr", value: _("Turkish") },
+            { id: "en", value: _("English") },
+            { id: "arb", value: _("Arabic") },
+            { id: "ru", value: _("Russian") },
+            { id: "fr", value: _("French") },
+            { id: "gr", value: _("German") },
+            { id: "chi", value: _("Chinese") },
+            { id: "ind", value: _("Indonesian") },
+            { id: "jap", value: _("Japanese") },
+            { id: "pers", value: _("Persian") },
+            { id: "uzb", value: _("Uzbek") },
+            { id: "spa", value: _("Spanish") },
+            { id: "kor", value: _("Korean") }
           ]
         }
       ]
@@ -188,7 +188,7 @@ webix.ui({
     type: "icon",
     icon: "mdi mdi-fullscreen-exit",
     width: 40,
-    tooltip: ("Exit Full Screen"),
+    tooltip: _("Exit Full Screen"),
     css: "webix_secondary",
     on: {
       onItemClick: (id, e) => {
