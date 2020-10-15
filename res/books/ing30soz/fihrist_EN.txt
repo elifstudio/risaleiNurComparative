@@ -1,9 +1,0 @@
-#1::fihrist-0::THE THIRTIETH WORD
-#1::fihrist-1::FIRST AIM
-#13::fihrist-2::SECOND AIM
-#13::fihrist-3::INTRODUCTION
-#15::fihrist-4::FIRST POINT
-#15::fihrist-5::FIRST MATTER
-#16::fihrist-6::SECOND MATTER
-#19::fihrist-7::SECOND POINT
-#20::fihrist-8::THIRD POINT

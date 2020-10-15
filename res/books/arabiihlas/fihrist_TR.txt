@@ -1,9 +1,0 @@
-#1::fihrist-0::YİRMİNCİ LEM’A
-#2::fihrist-1::BİRİNCİ NOKTA
-#3::fihrist-2::BİRİNCİSİ
-#7::fihrist-3::İKİNCİ SEBEB
-#12::fihrist-4::ÜÇÜNCÜ SEBEB
-#17::fihrist-5::DÖRDÜNCÜ SEBEB
-#20::fihrist-6::BEŞİNCİ SEBEB
-#25::fihrist-7::ALTINCI SEBEB
-#30::fihrist-8::YEDİNCİ SEBEB

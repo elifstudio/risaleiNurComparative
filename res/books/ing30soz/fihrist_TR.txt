@@ -1,9 +1,0 @@
-#1::fihrist-0::OTUZUNCU SÖZ
-#1::fihrist-1::BİRİNCİ MAKSAD
-#13::fihrist-2::İKİNCİ MAKSAD
-#13::fihrist-3::MUKADDİME
-#15::fihrist-4::BİRİNCİ NOKTA
-#15::fihrist-5::BİRİNCİ MEBHAS
-#16::fihrist-6::İKİNCİ MEBHAS
-#19::fihrist-7::İKİNCİ NOKTA
-#20::fihrist-8::ÜÇÜNCÜ NOKTA
